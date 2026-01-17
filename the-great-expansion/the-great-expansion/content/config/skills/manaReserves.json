@@ -1,0 +1,61 @@
+{
+	"manaReserves" : {
+		"name" : "Mana Reserves",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 7
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "COMBAT_MANA_BONUS",
+					"val" : 10,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Mana Reserves}\n\nGrants 5 Mana at the start of each battle. Any unspent mana gained this way is lost when the combat ends.",
+			"effects" : {
+				"main" : {
+					"val" : 5
+				}
+			},
+			"images" : {
+				"small" : "skills/manaReserves/icons/small/basic",
+				"medium" : "skills/manaReserves/icons/medium/basic",
+				"large" : "skills/manaReserves/icons/large/basic",
+				"scenarioBonus" : "skills/manaReserves/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Mana Reserves}\n\nGrants 10 Mana at the start of each battle. Any unspent mana gained this way is lost when the combat ends.",
+			"effects" : {
+				"main" : {
+					"val" : 10
+				}
+			},
+			"images" : {
+				"small" : "skills/manaReserves/icons/small/advanced",
+				"medium" : "skills/manaReserves/icons/medium/advanced",
+				"large" : "skills/manaReserves/icons/large/advanced",
+				"scenarioBonus" : "skills/manaReserves/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Mana Reserves}\n\nGrants 15 Mana at the start of each battle. Any unspent mana gained this way is lost when the combat ends.",
+			"effects" : {
+				"main" : {
+					"val" : 15
+				}
+			},
+			"images" : {
+				"small" : "skills/manaReserves/icons/small/expert",
+				"medium" : "skills/manaReserves/icons/medium/expert",
+				"large" : "skills/manaReserves/icons/large/expert",
+				"scenarioBonus" : "skills/manaReserves/icons/large/expert"
+			}
+		}
+	}
+}

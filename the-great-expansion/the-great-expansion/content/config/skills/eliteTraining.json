@@ -1,0 +1,94 @@
+{
+	"eliteTraining" : {
+		"name" : "Elite Training",
+		"gainChance" : {
+			"might" : 6,
+			"magic" : 4
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"attack" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeMelee",
+					"val" : 6,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 2,
+							"maxlevel" : 5
+						}
+					]
+				},
+				"attackrng" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"val" : 6,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 2,
+							"maxlevel" : 5
+						}
+					]
+				},
+				"defence" : {
+					"subtype" : "damageTypeAll",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 2,
+							"maxlevel" : 5
+						}
+					],
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Elite Training}\n\nEmpowers your tier 2-4 units, increasing their damage dealt by 6% and reducing their damage received by 5%.",
+			"effects" : {
+				"attack" : { "val" : 6 },
+				"attackrng" : { "val" : 6 },
+				"defence" : { "val" : 5 }
+			},
+			"images" : {
+				"small" : "skills/eliteTraining/icons/small/basic",
+				"medium" : "skills/eliteTraining/icons/medium/basic",
+				"large" : "skills/eliteTraining/icons/large/basic",
+				"scenarioBonus" : "skills/eliteTraining/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Elite Training}\n\nEmpowers your tier 2-4 units, increasing their damage dealt by 12% and reducing their damage received by 10%.",
+			"effects" : {
+				"attack" : { "val" : 12 },
+				"attackrng" : { "val" : 12 },
+				"defence" : { "val" : 10 }
+			},
+			"images" : {
+				"small" : "skills/eliteTraining/icons/small/advanced",
+				"medium" : "skills/eliteTraining/icons/medium/advanced",
+				"large" : "skills/eliteTraining/icons/large/advanced",
+				"scenarioBonus" : "skills/eliteTraining/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Elite Training}\n\nEmpowers your tier 2-4 units, increasing their damage dealt by 18% and reducing their damage received by 15%.",
+			"effects" : {
+				"attack" : { "val" : 18 },
+				"attackrng" : { "val" : 18 },
+				"defence" : { "val" : 15 }
+			},
+			"images" : {
+				"small" : "skills/eliteTraining/icons/small/expert",
+				"medium" : "skills/eliteTraining/icons/medium/expert",
+				"large" : "skills/eliteTraining/icons/large/expert",
+				"scenarioBonus" : "skills/eliteTraining/icons/large/expert"
+			}
+		}
+	}
+}

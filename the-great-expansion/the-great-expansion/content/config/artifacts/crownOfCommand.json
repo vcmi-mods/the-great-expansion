@@ -1,0 +1,32 @@
+{
+	"crownOfCommand" : {
+		"bonuses" : {
+			"morale" : {
+				"type" : "MORALE",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "HEAD",
+		"value" : 5750,
+		"graphics" : {
+			"image" : "artifacts/crownOfCommand/icon",
+			"scenarioBonus" : "artifacts/crownOfCommand/bonus",
+			"map" : "artifacts/crownOfCommand/adventure.def"
+		},
+		"text" : {
+			"description" : "{Crown of Command}\r\n\r\nIncreases Morale of units in the hero's army by 2 and their Speed by 1.",
+			"event" : "On your travels, you meet the famous Sir Mullich. You ask him for an autograph. He gives you a Crown of Command instead.",
+			"name" : "Crown of Command"
+		}
+	}
+}

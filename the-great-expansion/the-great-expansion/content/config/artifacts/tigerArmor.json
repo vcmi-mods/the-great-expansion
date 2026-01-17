@@ -1,0 +1,34 @@
+{
+	"tigerArmor" : {
+		"bonuses" : {
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "TORSO",
+		"value" : 22000,
+		"graphics" : {
+			"image" : "artifacts/tigerArmor/icon",
+			"scenarioBonus" : "artifacts/tigerArmor/bonus",
+			"map" : "artifacts/tigerArmor/adventure.def"
+		},
+		"text" : {
+			"description" : "{Tiger Armor}\r\n\r\nIncreases the army's Damage by 2.",
+			"event" : "After battling a frocious white tiger, you make an armor out of its pelt. After donning it, you let a ferocious roar that inspires your soldiers.",
+			"name" : "Tiger Armor"
+		}
+	}
+}

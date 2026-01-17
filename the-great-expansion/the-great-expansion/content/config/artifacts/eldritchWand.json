@@ -1,0 +1,33 @@
+{
+	"eldritchWand" : {
+		"bonuses" : {
+			"spellMagicArrow" :
+			{
+				"type": "SPELL",
+				"val" : 3,
+				"subtype": "spell.magicArrow"
+			},
+			"magicArrowBonus" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.magicArrow",
+				"val" : 100
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "RIGHT_HAND",
+		"value" : 10000,
+		"graphics" : {
+			"image" : "artifacts/eldritchWand/icon",
+			"scenarioBonus" : "artifacts/eldritchWand/bonus",
+			"map" : "artifacts/eldritchWand/adventure.def"
+		},
+		"text" : {
+			"description" : "{Eldritch Wand}\r\n\r\nIncreases damage dealt by the Magic Arrow spell by 100%.",
+			"event" : "You notice mummified remains of a magician Among the tattered robes, spilled ash and remains of deteriorated bones, you find a magic wand.",
+			"name" : "Eldritch Wand"
+		}
+	}
+}

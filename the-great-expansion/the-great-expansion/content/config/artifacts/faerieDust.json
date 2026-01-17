@@ -1,0 +1,35 @@
+{
+	"faerieDust" : {
+		"bonuses" : {
+			"dispel_attack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.dispelHelpful",
+				"val" : 100
+			},
+			"blind_attack" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 20,
+				"addInfo" : [3,0]
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 5500,
+		"graphics" : {
+			"image" : "artifacts/faerieDust/icon",
+			"scenarioBonus" : "artifacts/faerieDust/bonus",
+			"map" : "artifacts/faerieDust/adventure.def"
+		},
+		"text" : {
+			"description" : "{Faerie Dust}\r\n\r\nStack equipped with this artifact removes buffs from all attacked units and has a 20% chance to blind the target.",
+			"event" : "A group of sprites flies towards you and wants to play with you. After a few moments of child-like games, they thank you and hand you a pouch of valuable faerie dust.",
+			"name" : "Faerie Dust"
+		}
+	}
+}

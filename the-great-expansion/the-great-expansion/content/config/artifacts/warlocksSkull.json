@@ -1,0 +1,39 @@
+{
+	"warlocksSkull" : {
+		"bonuses" : {
+			"spellpower" : {
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"luck" : {
+				"type" : "MORALE",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 5000,
+		"graphics" : {
+			"image" : "artifacts/warlocksSkull/icon",
+			"scenarioBonus" : "artifacts/warlocksSkull/bonus",
+			"map" : "artifacts/warlocksSkull/adventure.def"
+		},
+		"text" : {
+			"description" : "{Warlock's Skull}\r\n\r\nIncreases Spellpower and Knowledge of the hero by 3, but reduces Morale by 1.",
+			"event" : "During your travels, you notice a heretic that just finished cleaning and preparing a skull of a warlock. You take the evil man down, but also take the skull, otherwise it would all go to waste.",
+			"name" : "Warlock's Skull"
+		}
+	}
+}

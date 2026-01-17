@@ -1,0 +1,50 @@
+{
+	"grandmasterSeal" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"value" : 15000,
+		"graphics" : {
+			"image" : "artifacts/grandmasterSeal/icon",
+			"scenarioBonus" : "artifacts/grandmasterSeal/bonus",
+			"map" : "artifacts/grandmasterSeal/adventure.def"
+		},
+		"text" : {
+			"description" : "{Grandmaster's Seal}\r\n\r\nStack equipped with this artifact has a bonus of +1 to Attack, +1 to Defense, +3 to Max Health, +2 to Damage and +2 to Speed.",
+			"event" : "After facing numerous dangerous and almost impossible trials, you are awarded the Grandmaster's Seal.",
+			"name" : "Grandmaster's Seal"
+		}
+	}
+}

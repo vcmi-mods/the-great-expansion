@@ -1,0 +1,42 @@
+{
+	"swiftguardHalberd" : {
+		"bonuses" : {
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 1,
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "RIGHT_HAND",
+		"value" : 16500,
+		"graphics" : {
+			"image" : "artifacts/swiftguardHalberd/icon",
+			"scenarioBonus" : "artifacts/swiftguardHalberd/bonus",
+			"map" : "artifacts/swiftguardHalberd/adventure.def"
+		},
+		"text" : {
+			"description" : "{Swiftguard Halberd}\r\n\r\nIncreases the army's Damage, Health and Speed by 1.",
+			"event" : "You happen upon an aftermath of a battle. Six warriors defending a single caravan stood against at least four dozens of orcs and ogres. Among the remains you find a fine weapon, which you decide to use.",
+			"name" : "Swiftguard Halberd"
+		}
+	}
+}

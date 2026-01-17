@@ -1,0 +1,34 @@
+{
+	"wolfFang" : {
+		"bonuses" : {
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 4000,
+		"graphics" : {
+			"image" : "artifacts/wolfFang/icon",
+			"scenarioBonus" : "artifacts/wolfFang/bonus",
+			"map" : "artifacts/wolfFang/adventure.def"
+		},
+		"text" : {
+			"description" : "{Wolf Fang}\r\n\r\nStack equipped with this artifact has its Damage increased by 1.",
+			"event" : "Feeling like hunting, you decide to go to a nearby forest. After several minutes, you manage to get a nice wolf trophy.",
+			"name" : "Wolf Fang"
+		}
+	}
+}

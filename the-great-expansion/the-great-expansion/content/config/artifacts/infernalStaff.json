@@ -1,0 +1,38 @@
+{
+	"infernalStaff" : {
+		"bonuses" : {
+			"spellpower" : {
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "RIGHT_HAND",
+		"value" : 8250,
+		"graphics" : {
+			"image" : "artifacts/infernalStaff/icon",
+			"scenarioBonus" : "artifacts/infernalStaff/bonus",
+			"map" : "artifacts/infernalStaff/adventure.def"
+		},
+		"text" : {
+			"description" : "{Infernal Staff}\r\n\r\nIncreases the hero's Spellpower by 4 and reduces Speed of enemy units by 1.",
+			"event" : "A powerful demon stands before you and threatens to kill you with his Infernal Staff. Then, when he attempts to bash you with it, you simply hit him with pommel of your sword and take his staff.",
+			"name" : "Infernal Staff"
+		}
+	}
+}

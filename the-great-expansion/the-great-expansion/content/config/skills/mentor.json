@@ -1,0 +1,56 @@
+{
+	"mentor" : {
+		"name" : "Mentor",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 7
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : "spell.blockedSummonEnchanters",
+					"type" : "OPENING_BATTLE_SPELL",
+					"valueType" : "BASE_NUMBER",
+					"addInfo" : 1
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Mentor}\n\nAt the start of combat, summons a small stack of Enchanters, depending on the hero's Spellpower.",
+			"effects" : {
+				"main" : { "addInfo" : 1 }
+			},
+			"images" : {
+				"small" : "skills/mentor/icons/small/basic",
+				"medium" : "skills/mentor/icons/medium/basic",
+				"large" : "skills/mentor/icons/large/basic",
+				"scenarioBonus" : "skills/mentor/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Mentor}\n\nAt the start of combat, summons a medium stack of Enchanters, depending on the hero's Spellpower.",
+			"effects" : {
+				"main" : { "addInfo" : 2 }
+			},
+			"images" : {
+				"small" : "skills/mentor/icons/small/advanced",
+				"medium" : "skills/mentor/icons/medium/advanced",
+				"large" : "skills/mentor/icons/large/advanced",
+				"scenarioBonus" : "skills/mentor/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Mentor}\n\nAt the start of combat, summons a large stack of Enchanters, depending on the hero's Spellpower.",
+			"effects" : {
+				"main" : { "addInfo" : 3 }
+			},
+			"images" : {
+				"small" : "skills/mentor/icons/small/expert",
+				"medium" : "skills/mentor/icons/medium/expert",
+				"large" : "skills/mentor/icons/large/expert",
+				"scenarioBonus" : "skills/mentor/icons/large/expert"
+			}
+		}
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"planeswalkerBoots" : {
+		"bonuses" : {
+			"s1" : {
+				"subtype" : "spell.visions",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s2" : {
+				"subtype" : "spell.viewAir",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s3" : {
+				"subtype" : "spell.disguise",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s4" : {
+				"subtype" : "spell.dimensionDoor",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s5" : {
+				"subtype" : "spell.fly",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s6" : {
+				"subtype" : "spell.viewEarth",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s7" : {
+				"subtype" : "spell.townPortal",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s8" : {
+				"subtype" : "spell.summonBoat",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s9" : {
+				"subtype" : "spell.scuttleBoat",
+				"type" : "SPELL",
+				"val" : 3
+			},
+			"s10" : {
+				"subtype" : "spell.waterWalk",
+				"type" : "SPELL",
+				"val" : 3
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "FEET",
+		"value" : 28750,
+		"graphics" : {
+			"image" : "artifacts/planeswalkerBoots/icon",
+			"scenarioBonus" : "artifacts/planeswalkerBoots/bonus",
+			"map" : "artifacts/planeswalkerBoots/adventure.def"
+		},
+		"text" : {
+			"description" : "{Planeswalker's Boots}\r\n\r\nAllows you to cast Visions, View Air, Disguise, Dimension Door, Fly, View Earth, Town Portal, Summon Boat, Scuttle Boat and Water Walk at Expert level.",
+			"event" : "Your quest is interrupted by a powerful wizard that teleported in just in front of you and then teleported away. You notice that where he disappeared lies a pair of nicely crafted boots.",
+			"name" : "Planeswalker's Boots"
+		}
+	}
+}

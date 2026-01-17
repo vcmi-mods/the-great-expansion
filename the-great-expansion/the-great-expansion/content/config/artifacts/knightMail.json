@@ -1,0 +1,33 @@
+{
+	"knightMail" : {
+		"bonuses" : {
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "TORSO",
+		"value" : 2000,
+		"graphics" : {
+			"image" : "artifacts/knightMail/icon",
+			"scenarioBonus" : "artifacts/knightMail/bonus",
+			"map" : "artifacts/knightMail/adventure.def"
+		},
+		"text" : {
+			"description" : "{Knight Mail}\r\n\r\nIncreases Defense and Morale of the hero by 1.",
+			"event" : "You notice a dead knight with a chain mail in a pristine condition. Deciding that it would be a waste to let it deteriorate, you take it.",
+			"name" : "Knight Mail"
+		}
+	}
+}

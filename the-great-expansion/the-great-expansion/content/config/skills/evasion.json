@@ -1,0 +1,56 @@
+{
+	"evasion" : {
+		"name" : "Evasion",
+		"gainChance" : {
+			"might" : 7,
+			"magic" : 3
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 10
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Evasion}\n\nReduces damage received by the hero's army from ranged attacks by 10%.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			},
+			"images" : {
+				"small" : "skills/evasion/icons/small/basic",
+				"medium" : "skills/evasion/icons/medium/basic",
+				"large" : "skills/evasion/icons/large/basic",
+				"scenarioBonus" : "skills/evasion/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Evasion}\n\nReduces damage received by the hero's army from ranged attacks by 20%.",
+			"effects" : {
+				"main" : { "val" : 20 }
+			},
+			"images" : {
+				"small" : "skills/evasion/icons/small/advanced",
+				"medium" : "skills/evasion/icons/medium/advanced",
+				"large" : "skills/evasion/icons/large/advanced",
+				"scenarioBonus" : "skills/evasion/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Evasion}\n\nReduces damage received by the hero's army from ranged attacks by 30%.",
+			"effects" : {
+				"main" : { "val" : 30 }
+			},
+			"images" : {
+				"small" : "skills/evasion/icons/small/expert",
+				"medium" : "skills/evasion/icons/medium/expert",
+				"large" : "skills/evasion/icons/large/expert",
+				"scenarioBonus" : "skills/evasion/icons/large/expert"
+			}
+		}
+	}
+}

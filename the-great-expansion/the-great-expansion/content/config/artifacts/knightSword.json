@@ -1,0 +1,33 @@
+{
+	"knightSword" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "RIGHT_HAND",
+		"value" : 2000,
+		"graphics" : {
+			"image" : "artifacts/knightSword/icon",
+			"scenarioBonus" : "artifacts/knightSword/bonus",
+			"map" : "artifacts/knightSword/adventure.def"
+		},
+		"text" : {
+			"description" : "{Knight Sword}\r\n\r\nIncreases Defense and Morale of the hero by 1.",
+			"event" : "You notice a dead knight with a sword in a pristine condition. Deciding that it would be a waste to let it deteriorate, you take it.",
+			"name" : "Knight Sword"
+		}
+	}
+}

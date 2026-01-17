@@ -1,0 +1,28 @@
+{
+	"minorDefenseRune" : {
+		"bonuses" : {
+			"defence" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 7,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 2750,
+		"graphics" : {
+			"image" : "artifacts/minorDefenseRune/icon",
+			"scenarioBonus" : "artifacts/minorDefenseRune/bonus",
+			"map" : "artifacts/minorDefenseRune/adventure.def"
+		},
+		"text" : {
+			"description" : "{Minor Defense Rune}\r\n\r\nStack equipped with this artifact has a bonus of +7 to Defense.",
+			"event" : "You help a runesmith by securing a cargo of ore. For this help, he rewards you with a magic rune.",
+			"name" : "Minor Defense Rune"
+		}
+	}
+}

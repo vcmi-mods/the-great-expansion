@@ -1,0 +1,64 @@
+{
+	"stormwind" : {
+		"name" : "Stormwind",
+		"gainChance" : {
+			"might" : 5,
+			"magic" : 5
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : -1,
+					"valueType" : "BASE_NUMBER",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"OPPOSITE_SIDE",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FLYING"
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Stormwind}\n\nReduces Speed of enemy flying units in the hero's army by 1.",
+			"effects" : {
+				"speed" : { "val" : -1 }
+			},
+			"images" : {
+				"small" : "skills/stormwind/icons/small/basic",
+				"medium" : "skills/stormwind/icons/medium/basic",
+				"large" : "skills/stormwind/icons/large/basic",
+				"scenarioBonus" : "skills/stormwind/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Stormwind}\n\nReduces Speed of enemy flying units in the hero's army by 2.",
+			"effects" : {
+				"speed" : { "val" : -2 }
+			},
+			"images" : {
+				"small" : "skills/stormwind/icons/small/advanced",
+				"medium" : "skills/stormwind/icons/medium/advanced",
+				"large" : "skills/stormwind/icons/large/advanced",
+				"scenarioBonus" : "skills/stormwind/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Stormwind}\n\nReduces Speed of enemy flying units in the hero's army by 3.",
+			"effects" : {
+				"speed" : { "val" : -3 }
+			},
+			"images" : {
+				"small" : "skills/stormwind/icons/small/expert",
+				"medium" : "skills/stormwind/icons/medium/expert",
+				"large" : "skills/stormwind/icons/large/expert",
+				"scenarioBonus" : "skills/stormwind/icons/large/expert"
+			}
+		}
+	}
+}

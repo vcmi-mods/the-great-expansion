@@ -1,0 +1,34 @@
+{
+	"weldingMask" : {
+		"bonuses" : {
+			"catapult" : {
+				"subtype" : "spell.catapultShot",
+				"type" : "CATAPULT_EXTRA_SHOTS",
+				"valueType" : "BASE_NUMBER",
+				"val" : 1
+			},
+			"ballista" : {
+				"subtype" : "creature.ballista",
+				"type" : "HERO_GRANTS_ATTACKS",
+				"valueType" : "BASE_NUMBER",
+				"val" : 1
+			},
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "HEAD",
+		"value" : 5000,
+		"graphics" : {
+			"image" : "artifacts/weldingMask/icon",
+			"scenarioBonus" : "artifacts/weldingMask/bonus",
+			"map" : "artifacts/weldingMask/adventure.def"
+		},
+		"text" : {
+			"description" : "{Welding Mask}\r\n\r\nGrants an additional shot to controlled Ballista and Catapult.",
+			"event" : "On your travels, you meet the famous Sir Mullich. You ask him for an autograph. He gives you a Welding Mask instead.",
+			"name" : "Welding Mask"
+		}
+	}
+}

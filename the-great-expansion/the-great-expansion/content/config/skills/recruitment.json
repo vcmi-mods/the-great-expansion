@@ -1,0 +1,74 @@
+{
+	"recruitment" : {
+		"name" : "Recruitment",
+		"gainChance" : {
+			"might" : 7,
+			"magic" : 3
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "CREATURE_GROWTH",
+					"subtype" : "creatureLevel1",
+					"propagator": "PLAYER",
+					"val" : 2
+				},
+				"lv2" : {
+					"type" : "CREATURE_GROWTH",
+					"subtype" : "creatureLevel2",
+					"propagator": "PLAYER",
+					"val" : 1
+				},
+				"lv3" : {
+					"type" : "CREATURE_GROWTH",
+					"subtype" : "creatureLevel3",
+					"propagator": "PLAYER",
+					"val" : 1
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Recruitment}\n\nIncreases weekly growth of tier 1 creatures in all owned towns by 2.",
+			"effects" : {
+				"main" : { "val" : 2 },
+				"lv2" : { "val" : 0 },
+				"lv3" : { "val" : 0 }
+			},
+			"images" : {
+				"small" : "skills/recruitment/icons/small/basic",
+				"medium" : "skills/recruitment/icons/medium/basic",
+				"large" : "skills/recruitment/icons/large/basic",
+				"scenarioBonus" : "skills/recruitment/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Recruitment}\n\nIncreases weekly growth of tier 1 and 2 creatures in all owned towns by 2 and 1 respectively.",
+			"effects" : {
+				"main" : { "val" : 2 },
+				"lv2" : { "val" : 1 },
+				"lv3" : { "val" : 0 }
+			},
+			"images" : {
+				"small" : "skills/recruitment/icons/small/advanced",
+				"medium" : "skills/recruitment/icons/medium/advanced",
+				"large" : "skills/recruitment/icons/large/advanced",
+				"scenarioBonus" : "skills/recruitment/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Recruitment}\n\nIncreases weekly growth of tier 1,2 and 3 creatures in all owned towns by 2, 1 and 1 respectively.",
+			"effects" : {
+				"main" : { "val" : 2 },
+				"lv2" : { "val" : 1 },
+				"lv3" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/recruitment/icons/small/expert",
+				"medium" : "skills/recruitment/icons/medium/expert",
+				"large" : "skills/recruitment/icons/large/expert",
+				"scenarioBonus" : "skills/recruitment/icons/large/expert"
+			}
+		}
+	}
+}

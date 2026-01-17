@@ -1,0 +1,26 @@
+{
+	"wizardRobe" : {
+		"bonuses" : {
+			"spells" : {
+				"type" : "SPELLS_OF_LEVEL",
+				"subtype" : "spellLevel1"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "SHOULDERS",
+		"value" : 4000,
+		"graphics" : {
+			"image" : "artifacts/wizardRobe/icon",
+			"scenarioBonus" : "artifacts/wizardRobe/bonus",
+			"map" : "artifacts/wizardRobe/adventure.def"
+		},
+		"text" : {
+			"description" : "{Wizard Robe}\r\n\r\nAllows the hero to cast all level 1 spells.",
+			"event" : "During your travels, you notice a peasant wearing a wizard's robe like crazy. You knock him out before he harms anyone, then take off his magic robe.",
+			"name" : "Wizard Robe"
+		}
+	}
+}

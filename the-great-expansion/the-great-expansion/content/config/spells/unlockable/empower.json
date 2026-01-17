@@ -1,0 +1,111 @@
+{
+    "empower":
+    {   
+        "type": "combat",
+        "targetType":"LOCATION",
+        "name": "Empower",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+        "level": 2,
+        "power": 10,
+        "defaultGainChance": 5, 
+        "gainChance":
+        {
+            "castle" : 6,
+			"rampart" : 5,
+			"tower" : 4,
+			"inferno" : 5,
+			"necropolis" : 3,
+			"dungeon" : 4,
+			"stronghold" : 5,
+			"fortress" : 5,
+			"conflux" : 4
+        },
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {}
+		},
+		"flags" : {
+			"positive": true
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/empower/book",
+			"iconScroll" : "spells/empower/scroll",
+			"iconScenarioBonus" : "spells/empower/scenario",
+			"iconEffect" : "spells/empower/effect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"spells/empower/spell.def"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "spells/empower/sfx.wav"
+		},
+		
+		"levels" : {
+			"base":{
+				"range" : "0",
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"bonusMax" : {
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageMax",
+						"val" : 1,
+						"valueType" : "BASE_NUMBER",
+						"duration" : "N_TURNS"
+					},
+					"dmgMax" : {
+						"type" : "CREATURE_DAMAGE",
+						"subtype" : "creatureDamageMax",
+						"val" : 25,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Empower}\n\nIncreases Max Damage of the target stack.",
+
+				"cost" : 11
+			},
+			"basic" : {
+				"description" : "{Basic Empower}\n\nIncreases Max Damage of the target stack.",
+
+				"cost" : 9
+			},
+			"advanced":{
+				"description" : "{Advanced Empower}\n\nIncreases Max Damage of the target stack.\n\nThe bonus is twice as high as the bonus from the Basic Empower.",
+
+				"cost" : 9,
+				"effects" : {
+					"dmgMax" : {
+						"val" : 50
+					}
+				}
+			},
+			"expert":{
+				
+				"description" : "{Expert Empower}\n\nIncreases Max Damage of all friendly stacks.\n\nThe bonus is twice as high as the bonus from the Basic Empower.",
+				"cost" : 9,
+				"range" : "X",
+				"effects" : {
+					"dmgMax" : {
+						"val" : 50
+					}
+				}
+			}
+		}
+    }
+
+}

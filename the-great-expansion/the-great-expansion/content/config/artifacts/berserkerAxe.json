@@ -1,0 +1,34 @@
+{
+	"berserkerAxe" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "LEFT_HAND",
+		"value" : 2500,
+		"graphics" : {
+			"image" : "artifacts/berserkerAxe/icon",
+			"scenarioBonus" : "artifacts/berserkerAxe/bonus",
+			"map" : "artifacts/berserkerAxe/adventure.def"
+		},
+		"text" : {
+			"description" : "{Berserker Axe}\r\n\r\nIncreases Attack of the hero by 3, but reduces Defense by 1.",
+			"event" : "You see an orc in a deep rage, fighting multiple foes with multiple axes. You pick one of them and move forward, without provoking any unnecessary attention.",
+			"name" : "Berserker Axe"
+		}
+	}
+}

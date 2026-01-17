@@ -1,0 +1,27 @@
+{
+	"capeOfDisguise" : {
+		"bonuses" : {
+			"disguise" : {
+				"type" : "DISGUISED",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "SHOULDERS",
+		"value" : 3500,
+		"graphics" : {
+			"image" : "artifacts/capeOfDisguise/icon",
+			"scenarioBonus" : "artifacts/capeOfDisguise/bonus",
+			"map" : "artifacts/capeOfDisguise/adventure.def"
+		},
+		"text" : {
+			"description" : "{Cape of Disguise}\r\n\r\nThe hero's army is permanently affected by a basic Disguise spell.",
+			"event" : "A powerful-looking devil comes and threatens you. Remembering that the devils wouldn't walk in such situations, you punch him hard in the face. After the strike, you see that it was an imp wearing a magic cape.",
+			"name" : "Cape of Disguise"
+		}
+	}
+}

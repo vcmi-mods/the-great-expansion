@@ -1,0 +1,31 @@
+{
+	"runeOfIndomitableChampion" : {
+		"bonuses" : {
+			"unlimitedRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"regenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 75
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"value" : 16500,
+		"graphics" : {
+			"image" : "artifacts/runeOfIndomitableChampion/icon",
+			"scenarioBonus" : "artifacts/runeOfIndomitableChampion/bonus",
+			"map" : "artifacts/runeOfIndomitableChampion/adventure.def"
+		},
+		"text" : {
+			"description" : "{Rune of Indomitable Champion}\r\n\r\nStack equipped with this artifact has Unlimited Retaliation and regenerates 75 Health at the start of each of its turns.",
+			"event" : "You help a runesmith by securing a cargo of ore. For this help, he rewards you with a magic rune.",
+			"name" : "Rune of Indomitable Champion"
+		}
+	}
+}

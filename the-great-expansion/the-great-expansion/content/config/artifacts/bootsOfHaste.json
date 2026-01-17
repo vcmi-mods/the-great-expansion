@@ -1,0 +1,26 @@
+{
+	"bootsOfHaste" : {
+		"bonuses" : {
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "FEET",
+		"value" : 3500,
+		"graphics" : {
+			"image" : "artifacts/bootsOfHaste/icon",
+			"scenarioBonus" : "artifacts/bootsOfHaste/bonus",
+			"map" : "artifacts/bootsOfHaste/adventure.def"
+		},
+		"text" : {
+			"description" : "{Boots of Haste}\r\n\r\nIncreases the Speed of units in your army by 1.",
+			"event" : "Your quest is interrupted by a powerful wizard that teleported in just in front of you and then teleported away. You notice that where he disappeared lies a pair of nicely crafted boots.",
+			"name" : "Boots of Haste"
+		}
+	}
+}

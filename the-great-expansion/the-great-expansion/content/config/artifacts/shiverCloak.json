@@ -1,0 +1,35 @@
+{
+	"shiverCloak" : {
+		"bonuses" : {
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "SHOULDERS",
+		"value" : 2750,
+		"graphics" : {
+			"image" : "artifacts/shiverCloak/icon",
+			"scenarioBonus" : "artifacts/shiverCloak/bonus",
+			"map" : "artifacts/shiverCloak/adventure.def"
+		},
+		"text" : {
+			"description" : "{Shiver Cloak}\r\n\r\nIncreases the hero's Knowledge by 1 and reduces Speed of all units on the battlefield by 1.",
+			"event" : "You bought a good-looking cloak at a local tailor. Unfortunately, it doesn't look like it makes you feel warmer at all",
+			"name" : "Shiver Cloak"
+		}
+	}
+}

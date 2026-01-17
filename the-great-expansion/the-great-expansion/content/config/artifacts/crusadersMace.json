@@ -1,0 +1,40 @@
+{
+	"crusadersMace" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "RIGHT_HAND",
+		"value" : 11500,
+		"graphics" : {
+			"image" : "artifacts/crusadersMace/icon",
+			"scenarioBonus" : "artifacts/crusadersMace/bonus",
+			"map" : "artifacts/crusadersMace/adventure.def"
+		},
+		"text" : {
+			"description" : "{Crusader's Mace}\r\n\r\nIncreases the hero's Attack and Defense by 3 and the army's Max Damage by 1.",
+			"event" : "You happen upon a dead crusader. You pick up his mace and move onward.",
+			"name" : "Crusader's Mace"
+		}
+	}
+}

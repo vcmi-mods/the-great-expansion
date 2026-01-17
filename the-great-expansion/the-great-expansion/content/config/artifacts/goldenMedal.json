@@ -1,0 +1,44 @@
+{
+	"goldenMedal" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 4,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 6500,
+		"graphics" : {
+			"image" : "artifacts/goldenMedal/icon",
+			"scenarioBonus" : "artifacts/goldenMedal/bonus",
+			"map" : "artifacts/goldenMedal/adventure.def"
+		},
+		"text" : {
+			"description" : "{Golden Medal}\r\n\r\nStack equipped with this artifact has a bonus of +1 to Attack, +1 to Defense, +4 to Max Health and +2 to Speed.",
+			"event" : "You take part in a local sprinting weightning competition and your strong physique and marvelous muscles win you the first place.",
+			"name" : "Golden Medal"
+		}
+	}
+}

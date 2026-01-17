@@ -1,0 +1,27 @@
+{
+	"sparklingNecklaceOfCharming" : {
+		"bonuses" : {
+			"diplo" : {
+				"type" : "WANDERING_CREATURES_JOIN_BONUS",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "NECK",
+		"value" : 9750,
+		"graphics" : {
+			"image" : "artifacts/sparklingNecklaceOfCharming/icon",
+			"scenarioBonus" : "artifacts/sparklingNecklaceOfCharming/bonus",
+			"map" : "artifacts/sparklingNecklaceOfCharming/adventure.def"
+		},
+		"text" : {
+			"description" : "{Sparkling Necklace of Charming}\r\n\r\nGreatly increases the chance a neutral stack will join the hero's army.",
+			"event" : "Evil sorceress rules hordes of orcs and attempts to break into a castle. You go straight into her lair and shoot from afar using your trusty crossbow. Once shot, the orcs scatter, as if brainwashed. You slowly walk towards the sorceress and take her necklace.",
+			"name" : "Sparkling Necklace of Charming"
+		}
+	}
+}

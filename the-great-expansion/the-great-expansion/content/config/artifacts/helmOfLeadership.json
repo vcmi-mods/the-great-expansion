@@ -1,0 +1,39 @@
+{
+	"helmOfLeadership" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "HEAD",
+		"value" : 6250,
+		"graphics" : {
+			"image" : "artifacts/helmOfLeadership/icon",
+			"scenarioBonus" : "artifacts/helmOfLeadership/bonus",
+			"map" : "artifacts/helmOfLeadership/adventure.def"
+		},
+		"text" : {
+			"description" : "{Helm of Leadership}\r\n\r\nIncreases Attack, Knowledge and Morale of the hero by 2.",
+			"event" : "You were forced to lead a group of soldiers to defeat a dragon living in a cave. After the creature was defeated, you just left with the Helm of Leadership before you'll need to give it up.",
+			"name" : "Helm of Leadership"
+		}
+	}
+}

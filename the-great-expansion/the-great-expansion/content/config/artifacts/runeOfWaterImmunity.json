@@ -1,0 +1,27 @@
+{
+	"runeOfWaterImmunity" : {
+		"bonuses" : {
+			"immunity" :
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.water"
+			},
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 3250,
+		"graphics" : {
+			"image" : "artifacts/runeOfWaterImmunity/icon",
+			"scenarioBonus" : "artifacts/runeOfWaterImmunity/bonus",
+			"map" : "artifacts/runeOfWaterImmunity/adventure.def"
+		},
+		"text" : {
+			"description" : "{Rune of Water Immunity}\r\n\r\nStack equipped with this artifact is immune to all water spells.",
+			"event" : "You help a runesmith by securing a cargo of ore. For this help, he rewards you with a magic rune.",
+			"name" : "Rune of Water Immunity"
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"helmOfPower" : {
+		"bonuses" : {
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			"manaRegen" : {
+				"type" : "MANA_REGENERATION",
+				"valueType" : "BASE_NUMBER",
+				"val" : 4
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "HEAD",
+		"value" : 3500,
+		"graphics" : {
+			"image" : "artifacts/helmOfPower/icon",
+			"scenarioBonus" : "artifacts/helmOfPower/bonus",
+			"map" : "artifacts/helmOfPower/adventure.def"
+		},
+		"text" : {
+			"description" : "{Helm of Power}\r\n\r\nIncreases Knowledge by 2 and daily Mana Regeneration by 4.",
+			"event" : "You notice a peasant using a Helm of Power as a bucket to get some water from nearby river. You help him get some buckets in exchange for the artifact.",
+			"name" : "Helm of Power"
+		}
+	}
+}

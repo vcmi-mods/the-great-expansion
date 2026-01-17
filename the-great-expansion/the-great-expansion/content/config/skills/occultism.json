@@ -1,0 +1,103 @@
+{
+	"occultism" : {
+		"name" : "Occultism",
+		"gainChance" : {
+			"might" : 2,
+			"magic" : 4
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"curse" : {
+					"addInfo" : 0,
+					"subtype" : "spell.curse",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				},
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.weakness",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				},
+				"disruptingRay": {
+					"addInfo" : 0,
+					"subtype" : "spell.disruptingRay",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				},
+				"slow" : {
+					"addInfo" : 0,
+					"subtype" : "spell.slow",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Occultism}\n\nIncreases effectiveness of some spells:\nCurse reduces the target's Damage by an additional 1.\nWeakness reduces Attack by an additional 1.\nSlow reduces Speed by an additional 1.\nDisrupting Ray reduces Defense by an additional 1.",
+			"effects" : {
+				"curse" : {
+					"addInfo" : 1
+				},
+				"weakness" : {
+					"addInfo" : -1
+				},
+				"disruptingRay" : {
+					"addInfo" : -1
+				},
+				"slow" : {
+					"addInfo" : -1
+				},
+			},
+			"images" : {
+				"small" : "skills/occultism/icons/small/basic",
+				"medium" : "skills/occultism/icons/medium/basic",
+				"large" : "skills/occultism/icons/large/basic",
+				"scenarioBonus" : "skills/occultism/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Occultism}\n\nIncreases effectiveness of some spells:\nCurse reduces the target's Damage by an additional 2.\nWeakness reduces Attack by an additional 2.\nSlow reduces Speed by an additional 2.\nDisrupting Ray reduces Defense by an additional 2.",
+			"effects" : {
+				"curse" : {
+					"addInfo" : 2
+				},
+				"weakness" : {
+					"addInfo" : -2
+				},
+				"disruptingRay" : {
+					"addInfo" : -2
+				},
+				"slow" : {
+					"addInfo" : -2
+				},
+			},
+			"images" : {
+				"small" : "skills/occultism/icons/small/advanced",
+				"medium" : "skills/occultism/icons/medium/advanced",
+				"large" : "skills/occultism/icons/large/advanced",
+				"scenarioBonus" : "skills/occultism/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Occultism}\n\nIncreases effectiveness of some spells:\nCurse reduces the target's Damage by an additional 3.\nWeakness reduces Attack by an additional 3.\nSlow reduces Speed by an additional 3.\nDisrupting Ray reduces Defense by an additional 3.",
+			"effects" : {
+				"curse" : {
+					"addInfo" : 3
+				},
+				"weakness" : {
+					"addInfo" : -3
+				},
+				"disruptingRay" : {
+					"addInfo" : -3
+				},
+				"slow" : {
+					"addInfo" : -3
+				},
+			},
+			"images" : {
+				"small" : "skills/occultism/icons/small/expert",
+				"medium" : "skills/occultism/icons/medium/expert",
+				"large" : "skills/occultism/icons/large/expert",
+				"scenarioBonus" : "skills/occultism/icons/large/expert"
+			}
+		}
+	}
+}

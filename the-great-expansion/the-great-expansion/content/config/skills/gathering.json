@@ -1,0 +1,62 @@
+{
+	"gathering" : {
+		"name" : "Gathering",
+		"gainChance" : {
+			"might" : 5,
+			"magic" : 5
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"subtype" : "resource.wood",
+					"type" : "GENERATE_RESOURCE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"ore" : {
+					"subtype" : "resource.ore",
+					"type" : "GENERATE_RESOURCE",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Gathering}\n\nGenerates 1 Wood per day.",
+			"effects" : {
+				"main" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/gathering/icons/small/basic",
+				"medium" : "skills/gathering/icons/medium/basic",
+				"large" : "skills/gathering/icons/large/basic",
+				"scenarioBonus" : "skills/gathering/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Gathering}\n\nGenerates 1 Wood and Ore per day.",
+			"effects" : {
+				"main" : { "val" : 1 },
+				"ore" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/gathering/icons/small/advanced",
+				"medium" : "skills/gathering/icons/medium/advanced",
+				"large" : "skills/gathering/icons/large/advanced",
+				"scenarioBonus" : "skills/gathering/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Gathering}\n\nGenerates 2 Wood and Ore per day.",
+			"effects" : {
+				"main" : { "val" : 2 },
+				"ore" : { "val" : 2 }
+			},
+			"images" : {
+				"small" : "skills/gathering/icons/small/expert",
+				"medium" : "skills/gathering/icons/medium/expert",
+				"large" : "skills/gathering/icons/large/expert",
+				"scenarioBonus" : "skills/gathering/icons/large/expert"
+			}
+		}
+	}
+}

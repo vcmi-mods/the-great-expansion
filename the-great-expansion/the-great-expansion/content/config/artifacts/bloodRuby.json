@@ -1,0 +1,27 @@
+{
+	"bloodRuby" : {
+		"bonuses" : {
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 4,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 3000,
+		"graphics" : {
+			"image" : "artifacts/bloodRuby/icon",
+			"scenarioBonus" : "artifacts/bloodRuby/bonus",
+			"map" : "artifacts/bloodRuby/adventure.def"
+		},
+		"text" : {
+			"description" : "{Blood Ruby}\r\n\r\nStack equipped with this artifact has a bonus of +4 to Max Health.",
+			"event" : "Passing through a jeweler's shop that seems abandoned, you find dusty tools and fake gemstones, but one of them catches your eye - not only it is genuine, but it is also magical! You decide to keep it.",
+			"name" : "Blood Ruby"
+		}
+	}
+}

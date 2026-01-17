@@ -1,0 +1,42 @@
+{
+	"ringOfBoons" : {
+		"bonuses" : {
+			"bless" : {
+				"addInfo" : 1,
+				"subtype" : "spell.bless",
+				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			},
+			"bloodlust" : {
+				"addInfo" : 1,
+				"subtype" : "spell.bloodlust",
+				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			},
+			"haste": {
+				"addInfo" : 1,
+				"subtype" : "spell.haste",
+				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			},
+			"stoneSkin" : {
+				"addInfo" : 1,
+				"subtype" : "spell.stoneSkin",
+				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "RING",
+		"value" : 5250,
+		"graphics" : {
+			"image" : "artifacts/ringOfBoons/icon",
+			"scenarioBonus" : "artifacts/ringOfBoons/bonus",
+			"map" : "artifacts/ringOfBoons/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ring of Boons}\r\n\r\nIncreases effectiveness of some spells:\nBless increases the target's Damage by an additional 1. Bloodlust increases Attack by an additional 1.\nHaste increases Speed by an additional 1.\nStone Skin increases Defense by an additional 1.",
+			"event" : "During your travels, a mad mage picks a fight with you and starts casting multiple fireballs at you. A single lightning bolt from your fingers zaps the mage to a crisp, leaving only dust and a magic ring.",
+			"name" : "Ring of Boons"
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"ringOfElements" : {
+		"bonuses" : {
+			"airBonus" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.airElemental",
+				"val" : 100
+			},
+			"earthBonus" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.earthElemental",
+				"val" : 100
+			},
+			"fireBonus" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.fireElemental",
+				"val" : 100
+			},
+			"waterBonus" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.waterElemental",
+				"val" : 100
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "RING",
+		"value" : 20000,
+		"graphics" : {
+			"image" : "artifacts/ringOfElements/icon",
+			"scenarioBonus" : "artifacts/ringOfElements/bonus",
+			"map" : "artifacts/ringOfElements/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ring of Elements}\r\n\r\nDoubles the amount of elementals summoned through Summon Air Elemental, Summon Earth Elemental, Summon Fire Elemental and Summon Water Elemental spells.",
+			"event" : "Your travel is interrupted by a swarm of elementals fighting eachother, bringing destruction to this place. In the middle, you find a horrified sorceress who calls for your help. After resolving the problem, she hands you the Ring of Elements - the source of everything.",
+			"name" : "Ring of Elements"
+		}
+	}
+}

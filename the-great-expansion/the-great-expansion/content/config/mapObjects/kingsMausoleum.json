@@ -1,0 +1,105 @@
+{
+	"core:creatureBank" : {
+		"types" : {
+			"kingsMausoleum" : {
+				"name" : "King's Mausoleum",
+				"templates" : {
+					"normal" : {
+						"animation" : "mapObjects/kingsMausoleum.def",
+						"visitableFrom" : [
+							"---",
+							"-+-",
+							"+++"
+						],
+						"mask" : [
+							"VVVVV",
+							"VVBBV",
+							"VBBAB"
+						]
+					}
+				},
+				"sounds" : {
+					"visit" : [
+						"mapObjects/visit.wav"
+					]
+				},
+				"rmg" : {
+					"value" : 8000,
+					"rarity" : 31
+				},
+				"blockedVisitable" : false,
+				"onGuardedMessage" : "You are near the king's mausoleum. Would you like to search it?",
+				"onVisited" : [
+					{
+						"message" : "It seems like someone already desecrated this sacred place. There's nothing to be found there."
+					}
+				],
+				"visitMode" : "once",
+				"selectMode" : "selectFirst",
+				"guardsLayout" : "creatureBankNarrow",
+				"rewards" : [
+					{
+						"message" : "After defeating the guards you search the place and find something useful!",
+						"appearChance" : { "min" : 0, "max" : 30 },
+						"guards" : [
+							{ "amount" : 56, "type" : "swordsman" },
+							{ "amount" : 20, "type" : "monk" },
+							{ "amount" : 14, "type" : "crusader" },
+							{ "amount" : 4, "type" : "zealot" }
+						],
+						
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "MINOR" }, { "class" : "MAJOR" } ],
+						"resources" : {
+							"gold" : 7500
+						}
+					},
+					{
+						"message" : "After defeating the guards you search the place and find something useful!",
+						"appearChance" : { "min" : 30, "max" : 60 },
+						"guards" : [
+							{ "amount" : 56, "type" : "swordsman" },
+							{ "amount" : 25, "type" : "monk" },
+							{ "amount" : 21, "type" : "crusader" },
+							{ "amount" : 8, "type" : "zealot" }
+						],
+						
+						"artifacts": [ { "class" : "MINOR" }, { "class" : "MINOR" }, { "class" : "MAJOR" } ],
+						"resources" : {
+							"gold" : 10000
+						}
+					},
+					{
+						"message" : "After defeating the guards you search the place and find something useful!",
+						"appearChance" : { "min" : 60, "max" : 90 },
+						"guards" : [
+							{ "amount" : 56, "type" : "swordsman" },
+							{ "amount" : 25, "type" : "monk" },
+							{ "amount" : 28, "type" : "crusader" },
+							{ "amount" : 13, "type" : "zealot" }
+						],
+						
+						"artifacts": [ { "class" : "TREASURE" }, { "class" : "MINOR" }, { "class" : "MINOR" }, { "class" : "MAJOR" } ],
+						"resources" : {
+							"gold" : 11000
+						}
+					},
+					{
+						"message" : "After defeating the guards you search the place and find something useful!",
+						"appearChance" : { "min" : 90, "max" : 100 },
+						"guards" : [
+							{ "amount" : 56, "type" : "swordsman" },
+							{ "amount" : 30, "type" : "monk" },
+							{ "amount" : 42, "type" : "crusader" },
+							{ "amount" : 21, "type" : "zealot" }
+						],
+						
+						"artifacts": [ { "class" : "MAJOR" }, { "class" : "MAJOR" }, { "class" : "MAJOR" } ],
+						"resources" : {
+							"gold" : 15000
+						}
+					}
+				]
+			}
+		}
+	}
+}

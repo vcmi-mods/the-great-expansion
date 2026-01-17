@@ -1,0 +1,51 @@
+{
+	"propheticGift" : {
+		"bonuses" : {
+			"fire" : {
+				"subtype" : "spellSchool.fire",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 1
+			},
+			"earth" : {
+				"subtype" : "spellSchool.earth",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 1
+			},
+			"water" : {
+				"subtype" : "spellSchool.water",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 1
+			},
+			"air" : {
+				"subtype" : "spellSchool.air",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 1
+			},
+			"seeing" : {
+				"type" : "SIGHT_RADIUS",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "NECK",
+		"value" : 15500,
+		"graphics" : {
+			"image" : "artifacts/propheticGift/icon",
+			"scenarioBonus" : "artifacts/propheticGift/bonus",
+			"map" : "artifacts/propheticGift/adventure.def"
+		},
+		"text" : {
+			"description" : "{Prophetic Gift}\r\n\r\nIncreases effective spell school level of all magic schools by 1 and increases Sight Radius by 5.",
+			"event" : "You meet a strange, bird-faced figure, who hands you a magic pendant and then dissapears in a cloud of crows.",
+			"name" : "Prophetic Gift"
+		}
+	}
+}

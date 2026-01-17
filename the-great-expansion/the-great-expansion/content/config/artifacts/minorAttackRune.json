@@ -1,0 +1,28 @@
+{
+	"minorAttackRune" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 7,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 2750,
+		"graphics" : {
+			"image" : "artifacts/minorAttackRune/icon",
+			"scenarioBonus" : "artifacts/minorAttackRune/bonus",
+			"map" : "artifacts/minorAttackRune/adventure.def"
+		},
+		"text" : {
+			"description" : "{Minor Attack Rune}\r\n\r\nStack equipped with this artifact has a bonus of +7 to Attack.",
+			"event" : "You help a runesmith by securing a cargo of ore. For this help, he rewards you with a magic rune.",
+			"name" : "Minor Attack Rune"
+		}
+	}
+}

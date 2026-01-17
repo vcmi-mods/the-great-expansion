@@ -1,0 +1,103 @@
+{
+	"mindMagic" : {
+		"name" : "Mind Magic",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 6
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"frenzy" : {
+					"addInfo" : 15,
+					"subtype" : "spell.frenzy",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				},
+				"hypnotize" : {
+					"subtype" : "spell.hypnotize",
+					"type" : "SPECIFIC_SPELL_DAMAGE",
+					"val" : 10
+				},
+				"mirth": {
+					"addInfo" : 0,
+					"subtype" : "spell.mirth",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				},
+				"sorrow" : {
+					"addInfo" : 0,
+					"subtype" : "spell.sorrow",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Mind Magic}\n\nFrenzy's Defense to Attack bonus increased by 15%. Hypnotize's threshold is increased by 10%.",
+			"effects" : {
+				"frenzy" : {
+					"addInfo" : 15
+				},
+				"hypnotize" : {
+					"val" : 10
+				},
+				"mirth" : {
+					"addInfo" : 0
+				},
+				"sorrow" : {
+					"addInfo" : 0
+				},
+			},
+			"images" : {
+				"small" : "skills/mindMagic/icons/small/basic",
+				"medium" : "skills/mindMagic/icons/medium/basic",
+				"large" : "skills/mindMagic/icons/large/basic",
+				"scenarioBonus" : "skills/mindMagic/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Mind Magic}\n\nFrenzy's Defense to Attack bonus increased by 30%. Hypnotize's threshold is increased by 20%.",
+			"effects" : {
+				"frenzy" : {
+					"addInfo" : 30
+				},
+				"hypnotize" : {
+					"val" : 20
+				},
+				"mirth" : {
+					"addInfo" : 0
+				},
+				"sorrow" : {
+					"addInfo" : 0
+				},
+			},
+			"images" : {
+				"small" : "skills/mindMagic/icons/small/advanced",
+				"medium" : "skills/mindMagic/icons/medium/advanced",
+				"large" : "skills/mindMagic/icons/large/advanced",
+				"scenarioBonus" : "skills/mindMagic/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Mind Magic}\n\nFrenzy's Defense to Attack bonus increased by 45%. Hypnotize's threshold is increased by 30%. Mirth and Sorrow Morale modifier increased by 1.",
+			"effects" : {
+				"frenzy" : {
+					"addInfo" : 45
+				},
+				"hypnotize" : {
+					"val" : 30
+				},
+				"mirth" : {
+					"addInfo" : 1
+				},
+				"sorrow" : {
+					"addInfo" : -1
+				},
+			},
+			"images" : {
+				"small" : "skills/mindMagic/icons/small/expert",
+				"medium" : "skills/mindMagic/icons/medium/expert",
+				"large" : "skills/mindMagic/icons/large/expert",
+				"scenarioBonus" : "skills/mindMagic/icons/large/expert"
+			}
+		}
+	}
+}

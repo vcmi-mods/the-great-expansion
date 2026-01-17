@@ -1,0 +1,88 @@
+{
+	"kaite" :
+	{
+		"class" : "knight",
+		"female" : true,
+		"special" : false,
+		"onlyOnWaterMap" : false,
+		"onlyOnMapWithoutWater" : false,
+
+		"texts" :
+		{
+			"name" : "Kaite",
+			"biography" : "Kaite was responsible for training pikemen to guard the king, but once the war in Erathia has begun, she changed the training and took her soldiers to the offensive. Now her pikemen are known for their offensive capabilities.",
+			"specialty" :
+			{
+				"description" : "Pikemen in the hero's army receive a bonus of +1 to their Speed and Damage.",
+				"tooltip" : "Creature Bonus: Pikemen",
+				"name" : "Pikemen"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "heroes/castle/kaite/specSmall.png",
+			"specialtyLarge" : "heroes/castle/kaite/specLarge.png",
+			"large" : "heroes/castle/kaite/large.png",
+			"small" : "heroes/castle/kaite/small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "pikeman",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "pikeman",
+				"max" : 20,
+				"min" : 10
+			},
+			{
+				"creature" : "pikeman",
+				"max" : 20,
+				"min" : 10
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "leadership"
+			},
+			{
+				"level" : "basic",
+				"skill" : "inspiration"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "pikeman",
+							"includeUpgrades" : true
+						}
+					],
+				},
+				"damage" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageBoth",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "pikeman",
+							"includeUpgrades" : true
+						}
+					]
+				}
+			}
+		}
+	}
+}

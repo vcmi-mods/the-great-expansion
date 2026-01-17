@@ -1,0 +1,54 @@
+{
+	"enchantWeapons" : {
+		"name" : "Enchant Weapons",
+		"gainChance" : {
+			"might" : 4,
+			"magic" : 7
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "ENEMY_DEFENCE_REDUCTION",
+					"val" : 7.5
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Enchant Weapons}\n\nUnits in the hero's army ignore 7.5% of enemy's Defense.",
+			"effects" : {
+				"main" : { "val" : 7.5 }
+			},
+			"images" : {
+				"small" : "skills/enchantWeapons/icons/small/basic",
+				"medium" : "skills/enchantWeapons/icons/medium/basic",
+				"large" : "skills/enchantWeapons/icons/large/basic",
+				"scenarioBonus" : "skills/enchantWeapons/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Enchant Weapons}\n\nUnits in the hero's army ignore 15% of enemy's Defense.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			},
+			"images" : {
+				"small" : "skills/enchantWeapons/icons/small/advanced",
+				"medium" : "skills/enchantWeapons/icons/medium/advanced",
+				"large" : "skills/enchantWeapons/icons/large/advanced",
+				"scenarioBonus" : "skills/enchantWeapons/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Enchant Weapons}\n\nUnits in the hero's army ignore 22.5% of enemy's Defense.",
+			"effects" : {
+				"main" : { "val" : 22.5 }
+			},
+			"images" : {
+				"small" : "skills/enchantWeapons/icons/small/expert",
+				"medium" : "skills/enchantWeapons/icons/medium/expert",
+				"large" : "skills/enchantWeapons/icons/large/expert",
+				"scenarioBonus" : "skills/enchantWeapons/icons/large/expert"
+			}
+		}
+	}
+}

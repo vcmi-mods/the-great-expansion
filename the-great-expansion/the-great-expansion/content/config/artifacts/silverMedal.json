@@ -1,0 +1,44 @@
+{
+	"silverMedal" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 4250,
+		"graphics" : {
+			"image" : "artifacts/silverMedal/icon",
+			"scenarioBonus" : "artifacts/silverMedal/bonus",
+			"map" : "artifacts/silverMedal/adventure.def"
+		},
+		"text" : {
+			"description" : "{Silver Medal}\r\n\r\nStack equipped with this artifact has a bonus of +1 to Attack, +1 to Defense, +1 to Max Health and +2 to Speed.",
+			"event" : "You take part in a local sprinting competition and end up winning the second place.",
+			"name" : "Silver Medal"
+		}
+	}
+}

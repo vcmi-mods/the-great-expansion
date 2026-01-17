@@ -1,0 +1,55 @@
+{
+	"defender" : {
+		"name" : "Defender",
+		"gainChance" : {
+			"might" : 6,
+			"magic" : 4
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "DEFENSIVE_STANCE",
+					"valueType" : "BASE_NUMBER",
+					"val" : 5
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Defender}\n\nIncreased Defense gained from Defensive Stance by 5.",
+			"effects" : {
+				"main" : { "val" : 5 }
+			},
+			"images" : {
+				"small" : "skills/defender/icons/small/basic",
+				"medium" : "skills/defender/icons/medium/basic",
+				"large" : "skills/defender/icons/large/basic",
+				"scenarioBonus" : "skills/defender/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Defender}\n\nIncreased Defense gained from Defensive Stance by 10.",
+			"effects" : {
+				"main" : { "val" : 10 }
+			},
+			"images" : {
+				"small" : "skills/defender/icons/small/advanced",
+				"medium" : "skills/defender/icons/medium/advanced",
+				"large" : "skills/defender/icons/large/advanced",
+				"scenarioBonus" : "skills/defender/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Defender}\n\nIncreased Defense gained from Defensive Stance by 15.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			},
+			"images" : {
+				"small" : "skills/defender/icons/small/expert",
+				"medium" : "skills/defender/icons/medium/expert",
+				"large" : "skills/defender/icons/large/expert",
+				"scenarioBonus" : "skills/defender/icons/large/expert"
+			}
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"runeOfAirImmunity" : {
+		"bonuses" : {
+			"immunity" :
+			{
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.air"
+			},
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 3250,
+		"graphics" : {
+			"image" : "artifacts/runeOfAirImmunity/icon",
+			"scenarioBonus" : "artifacts/runeOfAirImmunity/bonus",
+			"map" : "artifacts/runeOfAirImmunity/adventure.def"
+		},
+		"text" : {
+			"description" : "{Rune of Air Immunity}\r\n\r\nStack equipped with this artifact is immune to all air spells.",
+			"event" : "You help a runesmith by securing a cargo of ore. For this help, he rewards you with a magic rune.",
+			"name" : "Rune of Air Immunity"
+		}
+	}
+}

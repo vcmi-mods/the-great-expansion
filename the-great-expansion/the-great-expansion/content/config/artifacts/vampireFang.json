@@ -1,0 +1,34 @@
+{
+	"vampireFang" : {
+		"bonuses" : {
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"lifesteal" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 30
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 7750,
+		"graphics" : {
+			"image" : "artifacts/vampireFang/icon",
+			"scenarioBonus" : "artifacts/vampireFang/bonus",
+			"map" : "artifacts/vampireFang/adventure.def"
+		},
+		"text" : {
+			"description" : "{Vampire Fang}\r\n\r\nStack equipped with this artifact becomes Undead, gains 2 Speed and heals for 30% of any damage dealt. This effect can revive dead units in the stack.",
+			"event" : "After a fight with some vampires, who were more troublesome than difficult, you rip one of their fangs out of anger and put it into your pouch as a trophy.",
+			"name" : "Vampire Fang"
+		}
+	}
+}

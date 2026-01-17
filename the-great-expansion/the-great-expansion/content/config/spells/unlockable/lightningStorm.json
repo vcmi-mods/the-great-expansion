@@ -1,0 +1,73 @@
+{
+	"lightningStorm" : {
+		"type" : "combat",
+		"name" : "Lightning Storm",
+		"targetType": "LOCATION",
+		"school" : {
+			"air" : true,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 5,
+        "defaultGainChance": 5, 
+        "gainChance":
+        {
+            "castle" : 2,
+			"rampart" : 2,
+			"tower" : 8,
+			"inferno" : 5,
+			"necropolis" : 3,
+			"dungeon" : 8,
+			"conflux" : 6
+        },
+		"power" : 25,
+		"flags" : {
+			"damage" : true,
+			"negative" : true
+		},
+		"graphics" : {
+			"iconBook" : "spells/lightningStorm/book",
+			"iconScroll" : "spells/lightningStorm/scroll",
+			"iconScenarioBonus" : "spells/lightningStorm/scenario",
+			"iconEffect" : "spells/lightningStorm/effect"
+		},
+		"animation":{
+			"affect":[{"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1"]
+		},
+		"sounds": {
+			"cast": "LIGHTBLT"
+		},
+		"levels" : {
+			"base" : {
+				"range" : "0-2",
+				"power" : 0,
+				"battleEffects" : {
+					"directDamage" : {"type":"core:damage"}
+				},
+				"targetModifier":{"smart":true},
+				"cost" : 28
+			},
+			"none" : {
+				"description" : "{Lightning Storm}\n\nCalls down lightning bolts to hit units in the chosen area.",
+				"power" : 0,
+				"cost" : 28
+			},
+			"basic" : {
+				"description" : "{Lightning Storm}\n\nCalls down lightning bolts to hit units in the chosen area.",
+				"power" : 0,
+				"cost" : 23
+			},
+			"advanced" : {
+				"description" : "{Lightning Storm}\n\nCalls down lightning bolts to hit units in the chosen area.\n\nDamage inflicted is 30 more than Basic Lightning Storm.",
+				"power" : 30,
+				"cost" : 23
+			},
+			"expert" : {
+				"description" : "{Lightning Storm}\n\nCalls down lightning bolts to hit units in the chosen area.\n\nDamage inflicted is 100 more than Basic Lightning Storm.",
+				"power" : 100,
+				"cost" : 23
+			}
+		}
+	}
+}

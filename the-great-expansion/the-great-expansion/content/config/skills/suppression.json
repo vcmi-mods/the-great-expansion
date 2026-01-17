@@ -1,0 +1,60 @@
+{
+	"suppression" : {
+		"name" : "Suppression",
+		"gainChance" : {
+			"might" : 7,
+			"magic" : 3
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ENEMY",
+					"val" : 1
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Suppression}\n\nIncreases the mana cost of spells cast by the enemy hero by 1. Doesn't stack with other manacost-increasing abilities.",
+			"effects" : {
+				"main" : {
+					"val" : 1
+				}
+			},
+			"images" : {
+				"small" : "skills/suppression/icons/small/basic",
+				"medium" : "skills/suppression/icons/medium/basic",
+				"large" : "skills/suppression/icons/large/basic",
+				"scenarioBonus" : "skills/suppression/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Suppression}\n\nIncreases the mana cost of spells cast by the enemy hero by 2. Doesn't stack with other manacost-increasing abilities.",
+			"effects" : {
+				"main" : {
+					"val" : 2
+				}
+			},
+			"images" : {
+				"small" : "skills/suppression/icons/small/advanced",
+				"medium" : "skills/suppression/icons/medium/advanced",
+				"large" : "skills/suppression/icons/large/advanced",
+				"scenarioBonus" : "skills/suppression/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Suppression}\n\nIncreases the mana cost of spells cast by the enemy hero by 3. Doesn't stack with other manacost-increasing abilities.",
+			"effects" : {
+				"main" : {
+					"val" : 3
+				}
+			},
+			"images" : {
+				"small" : "skills/suppression/icons/small/expert",
+				"medium" : "skills/suppression/icons/medium/expert",
+				"large" : "skills/suppression/icons/large/expert",
+				"scenarioBonus" : "skills/suppression/icons/large/expert"
+			}
+		}
+	}
+}

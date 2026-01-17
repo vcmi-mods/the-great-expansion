@@ -1,0 +1,66 @@
+{
+	"ringOfAnnulment" : {
+		"bonuses" : {
+			"fire" : {
+				"subtype" : "spellSchool.fire",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : -3,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			},
+			"earth" : {
+				"subtype" : "spellSchool.earth",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : -3,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			},
+			"water" : {
+				"subtype" : "spellSchool.water",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : -3,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			},
+			"air" : {
+				"subtype" : "spellSchool.air",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : -3,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				]
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "RING",
+		"value" : 24000,
+		"graphics" : {
+			"image" : "artifacts/ringOfAnnulment/icon",
+			"scenarioBonus" : "artifacts/ringOfAnnulment/bonus",
+			"map" : "artifacts/ringOfAnnulment/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ring of Annulment}\r\n\r\nEnemy spells are cast at a basic proficiency.",
+			"event" : "During your travels, you happen upon a duel between a powerful warlock and a peasant. While normally you would charge and help, it seems that the warlock is puzzled about how his spells never go right, and the peasant is punching hard. Once the peasant emerges victorious, he hands you the ring to aid in your journey.",
+			"name" : "Ring of Annulment"
+		}
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"ankhOfLife" : {
+		"bonuses" : {
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 10,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			"spellBonus1" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.resurrection",
+				"val" : 10
+			},
+			"spellBonus2" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.animateDead",
+				"val" : 10
+			},
+			"spellBonus3" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.cure",
+				"val" : 10
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "NECK",
+		"value" : 4500,
+		"graphics" : {
+			"image" : "artifacts/ankhOfLife/icon",
+			"scenarioBonus" : "artifacts/ankhOfLife/bonus",
+			"map" : "artifacts/ankhOfLife/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ankh of Life}\r\n\r\nIncreases Max Health of units in the hero's army by 10% and increases effectiveness of Animate Dead, Cure and Resurrection spells by 10%.",
+			"event" : "You venture into a pyramid to find a mummy lying next to the entrance. You notice an ankh in its hand. You grab it and walk away, before it comes back to life and curses you.",
+			"name" : "Ankh of Life"
+		}
+	}
+}

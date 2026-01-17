@@ -1,0 +1,53 @@
+{
+	"tomeOfOmniscience" : {
+		"bonuses" : {
+			"fire" : {
+				"subtype" : "spellSchool.fire",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 3
+			},
+			"earth" : {
+				"subtype" : "spellSchool.earth",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 3
+			},
+			"water" : {
+				"subtype" : "spellSchool.water",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 3
+			},
+			"air" : {
+				"subtype" : "spellSchool.air",
+				"type" : "MAGIC_SCHOOL_SKILL",
+				"valueType" : "BASE_NUMBER",
+				"val" : 3
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"value" : 104000,
+		"components": 
+		[
+			"tomeOfFireMagic",
+			"tomeOfAirMagic",
+			"tomeOfWaterMagic",
+			"tomeOfEarthMagic"
+		],
+		"graphics" : {
+			"image" : "artifacts/tomeOfOmniscience/icon",
+			"scenarioBonus" : "artifacts/tomeOfOmniscience/bonus",
+			"map" : "artifacts/tomeOfOmniscience/adventure.def"
+		},
+		"text" : {
+			"description" : "{Tome of Omniscience}\r\n\r\nAllows you to cast all spells on Expert level.",
+			"event" : "While in a tavern, you notice that one leg of the chair you are sitting on is shorter than the rest, and there's a book underneath it. Turns out it was a Tome of Omniscience.",
+			"name" : "Tome of Omniscience"
+		}
+	}
+}

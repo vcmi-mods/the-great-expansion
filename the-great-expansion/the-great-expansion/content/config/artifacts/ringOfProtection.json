@@ -1,0 +1,28 @@
+{
+	"ringOfProtection" : {
+		"bonuses" : {
+			"main" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeAll",
+				"valueType" : "BASE_NUMBER",
+				"val" : 8
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "RING",
+		"value" : 2250,
+		"graphics" : {
+			"image" : "artifacts/ringOfProtection/icon",
+			"scenarioBonus" : "artifacts/ringOfProtection/bonus",
+			"map" : "artifacts/ringOfProtection/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ring of Protection}\r\n\r\nReduces damage received from all attacks by units in the hero's army by 8%.",
+			"event" : "You are a witness of a warrior fighting a gorgon. Seeing that he's loosing it, you charge and slay the beast. In gratitude, thewarrior gives you his magic ring.",
+			"name" : "Ring of Protection"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"championCrown" : {
+		"bonuses" : {
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 6,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"value" : 12750,
+		"graphics" : {
+			"image" : "artifacts/championCrown/icon",
+			"scenarioBonus" : "artifacts/championCrown/bonus",
+			"map" : "artifacts/championCrown/adventure.def"
+		},
+		"text" : {
+			"description" : "{Champion's Crown}\r\n\r\nStack equipped with this artifact has its Max Health increased by 6 and its Damage increased by 1-3.",
+			"event" : "Visiting a local arena, you challenge the local champion. After dealing with him, you are awarded a token of victory.",
+			"name" : "Champion's Crown"
+		}
+	}
+}

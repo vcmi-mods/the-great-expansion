@@ -1,0 +1,35 @@
+{
+	"explorersHat" : {
+		"bonuses" : {
+			"movement" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 160,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "HEAD",
+		"value" : 7750,
+		"components": 
+		[
+			"centaurAxe",
+			"shieldOfTheDwarvenLords",
+			"helmOfTheAlabasterUnicorn",
+			"breastplateOfPetrifiedWood"
+		],
+		"graphics" : {
+			"image" : "artifacts/explorersHat/icon",
+			"scenarioBonus" : "artifacts/explorersHat/bonus",
+			"map" : "artifacts/explorersHat/adventure.def"
+		},
+		"text" : {
+			"description" : "{Explorer's Hat}\r\n\r\nAdds a small bonus to Movement Points on land.",
+			"event" : "You venture to a dreadful dungeon, where powerful monsters live. Before heading in, you find a small stall, where you can find fancy explorer hats. You get one to make your journey more proper.",
+			"name" : "Explorer's Hat"
+		}
+	}
+}

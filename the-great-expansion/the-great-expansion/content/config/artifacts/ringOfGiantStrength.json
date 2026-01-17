@@ -1,0 +1,39 @@
+{
+	"ringOfGiantStrength" : {
+		"bonuses" : {
+			"healthpercent" : {
+				"type" : "STACK_HEALTH",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_ALL"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "RING",
+		"value" : 13250,
+		"graphics" : {
+			"image" : "artifacts/ringOfGiantStrength/icon",
+			"scenarioBonus" : "artifacts/ringOfGiantStrength/bonus",
+			"map" : "artifacts/ringOfGiantStrength/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ring of Giant Strength}\r\n\r\nIncreases Damage and Health of all units in the hero's army by 25%, rounded down.",
+			"event" : "You are a witness of a warrior fighting a gorgon. Seeing that he's loosing it, you charge and slay the beast. In gratitude, the warrior gives you his magic ring.",
+			"name" : "Ring of Giant Strength"
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"capeOfMists" : {
+		"bonuses" : {
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "SHOOTER"
+					}
+				],
+			},
+			"damage" : {
+				"type" : "PERCENTAGE_DAMAGE_BOOST",
+				"subtype" : "damageTypeRanged",
+				"val" : -25,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "SHOULDERS",
+		"value" : 6500,
+		"graphics" : {
+			"image" : "artifacts/capeOfMists/icon",
+			"scenarioBonus" : "artifacts/capeOfMists/bonus",
+			"map" : "artifacts/capeOfMists/adventure.def"
+		},
+		"text" : {
+			"description" : "{Cape of Mists}\r\n\r\nEnemy ranged creatures suffer a penalty of -1 to Speed and -25% to ranged damage dealt.",
+			"event" : "A thick fog prevents you from travelling further, so you try to find the source of it. Turns out that it was a cape hanging at an abandoned shack.",
+			"name" : "Cape of Mists"
+		}
+	}
+}

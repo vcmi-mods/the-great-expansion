@@ -1,0 +1,28 @@
+{
+	"crescentDagger" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "LEFT_HAND",
+		"value" : 5000,
+		"graphics" : {
+			"image" : "artifacts/crescentDagger/icon",
+			"scenarioBonus" : "artifacts/crescentDagger/bonus",
+			"map" : "artifacts/crescentDagger/adventure.def"
+		},
+		"text" : {
+			"description" : "{Crescent Dagger}\r\n\r\nIncreases Attack of the hero by 5.",
+			"event" : "You reach an ancient shrine that is lit by the moonlight. Once you reach it, you find a beautiful dagger etched in the altar. You grab the dagger.",
+			"name" : "Crescent Dagger"
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"initiateBadge" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 3500,
+		"graphics" : {
+			"image" : "artifacts/initiateBadge/icon",
+			"scenarioBonus" : "artifacts/initiateBadge/bonus",
+			"map" : "artifacts/initiateBadge/adventure.def"
+		},
+		"text" : {
+			"description" : "{Initiate Badge}\r\n\r\nStack equipped with this artifact has a bonus of +1 to Attack, +1 to Defense and +2 to Speed.",
+			"event" : "At some time during resting for the night, you scrounge through your belongings and find the badge that was handed to every young and starting hero",
+			"name" : "Initiate Badge"
+		}
+	}
+}

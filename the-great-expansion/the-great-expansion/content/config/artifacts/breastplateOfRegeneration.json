@@ -1,0 +1,33 @@
+{
+	"breastplateOfRegeneration" : {
+		"bonuses" : {
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			"regenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 75
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "TORSO",
+		"value" : 11000,
+		"graphics" : {
+			"image" : "artifacts/breastplateOfRegeneration/icon",
+			"scenarioBonus" : "artifacts/breastplateOfRegeneration/bonus",
+			"map" : "artifacts/breastplateOfRegeneration/adventure.def"
+		},
+		"text" : {
+			"description" : "{Breastplate of Regeneration}\r\n\r\nIncreases the hero's Defense by 6 and causes units in the hero's army to regenerate 75 Health at the start of their turns.",
+			"event" : "You notice two knights fighting. When one cuts off the arm of the other, you think you know the winner, but shortly after you see that it was apparently a flesh wound, as the arm has grown back and let the other knight ultimately win. He looks at you and points at his breastplate, then tells you how to get one at a bargain.",
+			"name" : "Breastplate of Regeneration"
+		}
+	}
+}

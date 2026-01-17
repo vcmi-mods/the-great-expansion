@@ -1,0 +1,61 @@
+{
+	"infliction" : {
+		"name" : "Infliction",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 7
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "SPELL_DURATION",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Infliction}\n\nIncreases duration of the hero's spells by 2 turns.",
+			"effects" : {
+				"main" : {
+					"val" : 2
+				}
+			},
+			"images" : {
+				"small" : "skills/infliction/icons/small/basic",
+				"medium" : "skills/infliction/icons/medium/basic",
+				"large" : "skills/infliction/icons/large/basic",
+				"scenarioBonus" : "skills/infliction/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Infliction}\n\nIncreases duration of the hero's spells by 3 turns.",
+			"effects" : {
+				"main" : {
+					"val" : 3
+				}
+			},
+			"images" : {
+				"small" : "skills/infliction/icons/small/advanced",
+				"medium" : "skills/infliction/icons/medium/advanced",
+				"large" : "skills/infliction/icons/large/advanced",
+				"scenarioBonus" : "skills/infliction/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Infliction}\n\nIncreases duration of the hero's spells by 5 turns.",
+			"effects" : {
+				"main" : {
+					"val" : 5
+				}
+			},
+			"images" : {
+				"small" : "skills/infliction/icons/small/expert",
+				"medium" : "skills/infliction/icons/medium/expert",
+				"large" : "skills/infliction/icons/large/expert",
+				"scenarioBonus" : "skills/infliction/icons/large/expert"
+			}
+		}
+	}
+}

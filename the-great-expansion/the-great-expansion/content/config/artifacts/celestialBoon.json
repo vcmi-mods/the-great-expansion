@@ -1,0 +1,25 @@
+{
+	"celestialBoon" : {
+		"bonuses" : {
+			"receptive" : {
+				"type" : "RECEPTIVE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 4250,
+		"graphics" : {
+			"image" : "artifacts/celestialBoon/icon",
+			"scenarioBonus" : "artifacts/celestialBoon/bonus",
+			"map" : "artifacts/celestialBoon/adventure.def"
+		},
+		"text" : {
+			"description" : "{Celestial Boon}\r\n\r\nStack equipped with this artifact can be target of friendly spells even if it has Magic Immunity.",
+			"event" : "A short visit in a village ended in a prolonged stay at a local floral festival. You find one surprisingly peculiar one and buy it for a few copper pieces.",
+			"name" : "Celestial Boon"
+		}
+	}
+}

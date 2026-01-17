@@ -1,0 +1,54 @@
+{
+	"bladeBane" : {
+		"name" : "Blade Bane",
+		"gainChance" : {
+			"might" : 4,
+			"magic" : 7
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "ENEMY_ATTACK_REDUCTION",
+					"val" : 7.5
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Blade Bane}\n\nUnits in the hero's army ignore 7.5% of enemy's Attack.",
+			"effects" : {
+				"main" : { "val" : 7.5 }
+			},
+			"images" : {
+				"small" : "skills/bladeBane/icons/small/basic",
+				"medium" : "skills/bladeBane/icons/medium/basic",
+				"large" : "skills/bladeBane/icons/large/basic",
+				"scenarioBonus" : "skills/bladeBane/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Blade Bane}\n\nUnits in the hero's army ignore 15% of enemy's Attack.",
+			"effects" : {
+				"main" : { "val" : 15 }
+			},
+			"images" : {
+				"small" : "skills/bladeBane/icons/small/advanced",
+				"medium" : "skills/bladeBane/icons/medium/advanced",
+				"large" : "skills/bladeBane/icons/large/advanced",
+				"scenarioBonus" : "skills/bladeBane/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Blade Bane}\n\nUnits in the hero's army ignore 22.5% of enemy's Attack.",
+			"effects" : {
+				"main" : { "val" : 22.5 }
+			},
+			"images" : {
+				"small" : "skills/bladeBane/icons/small/expert",
+				"medium" : "skills/bladeBane/icons/medium/expert",
+				"large" : "skills/bladeBane/icons/large/expert",
+				"scenarioBonus" : "skills/bladeBane/icons/large/expert"
+			}
+		}
+	}
+}

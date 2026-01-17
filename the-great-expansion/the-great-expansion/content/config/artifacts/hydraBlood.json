@@ -1,0 +1,37 @@
+{
+	"hydraBlood" : {
+		"bonuses" : {
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"healthpercent" : {
+				"type" : "STACK_HEALTH",
+				"val" : 20,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			"regenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"val" : 75
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 6250,
+		"graphics" : {
+			"image" : "artifacts/hydraBlood/icon",
+			"scenarioBonus" : "artifacts/hydraBlood/bonus",
+			"map" : "artifacts/hydraBlood/adventure.def"
+		},
+		"text" : {
+			"description" : "{Hydra's Blood}\r\n\r\nStack equipped with this artifact has a bonus of +3 to Max Health, an additional 20% to Max Health and Regenerates 75 Health per turn.",
+			"event" : "You see a mighty man dressed in a lion's skin fight a ferocious hydra using a massive club. You help him out, and together take the spoils the creature has to provide.",
+			"name" : "Hydra's Blood"
+		}
+	}
+}

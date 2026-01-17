@@ -1,0 +1,39 @@
+{
+	"runeOfGiantStrength" : {
+		"bonuses" : {
+			"healthpercent" : {
+				"type" : "STACK_HEALTH",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_ALL"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 5000,
+		"graphics" : {
+			"image" : "artifacts/runeOfGiantStrength/icon",
+			"scenarioBonus" : "artifacts/runeOfGiantStrength/bonus",
+			"map" : "artifacts/runeOfGiantStrength/adventure.def"
+		},
+		"text" : {
+			"description" : "{Rune of Giant Strength}\r\n\r\nStack equipped with this artifact has a bonus of +25% to Damage and Max Health, rounded down.",
+			"event" : "You help a runesmith by securing a cargo of ore. For this help, he rewards you with a magic rune.",
+			"name" : "Rune of Giant Strength"
+		}
+	}
+}

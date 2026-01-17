@@ -1,0 +1,27 @@
+{
+	"initiateRing" : {
+		"bonuses" : {
+			"main" : {
+				"type" : "COMBAT_MANA_BONUS",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "RING",
+		"value" : 2000,
+		"graphics" : {
+			"image" : "artifacts/initiateRing/icon",
+			"scenarioBonus" : "artifacts/initiateRing/bonus",
+			"map" : "artifacts/initiateRing/adventure.def"
+		},
+		"text" : {
+			"description" : "{Initiate Ring}\r\n\r\nGrants you 5 Mana at the start of each battle. The mana is lost when the battle ends.",
+			"event" : "You are a witness of a warrior fighting a gorgon. Seeing that he's loosing it, you charge and slay the beast. In gratitude, thewarrior gives you his magic ring.",
+			"name" : "Initiate Ring"
+		}
+	}
+}

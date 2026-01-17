@@ -1,0 +1,34 @@
+{
+	"elvishChainmail" : {
+		"bonuses" : {
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			"immunity" : {
+				"subtype" : "spell.slow",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "TORSO",
+		"value" : 5250,
+		"graphics" : {
+			"image" : "artifacts/elvishChainmail/icon",
+			"scenarioBonus" : "artifacts/elvishChainmail/bonus",
+			"map" : "artifacts/elvishChainmail/adventure.def"
+		},
+		"text" : {
+			"description" : "{Elvish Chainmail}\r\n\r\nIncreases the hero's Defense by 2 and grants the army immunity to Slow.",
+			"event" : "\"I won't go to war! I love her! I'll become a bard!\" You see a shouting elf who throws away a good quality chainmail. After he walks away, you pick it up.",
+			"name" : "Elvish Chainmail"
+		}
+	}
+}

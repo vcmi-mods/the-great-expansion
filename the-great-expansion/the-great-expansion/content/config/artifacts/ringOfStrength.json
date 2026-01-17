@@ -1,0 +1,34 @@
+{
+	"ringOfStrength" : {
+		"bonuses" : {
+			"immunity1" : {
+				"subtype" : "spell.weakness",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			},
+			"immunity2" : {
+				"subtype" : "spell.disruptingRay",
+				"type" : "SPELL_IMMUNITY",
+				"val" : 0,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "RING",
+		"value" : 2500,
+		"graphics" : {
+			"image" : "artifacts/ringOfStrength/icon",
+			"scenarioBonus" : "artifacts/ringOfStrength/bonus",
+			"map" : "artifacts/ringOfStrength/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ring of Strength}\r\n\r\nRenders all units in the hero's army immune to Weakness and Disrupting Ray spells.",
+			"event" : "You are a witness of a warrior fighting a gorgon. Seeing that he's loosing it, you charge and slay the beast. In gratitude, thewarrior gives you his magic ring.",
+			"name" : "Ring of Strength"
+		}
+	}
+}

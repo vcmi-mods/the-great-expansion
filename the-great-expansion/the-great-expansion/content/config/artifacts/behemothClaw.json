@@ -1,0 +1,39 @@
+{
+	"behemothClaw" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 50
+			},
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 8750,
+		"graphics" : {
+			"image" : "artifacts/behemothClaw/icon",
+			"scenarioBonus" : "artifacts/behemothClaw/bonus",
+			"map" : "artifacts/behemothClaw/adventure.def"
+		},
+		"text" : {
+			"description" : "{Behemoth Claw}\r\n\r\nStack equipped with this artifact has a bonus of +5 to Attack and Defense and ignores 50% of enemy's Defense when attacking.",
+			"event" : "A powerful roar draws you to a point where a behemoth was fighting with a pack of orcs, trying to tame it. The fight ends with behemoth dying and just several of the orcs leaving the battlefield. After watching the fight, you come and pick up one of the claws lying around.",
+			"name" : "Behemoth Claw"
+		}
+	}
+}

@@ -1,0 +1,113 @@
+{
+    "regeneration":
+    {   
+        "type": "combat",
+        "targetType":"LOCATION",
+        "name": "Regeneration",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : true
+		},
+        "level": 2,
+        "power": 10,
+        "defaultGainChance": 5, 
+        "gainChance":
+        {
+            "castle" : 7,
+			"rampart" : 6,
+			"tower" : 5,
+			"inferno" : 3,
+			"necropolis" : 5,
+			"dungeon" : 2,
+			"stronghold" : 3,
+			"fortress" : 5,
+			"conflux" : 7
+        },
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {}
+		},
+		"flags" : {
+			"positive": true
+		},
+		"graphics" : {
+			"iconBook" : "spells/regeneration/book",
+			"iconScroll" : "spells/regeneration/scroll",
+			"iconScenarioBonus" : "spells/regeneration/scenario",
+			"iconEffect" : "spells/regeneration/effect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"spells/regeneration/spell.def"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "spells/regeneration/sfx.wav"
+		},
+		
+		"levels" : {
+			"base" : {
+				"range" : "0",
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier" : {
+					"smart" : true
+				},
+				"effects" : {
+					"main" : {
+						"type" : "HP_REGENERATION",
+						"val" : 40,
+						"duration" : [
+							"N_TURNS"
+						]
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Regeneration}\n\nThe selected unit will heal 40 Health at the start of each of its turns.",
+
+				"cost" : 8
+			},
+			"basic" : {
+				"description" : "{Basic Regeneration}\n\nThe selected unit will heal 40 Health at the start of each of its turns.",
+
+				"cost" : 6
+			},
+			"advanced" : {
+				"description" : "{Advanced Regeneration}\n\nThe selected units will heal 70 Health at the start of each of its turns.",
+				"cost" : 6,
+				"range": "0-1",
+				"effects" : {
+					"main" : {
+						"type" : "HP_REGENERATION",
+						"val" : 70,
+						"duration" : [
+							"N_TURNS"
+						]
+					}
+				}
+			},
+			"expert" : {
+				"description" : "{Expert Regeneration}\n\nThe selected units will heal 100 Health at the start of each of its turns.",
+
+				"cost" : 6,
+				"range" : "0-2",
+				"effects" : {
+					"main" : {
+						"type" : "HP_REGENERATION",
+						"val" : 100,
+						"duration" : [
+							"N_TURNS"
+						]
+					}
+				}
+			}
+		}
+    }
+
+}

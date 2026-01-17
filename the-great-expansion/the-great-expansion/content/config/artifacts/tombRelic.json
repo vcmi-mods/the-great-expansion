@@ -1,0 +1,39 @@
+{
+	"tombRelic" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defence" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 5000,
+		"graphics" : {
+			"image" : "artifacts/tombRelic/icon",
+			"scenarioBonus" : "artifacts/tombRelic/bonus",
+			"map" : "artifacts/tombRelic/adventure.def"
+		},
+		"text" : {
+			"description" : "{Tomb Relic}\r\n\r\nIncreases Attack and Defense of the hero by 3, but reduces Morale by 1.",
+			"event" : "You found an unguarded tomb. Upon peeking inside, you find an intricate artifact. You decide to take it, but something seems to weight down on you.",
+			"name" : "Tomb Relic"
+		}
+	}
+}

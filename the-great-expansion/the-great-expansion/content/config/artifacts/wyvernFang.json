@@ -1,0 +1,41 @@
+{
+	"wyvernFang" : {
+		"bonuses" : {
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"blinds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.poison",
+				"val" : 20,
+				"addInfo" : [3,0]
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 8250,
+		"graphics" : {
+			"image" : "artifacts/wyvernFang/icon",
+			"scenarioBonus" : "artifacts/wyvernFang/bonus",
+			"map" : "artifacts/wyvernFang/adventure.def"
+		},
+		"text" : {
+			"description" : "{Wyvern Fang}\r\n\r\nStack equipped with this artifact has its Damage increased by 1-2 and has a 20% chance to inflict Poison.",
+			"event" : "After a tough fight with a wyvern, you take its fang as a trophy.",
+			"name" : "Wyvern Fang"
+		}
+	}
+}

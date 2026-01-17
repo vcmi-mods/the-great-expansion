@@ -1,0 +1,25 @@
+{
+	"necklaceOfTheMuses" : {
+		"bonuses" : {
+			"receptive" : {
+				"type" : "RECEPTIVE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "NECK",
+		"value" : 11000,
+		"graphics" : {
+			"image" : "artifacts/necklaceOfTheMuses/icon",
+			"scenarioBonus" : "artifacts/necklaceOfTheMuses/bonus",
+			"map" : "artifacts/necklaceOfTheMuses/adventure.def"
+		},
+		"text" : {
+			"description" : "{Necklace of the Muses}\r\n\r\nBeneficial spells you cast ignore Magic Immunity of friendly units.",
+			"event" : "You happen upon a group of young women and join them to a singing contest. For your best performance, you are awarded with a Necklace of the Muses.",
+			"name" : "Necklace of the Muses"
+		}
+	}
+}

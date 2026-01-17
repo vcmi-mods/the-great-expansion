@@ -1,0 +1,35 @@
+{
+	"reignOfTheSwampKing" : {
+		"bonuses" : {
+			"deathStare" : 
+			{
+				"type" : "DEATH_STARE",
+				"subtype" : "deathStareGorgon",
+				"val" : 3
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "LEFT_HAND",
+		"value" : 18500,
+		"components": 
+		[
+			"greaterGnollsFlail",
+			"bucklerOfTheGnollKing",
+			"helmOfChaos",
+			"scalesOfTheGreaterBasilisk"
+		],
+		"graphics" : {
+			"image" : "artifacts/reignOfTheSwampKing/icon",
+			"scenarioBonus" : "artifacts/reignOfTheSwampKing/bonus",
+			"map" : "artifacts/reignOfTheSwampKing/adventure.def"
+		},
+		"text" : {
+			"description" : "{Reign of the Swamp King}\r\n\r\nEach unit in the hero's army has a 3% chance (per creature in stack) to kill one enemy creature.",
+			"event" : "A brief visit at a Tatalian fortress seemed off from the beginning. When you met the king and were ordered to be executed, you just killed the king, took his belongings and left, leaving everyone in shock.",
+			"name" : "Reign of the Swamp King"
+		}
+	}
+}

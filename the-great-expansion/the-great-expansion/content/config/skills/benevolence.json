@@ -1,0 +1,103 @@
+{
+	"benevolence" : {
+		"name" : "Benevolence",
+		"gainChance" : {
+			"might" : 2,
+			"magic" : 4
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"bless" : {
+					"addInfo" : 0,
+					"subtype" : "spell.bless",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				},
+				"bloodlust" : {
+					"addInfo" : 0,
+					"subtype" : "spell.bloodlust",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				},
+				"haste": {
+					"addInfo" : 0,
+					"subtype" : "spell.haste",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				},
+				"stoneSkin" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Benevolence}\n\nIncreases effectiveness of some spells:\nBless increases the target's Damage by an additional 1. Bloodlust increases Attack by an additional 1.\nHaste increases Speed by an additional 1.\nStone Skin increases Defense by an additional 1.",
+			"effects" : {
+				"bless" : {
+					"addInfo" : 1
+				},
+				"bloodlust" : {
+					"addInfo" : 1
+				},
+				"haste" : {
+					"addInfo" : 1
+				},
+				"stoneSkin" : {
+					"addInfo" : 1
+				},
+			},
+			"images" : {
+				"small" : "skills/benevolence/icons/small/basic",
+				"medium" : "skills/benevolence/icons/medium/basic",
+				"large" : "skills/benevolence/icons/large/basic",
+				"scenarioBonus" : "skills/benevolence/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Benevolence}\n\nIncreases effectiveness of some spells:\nBless increases the target's Damage by an additional 2. Bloodlust increases Attack by an additional 2.\nHaste increases Speed by an additional 2.\nStone Skin increases Defense by an additional 2.",
+			"effects" : {
+				"bless" : {
+					"addInfo" : 2
+				},
+				"bloodlust" : {
+					"addInfo" : 2
+				},
+				"haste" : {
+					"addInfo" : 2
+				},
+				"stoneSkin" : {
+					"addInfo" : 2
+				},
+			},
+			"images" : {
+				"small" : "skills/benevolence/icons/small/advanced",
+				"medium" : "skills/benevolence/icons/medium/advanced",
+				"large" : "skills/benevolence/icons/large/advanced",
+				"scenarioBonus" : "skills/benevolence/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Benevolence}\n\nIncreases effectiveness of some spells:\nBless increases the target's Damage by an additional 3. Bloodlust increases Attack by an additional 3.\nHaste increases Speed by an additional 3.\nStone Skin increases Defense by an additional 3.",
+			"effects" : {
+				"bless" : {
+					"addInfo" : 3
+				},
+				"bloodlust" : {
+					"addInfo" : 3
+				},
+				"haste" : {
+					"addInfo" : 3
+				},
+				"stoneSkin" : {
+					"addInfo" : 3
+				},
+			},
+			"images" : {
+				"small" : "skills/benevolence/icons/small/expert",
+				"medium" : "skills/benevolence/icons/medium/expert",
+				"large" : "skills/benevolence/icons/large/expert",
+				"scenarioBonus" : "skills/benevolence/icons/large/expert"
+			}
+		}
+	}
+}

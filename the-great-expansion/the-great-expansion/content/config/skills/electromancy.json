@@ -1,0 +1,63 @@
+{
+	"electromancy" : {
+		"name" : "Electromancy",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 6
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "OPENING_BATTLE_SPELL",
+					"val" : 10,
+					"subtype" : "spell.instantLightning",
+					"valueType" : "BASE_NUMBER",
+					"addInfo" : 1
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Electromancy}\n\nBlasts all enemies with a weak lightning at the start of each combat (deals 8*Spellpower damage).",
+			"effects" : {
+				"main" : {
+					"addInfo" : 1
+				}
+			},
+			"images" : {
+				"small" : "skills/electromancy/icons/small/basic",
+				"medium" : "skills/electromancy/icons/medium/basic",
+				"large" : "skills/electromancy/icons/large/basic",
+				"scenarioBonus" : "skills/electromancy/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Electromancy}\n\nBlasts all enemies with a medium lightning at the start of each combat (deals 100+8*Spellpower damage).",
+			"effects" : {
+				"main" : {
+					"addInfo" : 2
+				}
+			},
+			"images" : {
+				"small" : "skills/electromancy/icons/small/advanced",
+				"medium" : "skills/electromancy/icons/medium/advanced",
+				"large" : "skills/electromancy/icons/large/advanced",
+				"scenarioBonus" : "skills/electromancy/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Electromancy}\n\nBlasts all enemies with a strong lightning at the start of each combat (deals 200+8*Spellpower damage).",
+			"effects" : {
+				"main" : {
+					"addInfo" : 3
+				}
+			},
+			"images" : {
+				"small" : "skills/electromancy/icons/small/expert",
+				"medium" : "skills/electromancy/icons/medium/expert",
+				"large" : "skills/electromancy/icons/large/expert",
+				"scenarioBonus" : "skills/electromancy/icons/large/expert"
+			}
+		}
+	}
+}

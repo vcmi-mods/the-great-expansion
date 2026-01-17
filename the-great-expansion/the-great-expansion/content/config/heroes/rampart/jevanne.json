@@ -1,0 +1,89 @@
+{
+	"jevanne" :
+	{
+		"class" : "druid",
+		"spellbook": [ "iceBolt" ],
+		"female" : true,
+		"special" : false,
+		"onlyOnWaterMap" : false,
+		"onlyOnMapWithoutWater" : false,
+
+		"texts" :
+		{
+			"name" : "Jevanne",
+			"biography" : "Jevanne has a deep connection with the trees. Whenever she becomes threatened, she can awaken the treants and send them at surprisingly fast speed.",
+			"specialty" :
+			{
+				"description" : "Dendroid Guards and Dendroid Soldiers gain a bonus of +3 to Speed, but also gain a penalty of -3 to Defense.",
+				"tooltip" : "Creature Bonus: Dendroids",
+				"name" : "Dendroids"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "heroes/rampart/jevanne/specSmall.png",
+			"specialtyLarge" : "heroes/rampart/jevanne/specLarge.png",
+			"large" : "heroes/rampart/jevanne/large.png",
+			"small" : "heroes/rampart/jevanne/small.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "centaur",
+				"max" : 15,
+				"min" : 10
+			},
+			{
+				"creature" : "dendroidGuard",
+				"max" : 2,
+				"min" : 2
+			},
+			{
+				"creature" : "dendroidGuard",
+				"max" : 2,
+				"min" : 2
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "mysticism"
+			},
+			{
+				"level" : "basic",
+				"skill" : "championTraining"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 3,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "dendroidGuard",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				"defense" : {
+					"subtype" : "primarySkill.defence",
+					"type" : "PRIMARY_SKILL",
+					"val" : -3,
+					"valueType" : "BASE_NUMBER",
+					"limiters": [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "dendroidGuard",
+							"includeUpgrades" : true
+						}
+					],
+				}
+			}
+		}
+	}
+}

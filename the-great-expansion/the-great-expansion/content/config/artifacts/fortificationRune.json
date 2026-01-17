@@ -1,0 +1,39 @@
+{
+	"fortificationRune" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 7,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 7,
+				"valueType" : "BASE_NUMBER"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : -1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 4500,
+		"graphics" : {
+			"image" : "artifacts/fortificationRune/icon",
+			"scenarioBonus" : "artifacts/fortificationRune/bonus",
+			"map" : "artifacts/fortificationRune/adventure.def"
+		},
+		"text" : {
+			"description" : "{Fortification Rune}\r\n\r\nStack equipped with this artifact has a bonus of +7 to Attack and +7 to Defense, but suffers a penalty of -1 to Speed.",
+			"event" : "You help a runesmith by securing a cargo of ore. For this help, he rewards you with a magic rune.",
+			"name" : "Fortification Rune"
+		}
+	}
+}

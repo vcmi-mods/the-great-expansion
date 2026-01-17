@@ -1,0 +1,34 @@
+{
+	"wandererBoots" : {
+		"bonuses" : {
+			"movement" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 600,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"movementSea" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementSea",
+				"val" : 600,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "FEET",
+		"value" : 14500,
+		"graphics" : {
+			"image" : "artifacts/wandererBoots/icon",
+			"scenarioBonus" : "artifacts/wandererBoots/bonus",
+			"map" : "artifacts/wandererBoots/adventure.def"
+		},
+		"text" : {
+			"description" : "{Wanderer's Boots}\r\n\r\nIncreases the amount of Movement Points on land and sea by 600.",
+			"event" : "You meet up a traveller, who says that he was wandering too much in his life and needs to settle down. He then hands his boots.",
+			"name" : "Wanderer's Boots"
+		}
+	}
+}

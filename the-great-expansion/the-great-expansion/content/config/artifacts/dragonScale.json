@@ -1,0 +1,27 @@
+{
+	"dragonScale" : {
+		"bonuses" : {
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 5
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 13000,
+		"graphics" : {
+			"image" : "artifacts/dragonScale/icon",
+			"scenarioBonus" : "artifacts/dragonScale/bonus",
+			"map" : "artifacts/dragonScale/adventure.def"
+		},
+		"text" : {
+			"description" : "{Dragon Scale}\r\n\r\nStack equipped with this artifact is immune to all spells.",
+			"event" : "After fighting a powerful dragon, you take one of its scales as you know they are good against enemy mages.",
+			"name" : "Dragon Scale"
+		}
+	}
+}

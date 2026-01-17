@@ -1,0 +1,60 @@
+{
+	"channeling" : {
+		"name" : "Channeling",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 7
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "CHANGES_SPELL_COST_FOR_ALLY",
+					"val" : 1
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Channeling}\n\nReduces the mana cost of spells cast by the hero by 1. Doesn't stack with other manacost-reducing abilities.",
+			"effects" : {
+				"main" : {
+					"val" : 1
+				}
+			},
+			"images" : {
+				"small" : "skills/channeling/icons/small/basic",
+				"medium" : "skills/channeling/icons/medium/basic",
+				"large" : "skills/channeling/icons/large/basic",
+				"scenarioBonus" : "skills/channeling/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Channeling}\n\nReduces the mana cost of spells cast by the hero by 2. Doesn't stack with other manacost-reducing abilities.",
+			"effects" : {
+				"main" : {
+					"val" : 2
+				}
+			},
+			"images" : {
+				"small" : "skills/channeling/icons/small/advanced",
+				"medium" : "skills/channeling/icons/medium/advanced",
+				"large" : "skills/channeling/icons/large/advanced",
+				"scenarioBonus" : "skills/channeling/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Channeling}\n\nReduces the mana cost of spells cast by the hero by 3. Doesn't stack with other manacost-reducing abilities.",
+			"effects" : {
+				"main" : {
+					"val" : 3
+				}
+			},
+			"images" : {
+				"small" : "skills/channeling/icons/small/expert",
+				"medium" : "skills/channeling/icons/medium/expert",
+				"large" : "skills/channeling/icons/large/expert",
+				"scenarioBonus" : "skills/channeling/icons/large/expert"
+			}
+		}
+	}
+}

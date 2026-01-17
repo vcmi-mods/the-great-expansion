@@ -1,0 +1,28 @@
+{
+	"scarabOfFortitude" : {
+		"bonuses" : {
+			"main" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeAll",
+				"valueType" : "BASE_NUMBER",
+				"val" : 40
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "NECK",
+		"value" : 17750,
+		"graphics" : {
+			"image" : "artifacts/scarabOfFortitude/icon",
+			"scenarioBonus" : "artifacts/scarabOfFortitude/bonus",
+			"map" : "artifacts/scarabOfFortitude/adventure.def"
+		},
+		"text" : {
+			"description" : "{Scarab of Fortitude}\r\n\r\nReduces damage received by your army from physical attacks by 40%.",
+			"event" : "You find a stray cat playing with something and making a lot of noise. Surprised, you find out that the toy was actually a Scarab of Fortitude. You take both the cat and the artifact, taking a proper care of both of them.",
+			"name" : "Scarab of Fortitude"
+		}
+	}
+}

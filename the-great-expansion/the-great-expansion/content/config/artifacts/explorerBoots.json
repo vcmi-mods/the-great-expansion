@@ -1,0 +1,33 @@
+{
+	"explorerBoots" : {
+		"bonuses" : {
+			"scouting" : {
+				"type" : "SIGHT_RADIUS",
+				"valueType" : "BASE_NUMBER",
+				"val" : 1
+			},
+			"movement" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 300,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "FEET",
+		"value" : 10250,
+		"graphics" : {
+			"image" : "artifacts/explorerBoots/icon",
+			"scenarioBonus" : "artifacts/explorerBoots/bonus",
+			"map" : "artifacts/explorerBoots/adventure.def"
+		},
+		"text" : {
+			"description" : "{Explorer's Boots}\r\n\r\nIncreases the amount of Movement Points on land by 300 and increases Sight Radius by 1.",
+			"event" : "You visit an old friend of yours, who is now too old to walk. Glad for your visit, he gives you the pair of boots in which he has explored a lot.",
+			"name" : "Explorer's Boots"
+		}
+	}
+}

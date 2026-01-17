@@ -1,0 +1,94 @@
+{
+	"championTraining" : {
+		"name" : "Champion Training",
+		"gainChance" : {
+			"might" : 6,
+			"magic" : 4
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"attack" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeMelee",
+					"val" : 6,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 8
+						}
+					]
+				},
+				"attackrng" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"val" : 6,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 8
+						}
+					]
+				},
+				"defence" : {
+					"subtype" : "damageTypeAll",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 5,
+							"maxlevel" : 8
+						}
+					],
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Champion Training}\n\nEmpowers your tier 5-7 units, increasing their damage dealt by 6% and reducing their damage received by 5%.",
+			"effects" : {
+				"attack" : { "val" : 6 },
+				"attackrng" : { "val" : 6 },
+				"defence" : { "val" : 5 }
+			},
+			"images" : {
+				"small" : "skills/championTraining/icons/small/basic",
+				"medium" : "skills/championTraining/icons/medium/basic",
+				"large" : "skills/championTraining/icons/large/basic",
+				"scenarioBonus" : "skills/championTraining/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Champion Training}\n\nEmpowers your tier 5-7 units, increasing their damage dealt by 12% and reducing their damage received by 10%.",
+			"effects" : {
+				"attack" : { "val" : 12 },
+				"attackrng" : { "val" : 12 },
+				"defence" : { "val" : 10 }
+			},
+			"images" : {
+				"small" : "skills/championTraining/icons/small/advanced",
+				"medium" : "skills/championTraining/icons/medium/advanced",
+				"large" : "skills/championTraining/icons/large/advanced",
+				"scenarioBonus" : "skills/championTraining/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Champion Training}\n\nEmpowers your tier 5-7 units, increasing their damage dealt by 18% and reducing their damage received by 15%.",
+			"effects" : {
+				"attack" : { "val" : 18 },
+				"attackrng" : { "val" : 18 },
+				"defence" : { "val" : 15 }
+			},
+			"images" : {
+				"small" : "skills/championTraining/icons/small/expert",
+				"medium" : "skills/championTraining/icons/medium/expert",
+				"large" : "skills/championTraining/icons/large/expert",
+				"scenarioBonus" : "skills/championTraining/icons/large/expert"
+			}
+		}
+	}
+}

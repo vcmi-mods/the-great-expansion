@@ -1,0 +1,112 @@
+{
+	"swiftness" : {
+		"name" : "Swiftness",
+		"gainChance" : {
+			"might" : 5,
+			"magic" : 5
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"speed" : {
+					"type" : "STACKS_SPEED",
+					"val" : 1,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 3
+						}
+					]
+				},
+				"speed2" : {
+					"type" : "STACKS_SPEED",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 8
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Swiftness}\n\nIncreases Speed of units of tiers 1-2 in the hero's army by 1.",
+			"effects" : {
+				"speed" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/swiftness/icons/small/basic",
+				"medium" : "skills/swiftness/icons/medium/basic",
+				"large" : "skills/swiftness/icons/large/basic",
+				"scenarioBonus" : "skills/swiftness/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Swiftness}\n\nIncreases Speed of all units in the hero's army by 1 and speed of tier 1 units by an additional 1.",
+			"effects" : {
+				"speed" : { 
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 99
+						}
+					]
+				},
+				"speed2" : {
+					"val" : 1 ,
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 2
+						}
+					]
+				}
+			},
+			"images" : {
+				"small" : "skills/swiftness/icons/small/advanced",
+				"medium" : "skills/swiftness/icons/medium/advanced",
+				"large" : "skills/swiftness/icons/large/advanced",
+				"scenarioBonus" : "skills/swiftness/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Swiftness}\n\nIncreases Speed of all units in the hero's army by 1 and speed of tier 1-5 units by an additional 1.",
+			"effects" : {
+				"speed" : { 
+					"val" : 1,
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 99
+						}
+					]
+				},
+				"speed2" : {
+					"val" : 1 ,
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 1,
+							"maxlevel" : 6
+						}
+					]
+				}
+			},
+			"images" : {
+				"small" : "skills/swiftness/icons/small/expert",
+				"medium" : "skills/swiftness/icons/medium/expert",
+				"large" : "skills/swiftness/icons/large/expert",
+				"scenarioBonus" : "skills/swiftness/icons/large/expert"
+			}
+		}
+	}
+}

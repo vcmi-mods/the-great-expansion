@@ -1,0 +1,27 @@
+{
+	"orderOfRecognition" : {
+		"bonuses" : {
+			"diplo" : {
+				"type" : "WANDERING_CREATURES_JOIN_BONUS",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "NECK",
+		"value" : 4750,
+		"graphics" : {
+			"image" : "artifacts/orderOfRecognition/icon",
+			"scenarioBonus" : "artifacts/orderOfRecognition/bonus",
+			"map" : "artifacts/orderOfRecognition/adventure.def"
+		},
+		"text" : {
+			"description" : "{Order of Recognition}\r\n\r\nIncreases the chance a neutral stack will join the hero's army.",
+			"event" : "After a number of strange events, you find yourself negotiating with a band of goons to change their ways. While the situation was sure odd, the Order of Recognition will sure come handy in your adventures.",
+			"name" : "Order of Recognition"
+		}
+	}
+}

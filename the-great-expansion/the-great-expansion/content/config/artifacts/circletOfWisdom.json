@@ -1,0 +1,33 @@
+{
+	"circletOfWisdom" : {
+		"bonuses" : {
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"manaRegen" : {
+				"type" : "MANA_REGENERATION",
+				"valueType" : "BASE_NUMBER",
+				"val" : 2
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "HEAD",
+		"value" : 1750,
+		"graphics" : {
+			"image" : "artifacts/circletOfWisdom/icon",
+			"scenarioBonus" : "artifacts/circletOfWisdom/bonus",
+			"map" : "artifacts/circletOfWisdom/adventure.def"
+		},
+		"text" : {
+			"description" : "{Circlet of Wisdom}\r\n\r\nIncreases Knowledge by 1 and daily Mana Regeneration by 2.",
+			"event" : "You meet a wizened witch, and upon telling her your goals, she hands you Circlet of Wisdom to aid in future decisions.",
+			"name" : "Circlet of Wisdom"
+		}
+	}
+}

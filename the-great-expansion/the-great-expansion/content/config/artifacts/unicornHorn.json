@@ -1,0 +1,44 @@
+{
+	"unicornHorn" : {
+		"bonuses" : {
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"blinds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 20,
+				"addInfo" : [3,0]
+			},
+			"magicResistance" :
+			{
+				"type" : "MAGIC_RESISTANCE",
+				"val" : 20
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 7000,
+		"graphics" : {
+			"image" : "artifacts/unicornHorn/icon",
+			"scenarioBonus" : "artifacts/unicornHorn/bonus",
+			"map" : "artifacts/unicornHorn/adventure.def"
+		},
+		"text" : {
+			"description" : "{Unicorn Horn}\r\n\r\nStack equipped with this artifact has a bonus of +2 to Max Health, +1 to Speed, gains 20% Spell Resistance and has a 20% chance to cast Blind on the target.",
+			"event" : "Passing through a peaceful meadow, you happen upon two mating unicorns. Trying to move as far away as possible from this sight, you stumple upon one of the unicorn horns. You keep it.",
+			"name" : "Unicorn Horn"
+		}
+	}
+}

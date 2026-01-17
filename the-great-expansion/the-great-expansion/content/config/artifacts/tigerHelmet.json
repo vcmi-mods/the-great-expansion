@@ -1,0 +1,38 @@
+{
+	"tigerHelmet" : {
+		"bonuses" : {
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 5,
+				"valueType" : "BASE_NUMBER"
+			},
+			"damage" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"noRetal" : {
+				"type" : "FIRST_STRIKE",
+				"subtype" : "damageTypeAll"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 6000,
+		"graphics" : {
+			"image" : "artifacts/tigerHelmet/icon",
+			"scenarioBonus" : "artifacts/tigerHelmet/bonus",
+			"map" : "artifacts/tigerHelmet/adventure.def"
+		},
+		"text" : {
+			"description" : "{Tiger Helmet}\r\n\r\nStack equipped with this artifact gains 5 Defense, 1 Max Damage and gains First Strike.",
+			"event" : "After a tough battle with a white tiger, you are rewarded with this nice artifact Use it well.",
+			"name" : "Tiger Helmet"
+		}
+	}
+}

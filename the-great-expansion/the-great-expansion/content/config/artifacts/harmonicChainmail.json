@@ -1,0 +1,38 @@
+{
+	"harmonicChainmail" : {
+		"bonuses" : {
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 8,
+				"valueType" : "BASE_NUMBER"
+			},
+			"morale" : {
+				"type" : "MORALE",
+				"valueType" : "BASE_NUMBER",
+				"val" : 3
+			},
+			"luck" : {
+				"type" : "LUCK",
+				"valueType" : "BASE_NUMBER",
+				"val" : 3
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "TORSO",
+		"value" : 14750,
+		"graphics" : {
+			"image" : "artifacts/harmonicChainmail/icon",
+			"scenarioBonus" : "artifacts/harmonicChainmail/bonus",
+			"map" : "artifacts/harmonicChainmail/adventure.def"
+		},
+		"text" : {
+			"description" : "{Harmonic Chainmail}\r\n\r\nIncreases the hero's Defense by 8 and grants a bonus of +3 to Morale and Luck.",
+			"event" : "You tumble upon a painter painting a woman in an ornate chainmail. You offer some of the less valuable, but more beautiful magic robe for the chainmail.",
+			"name" : "Harmonic Chainmail"
+		}
+	}
+}

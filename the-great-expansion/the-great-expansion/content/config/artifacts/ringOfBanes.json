@@ -1,0 +1,42 @@
+{
+	"ringOfBanes" : {
+		"bonuses" : {
+			"curse" : {
+				"addInfo" : 1,
+				"subtype" : "spell.curse",
+				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			},
+			"weakness" : {
+				"addInfo" : -1,
+				"subtype" : "spell.weakness",
+				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			},
+			"disruptingRay": {
+				"addInfo" : -1,
+				"subtype" : "spell.disruptingRay",
+				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			},
+			"slow" : {
+				"addInfo" : -1,
+				"subtype" : "spell.slow",
+				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "RING",
+		"value" : 5250,
+		"graphics" : {
+			"image" : "artifacts/ringOfBanes/icon",
+			"scenarioBonus" : "artifacts/ringOfBanes/bonus",
+			"map" : "artifacts/ringOfBanes/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ring of Banes}\r\n\r\nIncreases effectiveness of some spells:\nCurse reduces the target's Damage by an additional 1.\nWeakness reduces Attack by an additional 1.\nSlow reduces Speed by an additional 1.\nDisrupting Ray reduces Defense by an additional 1.",
+			"event" : "During your travels, a mad mage picks a fight with you and starts casting multiple fireballs at you. A single lightning bolt from your fingers zaps the mage to a crisp, leaving only dust and a magic ring.",
+			"name" : "Ring of Banes"
+		}
+	}
+}

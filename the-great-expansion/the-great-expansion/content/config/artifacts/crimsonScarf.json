@@ -1,0 +1,40 @@
+{
+	"crimsonScarf" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "damageTypeMelee",
+				"type" : "PERCENTAGE_DAMAGE_BOOST",
+				"valueType" : "BASE_NUMBER",
+				"val" : 40
+			},
+			"attackRng" : {
+				"type" : "PERCENTAGE_DAMAGE_BOOST",
+				"subtype" : "damageTypeRanged",
+				"valueType" : "BASE_NUMBER",
+				"val" : 40
+			},
+			"defense" : {
+				"type" : "GENERAL_DAMAGE_REDUCTION",
+				"subtype" : "damageTypeAll",
+				"valueType" : "BASE_NUMBER",
+				"val" : -30
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 2500,
+		"graphics" : {
+			"image" : "artifacts/crimsonScarf/icon",
+			"scenarioBonus" : "artifacts/crimsonScarf/bonus",
+			"map" : "artifacts/crimsonScarf/adventure.def"
+		},
+		"text" : {
+			"description" : "{Crimson Scarf}\r\n\r\nStack equipped with this artifact deals 40% more damage with attacks, but also receives 30% more damage from all attacks.",
+			"event" : "You find a dead knight wearing an ornate scarf. Since it looks like it would suit you, you pick it up. It surely adds to your style and majesty.",
+			"name" : "Crimson Scarf"
+		}
+	}
+}

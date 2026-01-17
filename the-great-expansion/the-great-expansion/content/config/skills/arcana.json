@@ -1,0 +1,68 @@
+{
+	"arcana" : {
+		"name" : "Arcana",
+		"gainChance" : {
+			"might" : 3,
+			"magic" : 7
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "PRIMARY_SKILL",
+					"subtype" : "spellpower",
+					"val" : 7.5,
+					"valueType" : "PERCENT_TO_ALL",
+					"propagator" : "BATTLE_WIDE",
+					"propagationUpdater" : "BONUS_OWNER_UPDATER",
+					"limiters" : [
+						"noneOf",
+						"OPPOSITE_SIDE"
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Arcana}\n\nIncreases the hero's effective spell power during combat by 7.5%.",
+			"effects" : {
+				"main" : {
+					"val" : 7.5
+				}
+			},
+			"images" : {
+				"small" : "skills/arcana/icons/small/basic",
+				"medium" : "skills/arcana/icons/medium/basic",
+				"large" : "skills/arcana/icons/large/basic",
+				"scenarioBonus" : "skills/arcana/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Arcana}\n\nIncreases the hero's effective spell power during combat by 15%.",
+			"effects" : {
+				"main" : {
+					"val" : 15
+				}
+			},
+			"images" : {
+				"small" : "skills/arcana/icons/small/advanced",
+				"medium" : "skills/arcana/icons/medium/advanced",
+				"large" : "skills/arcana/icons/large/advanced",
+				"scenarioBonus" : "skills/arcana/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Arcana}\n\nIncreases the hero's effective spell power during combat by 22.5%.",
+			"effects" : {
+				"main" : {
+					"val" : 22.5
+				}
+			},
+			"images" : {
+				"small" : "skills/arcana/icons/small/expert",
+				"medium" : "skills/arcana/icons/medium/expert",
+				"large" : "skills/arcana/icons/large/expert",
+				"scenarioBonus" : "skills/arcana/icons/large/expert"
+			}
+		}
+	}
+}

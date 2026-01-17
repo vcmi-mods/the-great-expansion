@@ -1,0 +1,39 @@
+{
+	"dwarvenRing" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : -1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "RING",
+		"value" : 2250,
+		"graphics" : {
+			"image" : "artifacts/dwarvenRing/icon",
+			"scenarioBonus" : "artifacts/dwarvenRing/bonus",
+			"map" : "artifacts/dwarvenRing/adventure.def"
+		},
+		"text" : {
+			"description" : "{Dwarven Ring}\r\n\r\nIncreases Attack and Defense of the hero by 2, but reduces the army's Speed by 1.",
+			"event" : "You find a lone dwarf fighting a few skeletons. After helping him out, he hands you a magic ring that helped him fight.",
+			"name" : "Dwarven Ring"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"spellBinder" : {
+		"bonuses" : {
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_ALL"
+			},
+			"spellpower" : {
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 25,
+				"valueType" : "PERCENT_TO_ALL"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "HEAD",
+		"value" : 10000,
+		"graphics" : {
+			"image" : "artifacts/spellBinder/icon",
+			"scenarioBonus" : "artifacts/spellBinder/bonus",
+			"map" : "artifacts/spellBinder/adventure.def"
+		},
+		"text" : {
+			"description" : "{Spellbinder}\r\n\r\nIncreases Spell Power and Knowledge by 25%.",
+			"event" : "While taking a rest, a playful fairy comes and wants to play with you. Tired, you attempt to amuse her, but your mood brightens as she hands you Spellbinder as a reward.",
+			"name" : "Spellbinder"
+		}
+	}
+}

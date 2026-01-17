@@ -1,0 +1,26 @@
+{
+	"frightTalisman" : {
+		"bonuses" : {
+			"noRetalitation" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MINOR",
+		"slot" : "MISC",
+		"value" : 4250,
+		"graphics" : {
+			"image" : "artifacts/frightTalisman/icon",
+			"scenarioBonus" : "artifacts/frightTalisman/bonus",
+			"map" : "artifacts/frightTalisman/adventure.def"
+		},
+		"text" : {
+			"description" : "{Fright Talisman}\r\n\r\nStack equipped with this artifact prevent enemy retaliation.",
+			"event" : "While passing through an abandoned village, you are struck with fear. Fighting it, you manage to reach its source in a pendant hanging on the wall. Grabbing it made you feel better, so you decided to keep it.",
+			"name" : "Fright Talisman"
+		}
+	}
+}

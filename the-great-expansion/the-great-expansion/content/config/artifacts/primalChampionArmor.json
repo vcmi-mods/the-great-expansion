@@ -1,0 +1,40 @@
+{
+	"primalChampionArmor" : {
+		"bonuses" : {
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER"
+			},
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "TORSO",
+		"value" : 14000,
+		"graphics" : {
+			"image" : "artifacts/primalChampionArmor/icon",
+			"scenarioBonus" : "artifacts/primalChampionArmor/bonus",
+			"map" : "artifacts/primalChampionArmor/adventure.def"
+		},
+		"text" : {
+			"description" : "{Primal Champion's Armor}\r\n\r\nIncreases the hero's Defense by 3 and the army's Damage by 1.",
+			"event" : "Somewhere in the mountains, you find a barbarian cutting of lich's limbs, as if not letting him use his phylactery to regain his life. Seeing you, the barbarian throws you one of the armors he has found, saying that he doesn't need such items anyway.",
+			"name" : "Primal Champion's Armor"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"crystalShield" : {
+		"bonuses" : {
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 6,
+				"valueType" : "BASE_NUMBER"
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 3,
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "LEFT_HAND",
+		"value" : 11750,
+		"graphics" : {
+			"image" : "artifacts/crystalShield/icon",
+			"scenarioBonus" : "artifacts/crystalShield/bonus",
+			"map" : "artifacts/crystalShield/adventure.def"
+		},
+		"text" : {
+			"description" : "{Crystal Shield}\r\n\r\nIncreases the hero's Defense by 6 and Max Health of units in the hero's army by 3.",
+			"event" : "You take a look at a shield that's lying nearby. It reflects your visage perfectly, so you take it along.",
+			"name" : "Crystal Shield"
+		}
+	}
+}

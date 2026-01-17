@@ -1,0 +1,79 @@
+{
+	"battle-fury" : {
+		"name" : "Battle Fury",
+		"gainChance" : {
+			"might" : 7,
+			"magic" : 3
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMin",
+					"val" : 0,
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 63
+						}
+					]
+				},
+				"max" : {
+					"type" : "CREATURE_DAMAGE",
+					"subtype" : "creatureDamageMax",
+					"val" : 1,
+					"valueType" : "ADDITIVE_VALUE",
+					"limiters" : [
+						{
+							"type" : "CREATURE_LEVEL_LIMITER",
+							"minLevel" : 3,
+							"maxlevel" : 63
+						}
+					]
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Battle Fury}\n\nIncreases Damage of all tier 3+ units under the hero's control by 0-1.",
+			"effects" : {
+				"main" : { "val" : 0 },
+				"max" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/battle-fury/icons/small/basic",
+				"medium" : "skills/battle-fury/icons/medium/basic",
+				"large" : "skills/battle-fury/icons/large/basic",
+				"scenarioBonus" : "skills/battle-fury/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Battle Fury}\n\nIncreases Damage of all tier 3+ units under the hero's control by 1.",
+			"effects" : {
+				"main" : { "val" : 1 },
+				"max" : { "val" : 1 }
+			},
+			"images" : {
+				"small" : "skills/battle-fury/icons/small/advanced",
+				"medium" : "skills/battle-fury/icons/medium/advanced",
+				"large" : "skills/battle-fury/icons/large/advanced",
+				"scenarioBonus" : "skills/battle-fury/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Battle Fury}\n\nIncreases Damage of all tier 3+ units under the hero's control by 1-2.",
+			"effects" : {
+				"main" : { "val" : 1 },
+				"max" : { "val" : 2 }
+			},
+			"images" : {
+				"small" : "skills/battle-fury/icons/small/expert",
+				"medium" : "skills/battle-fury/icons/medium/expert",
+				"large" : "skills/battle-fury/icons/large/expert",
+				"scenarioBonus" : "skills/battle-fury/icons/large/expert"
+			}
+		}
+	}
+}

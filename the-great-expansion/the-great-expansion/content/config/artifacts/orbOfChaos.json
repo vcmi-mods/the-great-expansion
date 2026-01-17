@@ -1,0 +1,35 @@
+{
+	"orbOfChaos" : {
+		"bonuses" : {
+			"main" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.any",
+				"val" : 30,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"value" : 32000,
+		"components": 
+		[
+			"orbOfTheFirmament",
+			"orbOfSilt",
+			"orbOfTempestuousFire",
+			"orbOfDrivingRain"
+		],
+		"graphics" : {
+			"image" : "artifacts/orbOfChaos/icon",
+			"scenarioBonus" : "artifacts/orbOfChaos/bonus",
+			"map" : "artifacts/orbOfChaos/adventure.def"
+		},
+		"text" : {
+			"description" : "{Orb of Chaos}\r\n\r\nFurther increases all spell damage dealt by 30%.",
+			"event" : "The weather sure annoys you for a while now - it is raining, scorching hot, powerful hurricanes and even tremors. Apparently there was a little girl with Orb of Chaos following and playing pranks on you.",
+			"name" : "Orb of Chaos"
+		}
+	}
+}

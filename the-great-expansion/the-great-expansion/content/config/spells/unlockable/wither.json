@@ -1,0 +1,125 @@
+{
+    "wither":
+    {   
+        "type": "combat",
+        "targetType":"LOCATION",
+        "name": "Wither",
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : true,
+			"water" : false
+		},
+        "level": 4,
+        "power": 10,
+        "defaultGainChance": 5, 
+        "gainChance":
+        {
+            "castle" : 0,
+			"rampart" : 5,
+			"tower" : 5,
+			"inferno" : 10,
+			"necropolis" : 10,
+			"dungeon" : 10,
+			"conflux" : 5
+        },
+
+		"targetCondition" : {
+			"allOf" : {},
+			"anyOf" : {},
+			"noneOf" : {}
+		},
+		"flags" : {
+			"negative": true
+		},
+
+		"graphics" : {
+			"iconBook" : "spells/wither/book",
+			"iconScroll" : "spells/wither/scroll",
+			"iconScenarioBonus" : "spells/wither/scenario",
+			"iconEffect" : "spells/wither/effect"
+		},
+
+		"animation" : {
+			"affect" : [
+				"spells/wither/spell.def"
+			]
+		},
+
+		"sounds" : {
+			"cast" : "spells/wither/sfx.wav"
+		},
+		
+		"levels" : {
+			"base":{
+				"range" : "0",
+				"power": 10, //power value was missing in original files, it's placeholder
+				"targetModifier":{"smart":true},
+				"effects" : {
+					"attack" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.attack",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					},
+					"defence" : {
+						"type" : "PRIMARY_SKILL",
+						"subtype" : "primarySkill.defence",
+						"val" : -2,
+						"duration" : "N_TURNS"
+					},
+					"stacksSpeed" : {
+						"type" : "STACKS_SPEED",
+						"val" : -20,
+						"valueType" : "PERCENT_TO_ALL",
+						"duration" : "N_TURNS"
+					}
+				}
+			},
+			"none" : {
+				"description" : "{Wither}\n\nReduces Attack, Defense and Speed of the chosen stack.",
+
+				"cost" : 16
+			},
+			"basic" : {
+				"description" : "{Basic Wither}\n\nReduces Attack, Defense and Speed of the chosen stack.",
+
+				"cost" : 12
+			},
+			"advanced":{
+				"description" : "{Advanced Wither}\n\nReduces Attack, Defense and Speed of the chosen stack. The reduction to Attack and Defense is twice as effective as from Basic Wither, while Speed reduction is 75% more effective than Basic Wither.",
+
+				"cost" : 12,
+				"effects" : {
+					"attack" : {
+						"val" : -4
+					},
+					"defence" : {
+						"val" : -4
+					},
+					"stacksSpeed" : {
+						"val" : -35
+					}
+				}
+			},
+			"expert":{
+				
+				"description" : "{Expert Wither}\n\nReduces Attack, Defense and Speed of all enemy units. The reduction to Attack and Defense is twice as effective as from Basic Wither, while Speed reduction is 75% more effective than Basic Wither.",
+				"cost" : 12,
+				"range" : "X",
+				"effects" : {
+					"attack" : {
+						"val" : -4
+					},
+					"defence" : {
+						"val" : -4
+					},
+					"stacksSpeed" : {
+						"val" : -35
+					}
+				}
+			}
+		}
+    }
+
+}

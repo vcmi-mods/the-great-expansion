@@ -1,0 +1,26 @@
+{
+	"mantleOfSpellDeflection" : {
+		"bonuses" : {
+			"magicMirror" : {
+				"type" : "MAGIC_MIRROR",
+				"val" : 20
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "SHOULDERS",
+		"value" : 13750,
+		"graphics" : {
+			"image" : "artifacts/mantleOfSpellDeflection/icon",
+			"scenarioBonus" : "artifacts/mantleOfSpellDeflection/bonus",
+			"map" : "artifacts/mantleOfSpellDeflection/adventure.def"
+		},
+		"text" : {
+			"description" : "{Mantle of Spell Deflection}\r\n\r\nThe hero's army has 20% chance to deflect a harmful spell to a random enemy unit.",
+			"event" : "A powerful-looking devil comes and threatens you. Remembering that the devils wouldn't walk in such situations, you punch him hard in the face. After the strike, you see that it was an imp wearing a magic cape.",
+			"name" : "Mantle of Spell Deflection"
+		}
+	}
+}

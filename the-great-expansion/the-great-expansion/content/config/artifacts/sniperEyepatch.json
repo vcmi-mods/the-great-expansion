@@ -1,0 +1,32 @@
+{
+	"sniperEyepatch" : {
+		"bonuses" : {
+			"damage" : {
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"subtype" : "damageTypeRanged",
+					"valueType" : "BASE_NUMBER",
+					"val" : 30
+			},
+			"noDistancePenalty" :
+			{
+				"type" : "NO_DISTANCE_PENALTY"
+			},
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 7500,
+		"graphics" : {
+			"image" : "artifacts/sniperEyepatch/icon",
+			"scenarioBonus" : "artifacts/sniperEyepatch/bonus",
+			"map" : "artifacts/sniperEyepatch/adventure.def"
+		},
+		"text" : {
+			"description" : "{Sniper's Eyepatch}\r\n\r\nStack equipped with this artifact has a bonus of +30% to ranged damage dealt and ignores any range penalty it would have.",
+			"event" : "During your journey, you happen to a marksmanship tournament and decide to try your luck. You manage to score the first place, beating the crowd's favourite. Furious, he throws his eyepatch onto the ground and storms away. You pick it up as a good luck charm.",
+			"name" : "Sniper's Eyepatch"
+		}
+	}
+}

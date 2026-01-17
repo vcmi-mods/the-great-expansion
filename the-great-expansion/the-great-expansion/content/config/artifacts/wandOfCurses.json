@@ -1,0 +1,29 @@
+{
+	"wandOfCurses" : {
+		"bonuses" : {
+			"spell" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 30,
+				"addInfo" : [3,0]
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "TREASURE",
+		"slot" : "MISC",
+		"value" : 2750,
+		"graphics" : {
+			"image" : "artifacts/wandOfCurses/icon",
+			"scenarioBonus" : "artifacts/wandOfCurses/bonus",
+			"map" : "artifacts/wandOfCurses/adventure.def"
+		},
+		"text" : {
+			"description" : "{Wand of Curses}\r\n\r\nStack equipped with this artifact has a 30% chance to apply an advanced Curse on attack.",
+			"event" : "While resting in a village, you happen to a child that's waving a black stick in front of everyone's faces and shouts \"I'm an evil wizard and I'm gonna curse you!\". You ask the child to trade his wand for one of your coins, and gain a genuine Wand of Curses.",
+			"name" : "Wand of Curses"
+		}
+	}
+}

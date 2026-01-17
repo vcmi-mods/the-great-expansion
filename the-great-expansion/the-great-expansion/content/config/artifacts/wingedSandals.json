@@ -1,0 +1,51 @@
+{
+	"wingedSandals" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"spellpower" : {
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MAJOR",
+		"slot" : "FEET",
+		"value" : 7500,
+		"graphics" : {
+			"image" : "artifacts/wingedSandals/icon",
+			"scenarioBonus" : "artifacts/wingedSandals/bonus",
+			"map" : "artifacts/wingedSandals/adventure.def"
+		},
+		"text" : {
+			"description" : "{Winged Sandals}\r\n\r\nIncreases all primary attributes of the hero by 1 and increases Speed of units in the hero's army by 1.",
+			"event" : "During travels, you feel something falling onto your head. Apparently a cupid that was flying above you lost his sandals.",
+			"name" : "Winged Sandals"
+		}
+	}
+}

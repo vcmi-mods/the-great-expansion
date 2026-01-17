@@ -1,0 +1,39 @@
+{
+	"wailingInferno" : {
+		"bonuses" : {
+			"health_reduction" : {
+				"type" : "STACK_HEALTH",
+				"val" : -2,
+				"valueType" : "BASE_NUMBER",
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [
+					"OPPOSITE_SIDE"
+				],
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "LEFT_HAND",
+		"value" : 26500,
+		"components": 
+		[
+			"swordOfHellfire",
+			"shieldOfTheDamned",
+			"hellstormHelmet",
+			"breastplateOfBrimstone"
+		],
+		"graphics" : {
+			"image" : "artifacts/wailingInferno/icon",
+			"scenarioBonus" : "artifacts/wailingInferno/bonus",
+			"map" : "artifacts/wailingInferno/adventure.def"
+		},
+		"text" : {
+			"description" : "{Wailing Inferno}\r\n\r\nEach creature in the enemy hero's army has its Max Health reduced by 2.",
+			"event" : "During your travels, you hear moans and shrieks of pain and despair nearby, but upon closer inspection it turned out to be just a shield.",
+			"name" : "Wailing Inferno"
+		}
+	}
+}

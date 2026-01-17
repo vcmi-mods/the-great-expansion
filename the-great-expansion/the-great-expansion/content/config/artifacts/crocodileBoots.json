@@ -1,0 +1,28 @@
+{
+	"crocodileBoots" : {
+		"bonuses" : {
+			"movement" : {
+				"type" : "MOVEMENT",
+				"subtype" : "heroMovementLand",
+				"val" : 175,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "FEET",
+		"value" : 2750,
+		"graphics" : {
+			"image" : "artifacts/crocodileBoots/icon",
+			"scenarioBonus" : "artifacts/crocodileBoots/bonus",
+			"map" : "artifacts/crocodileBoots/adventure.def"
+		},
+		"text" : {
+			"description" : "{Crocodile Boots}\r\n\r\nIncreases the amount of Movement Points on land by 175.",
+			"event" : "After taking out a particularly nasty crocodile, you make a nice pair of boots out of its skin.",
+			"name" : "Crocodile Boots"
+		}
+	}
+}

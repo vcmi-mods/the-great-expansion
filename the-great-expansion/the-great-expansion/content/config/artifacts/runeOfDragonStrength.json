@@ -1,0 +1,60 @@
+{
+	"runeOfDragonStrength" : {
+		"bonuses" : {
+			"healthpercent" : {
+				"type" : "STACK_HEALTH",
+				"val" : 100,
+				"valueType" : "PERCENT_TO_ALL",
+				"limiters" : [
+					"noneOf", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "DRAGON_NATURE"
+					}
+				]
+			},
+			"dmgmin" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMin",
+				"val" : 100,
+				"valueType" : "PERCENT_TO_ALL",
+				"limiters" : [
+					"noneOf", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "DRAGON_NATURE"
+					}
+				]
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 100,
+				"valueType" : "PERCENT_TO_ALL",
+				"limiters" : [
+					"noneOf", 
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "DRAGON_NATURE"
+					}
+				]
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "RELIC",
+		"slot" : "MISC",
+		"value" : 20250,
+		"graphics" : {
+			"image" : "artifacts/runeOfDragonStrength/icon",
+			"scenarioBonus" : "artifacts/runeOfDragonStrength/bonus",
+			"map" : "artifacts/runeOfDragonStrength/adventure.def"
+		},
+		"text" : {
+			"description" : "{Rune of Dragon Strength}\r\n\r\nStack equipped with this artifact has a bonus of +100% to Damage and Max Health, rounded down. Doesn't work on Dragons.",
+			"event" : "You help a runesmith by securing a cargo of ore. For this help, he rewards you with a magic rune.",
+			"name" : "Rune of Dragon Strength"
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"ringOfTheVampireKing" : {
+		"bonuses" : {
+			"undead" :
+			{
+				"type" : "UNDEAD"
+			},
+			"lifesteal" : {
+				"type" : "LIFE_DRAIN",
+				"val" : 40
+			},
+			"healthpercent" : {
+				"type" : "STACK_HEALTH",
+				"val" : -30,
+				"valueType" : "PERCENT_TO_ALL"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "RING",
+		"value" : 15500,
+		"graphics" : {
+			"image" : "artifacts/ringOfTheVampireKing/icon",
+			"scenarioBonus" : "artifacts/ringOfTheVampireKing/bonus",
+			"map" : "artifacts/ringOfTheVampireKing/adventure.def"
+		},
+		"text" : {
+			"description" : "{Ring of the Vampire King}\r\n\r\nReduces Max Health of units in the hero's army by 30%, but grants them a 40% Vampiric Attack and turns all your units Undead.",
+			"event" : "You finally found the lair of the Vampire King. Too afraid to fight him head on, you sneak into his vault and steal his ring, before he catches your wind.",
+			"name" : "Ring of the Vampire King"
+		}
+	}
+}

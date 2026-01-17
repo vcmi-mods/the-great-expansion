@@ -1,0 +1,50 @@
+{
+	"masterSeal" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"health" : {
+				"type" : "STACK_HEALTH",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 1,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"speed" : {
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 7750,
+		"graphics" : {
+			"image" : "artifacts/masterSeal/icon",
+			"scenarioBonus" : "artifacts/masterSeal/bonus",
+			"map" : "artifacts/masterSeal/adventure.def"
+		},
+		"text" : {
+			"description" : "{Master's Seal}\r\n\r\nStack equipped with this artifact has a bonus of +1 to Attack, +1 to Defense, +3 to Max Health, +1 to Max Damage and +2 to Speed.",
+			"event" : "After facing numerous trials, you are awarded the Master's Seal.",
+			"name" : "Master's Seal"
+		}
+	}
+}

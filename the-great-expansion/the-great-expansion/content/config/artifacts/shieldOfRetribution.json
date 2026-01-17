@@ -1,0 +1,39 @@
+{
+	"shieldOfRetribution" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 4,
+				"valueType" : "BASE_NUMBER"
+			},
+			"extraRetaliation" :
+			{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "RELIC",
+		"slot" : "LEFT_HAND",
+		"value" : 16500,
+		"graphics" : {
+			"image" : "artifacts/shieldOfRetribution/icon",
+			"scenarioBonus" : "artifacts/shieldOfRetribution/bonus",
+			"map" : "artifacts/shieldOfRetribution/adventure.def"
+		},
+		"text" : {
+			"description" : "{Shield of Retribution}\r\n\r\nIncreases Attack and Defense of the hero by 4 and grants an additional retaliation strike to creatures in the hero's army.",
+			"event" : "After a drunked dwarf accidentally pushes you in a tavern, causing you to spill your beer, you are awarded with Shield of Retribution to even the loss.",
+			"name" : "Shield of Retribution"
+		}
+	}
+}

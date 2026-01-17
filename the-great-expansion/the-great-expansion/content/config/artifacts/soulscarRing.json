@@ -1,0 +1,51 @@
+{
+	"soulscarRing" : {
+		"bonuses" : {
+			"attack" : {
+				"subtype" : "primarySkill.attack",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"defense" : {
+				"subtype" : "primarySkill.defence",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"spellpower" : {
+				"subtype" : "primarySkill.spellpower",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"knowledge" : {
+				"subtype" : "primarySkill.knowledge",
+				"type" : "PRIMARY_SKILL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
+			},
+			"luck" : {
+				"type" : "LUCK",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "TREASURE",
+		"slot" : "RING",
+		"value" : 3000,
+		"graphics" : {
+			"image" : "artifacts/soulscarRing/icon",
+			"scenarioBonus" : "artifacts/soulscarRing/bonus",
+			"map" : "artifacts/soulscarRing/adventure.def"
+		},
+		"text" : {
+			"description" : "{Soulscar Ring}\r\n\r\nIncreases all of the hero's primary skills by 1, but reduces Luck by 1.",
+			"event" : "During your travels, a mad mage picks a fight with you and starts casting multiple fireballs at you. A single lightning bolt from your fingers zaps the mage to a crisp, leaving only dust and a magic ring.",
+			"name" : "Soulscar Ring"
+		}
+	}
+}

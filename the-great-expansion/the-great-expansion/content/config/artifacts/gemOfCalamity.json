@@ -1,0 +1,28 @@
+{
+	"gemOfCalamity" : {
+		"bonuses" : {
+			"dmgmax" : {
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 100,
+				"valueType" : "PERCENT_TO_ALL"
+			}
+		},
+		"type" : [
+			"CREATURE"
+		],
+		"class" : "MAJOR",
+		"slot" : "MISC",
+		"value" : 6000,
+		"graphics" : {
+			"image" : "artifacts/gemOfCalamity/icon",
+			"scenarioBonus" : "artifacts/gemOfCalamity/bonus",
+			"map" : "artifacts/gemOfCalamity/adventure.def"
+		},
+		"text" : {
+			"description" : "{Gem of Calamity}\r\n\r\nStack equipped with this artifact has a bonus of +100% to Max Damage.",
+			"event" : "You pick up a seemingly worthless trinket, but after accidentally releasing an explosion, you carefully take it for later use.",
+			"name" : "Gem of Calamity"
+		}
+	}
+}

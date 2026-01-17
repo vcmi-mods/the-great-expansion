@@ -1,0 +1,28 @@
+{
+	"sorcerersRing" : {
+		"bonuses" : {
+			"main" : {
+				"type" : "SPELL_DAMAGE",
+				"subtype" : "spellSchool.any",
+				"val" : 20,
+				"valueType" : "BASE_NUMBER"
+			}
+		},
+		"type" : [
+			"HERO"
+		],
+		"class" : "MINOR",
+		"slot" : "RING",
+		"value" : 4000,
+		"graphics" : {
+			"image" : "artifacts/sorcerersRing/icon",
+			"scenarioBonus" : "artifacts/sorcerersRing/bonus",
+			"map" : "artifacts/sorcerersRing/adventure.def"
+		},
+		"text" : {
+			"description" : "{Sorcerer's Ring}\r\n\r\nIncreases damage dealt with spells by 20%.",
+			"event" : "During your travels, a mad mage picks a fight with you and starts casting multiple fireballs at you. A single lightning bolt from your fingers zaps the mage to a crisp, leaving only dust and a magic ring.",
+			"name" : "Sorcerer's Ring"
+		}
+	}
+}

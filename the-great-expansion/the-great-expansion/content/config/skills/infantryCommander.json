@@ -1,0 +1,85 @@
+{
+	"infantryCommander" : {
+		"name" : "Infantry Commander",
+		"gainChance" : {
+			"might" : 6,
+			"magic" : 4
+		},
+		"specialty" : [], // generic specialty not applicable
+		"base" : {
+			"effects" : {
+				"offence" : {
+					"subtype" : "damageTypeMelee",
+					"type" : "PERCENTAGE_DAMAGE_BOOST",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						"noneOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FLYING"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SHOOTER"
+						}
+					],
+				},
+				"defence" : {
+					"subtype" : "damageTypeAll",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"valueType" : "BASE_NUMBER",
+					"limiters" : [
+						"noneOf",
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "FLYING"
+						},
+						{
+							"type" : "HAS_ANOTHER_BONUS_LIMITER",
+							"bonusType" : "SHOOTER"
+						}
+					],
+				}
+			}
+		},
+		"basic" : {
+			"description" : "{Basic Infantry Commander}\n\nIncreases damage dealt by non-flying, non-shooting units in your army by 5% and reduces damage they receive by 5%.",
+			"effects" : {
+				"offence" : { "val" : 5 },
+				"defence" : { "val" : 5 }
+			},
+			"images" : {
+				"small" : "skills/infantryCommander/icons/small/basic",
+				"medium" : "skills/infantryCommander/icons/medium/basic",
+				"large" : "skills/infantryCommander/icons/large/basic",
+				"scenarioBonus" : "skills/infantryCommander/icons/large/basic"
+			}
+		},
+		"advanced" : {
+			"description" : "{Advanced Infantry Commander}\n\nIncreases damage dealt by non-flying, non-shooting units in your army by 10% and reduces damage they receive by 10%.",
+			"effects" : {
+				"offence" : { "val" : 10 },
+				"defence" : { "val" : 10 }
+			},
+			"images" : {
+				"small" : "skills/infantryCommander/icons/small/advanced",
+				"medium" : "skills/infantryCommander/icons/medium/advanced",
+				"large" : "skills/infantryCommander/icons/large/advanced",
+				"scenarioBonus" : "skills/infantryCommander/icons/large/advanced"
+			}
+		},
+		"expert" : {
+			"description" : "{Expert Infantry Commander}\n\nIncreases damage dealt by non-flying, non-shooting units in your army by 15% and reduces damage they receive by 15%.",
+			"effects" : {
+				"offence" : { "val" : 15 },
+				"defence" : { "val" : 15 }
+			},
+			"images" : {
+				"small" : "skills/infantryCommander/icons/small/expert",
+				"medium" : "skills/infantryCommander/icons/medium/expert",
+				"large" : "skills/infantryCommander/icons/large/expert",
+				"scenarioBonus" : "skills/infantryCommander/icons/large/expert"
+			}
+		}
+	}
+}
