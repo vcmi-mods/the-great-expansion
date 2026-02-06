@@ -13,7 +13,7 @@
 			"biography" : "Gram, sometimes called \"The Fist of Tatalia\" knows how to capture towns fast. For this, he specializes in getting the required resources and focuses on the troops that are the most useful during sieges. Truly, no castle is safe if Gram is nearby.",
 			"specialty" :
 			{
-				"description" : "Lizardmen, Serpent Flies, Wyverns and upgrades of those creatures receive a bonus of +1 to speed and damage they deal is increased by 0.65% per hero level.",
+				"description" : "Lizardmen, Serpent Flies, Wyverns and upgrades of those creatures receive a bonus of +1 to speed and damage they receive is reduced by 0.65% per hero level.",
 				"tooltip" : "Unique Bonus: Onslaught",
 				"name" : "Onslaught"
 			}
