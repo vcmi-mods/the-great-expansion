@@ -1,11 +1,10 @@
 {
 	"runeOfEarthImmunity" : {
 		"bonuses" : {
-			"immunity" :
-			{
+			"immunity" : {
 				"type" : "SPELL_SCHOOL_IMMUNITY",
 				"subtype" : "spellSchool.earth"
-			},
+			}
 		},
 		"type" : [
 			"CREATURE"

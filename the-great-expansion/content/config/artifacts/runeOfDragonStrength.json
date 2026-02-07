@@ -6,7 +6,7 @@
 				"val" : 100,
 				"valueType" : "PERCENT_TO_ALL",
 				"limiters" : [
-					"noneOf", 
+					"noneOf",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "DRAGON_NATURE"
@@ -19,7 +19,7 @@
 				"val" : 100,
 				"valueType" : "PERCENT_TO_ALL",
 				"limiters" : [
-					"noneOf", 
+					"noneOf",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "DRAGON_NATURE"
@@ -32,7 +32,7 @@
 				"val" : 100,
 				"valueType" : "PERCENT_TO_ALL",
 				"limiters" : [
-					"noneOf", 
+					"noneOf",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "DRAGON_NATURE"

@@ -18,7 +18,9 @@
 		"basic" : {
 			"description" : "{Basic Defender}\n\nIncreased Defense gained from Defensive Stance by 5.",
 			"effects" : {
-				"main" : { "val" : 5 }
+				"main" : {
+					"val" : 5
+				}
 			},
 			"images" : {
 				"small" : "skills/defender/icons/small/basic",
@@ -30,7 +32,9 @@
 		"advanced" : {
 			"description" : "{Advanced Defender}\n\nIncreased Defense gained from Defensive Stance by 10.",
 			"effects" : {
-				"main" : { "val" : 10 }
+				"main" : {
+					"val" : 10
+				}
 			},
 			"images" : {
 				"small" : "skills/defender/icons/small/advanced",
@@ -42,7 +46,9 @@
 		"expert" : {
 			"description" : "{Expert Defender}\n\nIncreased Defense gained from Defensive Stance by 15.",
 			"effects" : {
-				"main" : { "val" : 15 }
+				"main" : {
+					"val" : 15
+				}
 			},
 			"images" : {
 				"small" : "skills/defender/icons/small/expert",

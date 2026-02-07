@@ -2,15 +2,14 @@
 	"sniperEyepatch" : {
 		"bonuses" : {
 			"damage" : {
-					"type" : "PERCENTAGE_DAMAGE_BOOST",
-					"subtype" : "damageTypeRanged",
-					"valueType" : "BASE_NUMBER",
-					"val" : 30
+				"type" : "PERCENTAGE_DAMAGE_BOOST",
+				"subtype" : "damageTypeRanged",
+				"valueType" : "BASE_NUMBER",
+				"val" : 30
 			},
-			"noDistancePenalty" :
-			{
+			"noDistancePenalty" : {
 				"type" : "NO_DISTANCE_PENALTY"
-			},
+			}
 		},
 		"type" : [
 			"CREATURE"

@@ -13,7 +13,7 @@
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
 						"bonusType" : "SHOOTER"
 					}
-				],
+				]
 			},
 			"damage" : {
 				"type" : "PERCENTAGE_DAMAGE_BOOST",
@@ -24,7 +24,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
 					"OPPOSITE_SIDE"
-				],
+				]
 			}
 		},
 		"type" : [

@@ -32,8 +32,7 @@
 		"class" : "RELIC",
 		"slot" : "MISC",
 		"value" : 104000,
-		"components": 
-		[
+		"components" : [
 			"tomeOfFireMagic",
 			"tomeOfAirMagic",
 			"tomeOfWaterMagic",

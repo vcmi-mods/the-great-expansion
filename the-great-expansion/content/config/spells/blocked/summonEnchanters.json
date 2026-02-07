@@ -1,40 +1,40 @@
 {
 	"blockedSummonEnchanters" : {
-		"type": "ability",
-        "name": "Summon Enchanters",
+		"type" : "ability",
+		"name" : "Summon Enchanters",
 		"targetType" : "NO_TARGET",
-        "school": {
-            "air": false,
-            "earth": false,
-            "fire": false,
-            "water": false
-        },
-		"level": 0,
-		"defaultGainChance": 0, 
+		"school" : {
+			"air" : false,
+			"earth" : false,
+			"fire" : false,
+			"water" : false
+		},
+		"level" : 0,
+		"defaultGainChance" : 0,
 		"power" : 0,
-        "flags": {
-            "indifferent": true
-        },
-        "animation": {
-            "cast": [
-                "C12SPF0.def"
-            ]
-        },
-		"sounds": {
-			"cast": "SUMNELM"
+		"flags" : {
+			"indifferent" : true
+		},
+		"animation" : {
+			"cast" : [
+				"C12SPF0.def"
+			]
+		},
+		"sounds" : {
+			"cast" : "SUMNELM"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "X",
-                "cost": 0,
-                "power": 0,
+				"cost" : 0,
+				"power" : 0,
 				"description" : "",
 				"battleEffects" : {
 					"summon" : {
 						"exclusive" : false,
-						"id":"enchanter",
+						"id" : "enchanter",
 						"summonByHealth" : true,
-						"type":"core:summon"
+						"type" : "core:summon"
 					}
 				}
 			},

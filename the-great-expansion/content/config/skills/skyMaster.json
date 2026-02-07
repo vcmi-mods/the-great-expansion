@@ -17,14 +17,16 @@
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "FLYING"
 						}
-					],
+					]
 				}
 			}
 		},
 		"basic" : {
 			"description" : "{Basic Sky Master}\n\nIncreases Speed of flying units in the hero's army by 1.",
 			"effects" : {
-				"speed" : { "val" : 1 }
+				"speed" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/skyMaster/icons/small/basic",
@@ -36,7 +38,9 @@
 		"advanced" : {
 			"description" : "{Advanced Sky Master}\n\nIncreases Speed of flying units in the hero's army by 2.",
 			"effects" : {
-				"speed" : { "val" : 2 }
+				"speed" : {
+					"val" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/skyMaster/icons/small/advanced",
@@ -48,7 +52,9 @@
 		"expert" : {
 			"description" : "{Expert Sky Master}\n\nIncreases Speed of flying units in the hero's army by 3.",
 			"effects" : {
-				"speed" : { "val" : 3 }
+				"speed" : {
+					"val" : 3
+				}
 			},
 			"images" : {
 				"small" : "skills/skyMaster/icons/small/expert",

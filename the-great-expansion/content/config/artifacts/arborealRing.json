@@ -11,7 +11,7 @@
 			"growth" : {
 				"type" : "CREATURE_GROWTH_PERCENT",
 				"val" : 40,
-				"propagator": "PLAYER"
+				"propagator" : "PLAYER"
 			}
 		},
 		"type" : [

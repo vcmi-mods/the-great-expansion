@@ -39,8 +39,12 @@
 		"basic" : {
 			"description" : "{Basic Battle Fury}\n\nIncreases Damage of all tier 3+ units under the hero's control by 0-1.",
 			"effects" : {
-				"main" : { "val" : 0 },
-				"max" : { "val" : 1 }
+				"main" : {
+					"val" : 0
+				},
+				"max" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/battle-fury/icons/small/basic",
@@ -52,8 +56,12 @@
 		"advanced" : {
 			"description" : "{Advanced Battle Fury}\n\nIncreases Damage of all tier 3+ units under the hero's control by 1.",
 			"effects" : {
-				"main" : { "val" : 1 },
-				"max" : { "val" : 1 }
+				"main" : {
+					"val" : 1
+				},
+				"max" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/battle-fury/icons/small/advanced",
@@ -65,8 +73,12 @@
 		"expert" : {
 			"description" : "{Expert Battle Fury}\n\nIncreases Damage of all tier 3+ units under the hero's control by 1-2.",
 			"effects" : {
-				"main" : { "val" : 1 },
-				"max" : { "val" : 2 }
+				"main" : {
+					"val" : 1
+				},
+				"max" : {
+					"val" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/battle-fury/icons/small/expert",

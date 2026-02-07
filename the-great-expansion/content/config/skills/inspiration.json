@@ -51,9 +51,15 @@
 		"basic" : {
 			"description" : "{Basic Inspiration}\n\nEmpowers your tier 1 units, increasing their damage dealt by 6% and increasing their Speed by 1.",
 			"effects" : {
-				"attack" : { "val" : 6 },
-				"attackrng" : { "val" : 6 },
-				"speed" : { "val" : 1 }
+				"attack" : {
+					"val" : 6
+				},
+				"attackrng" : {
+					"val" : 6
+				},
+				"speed" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/inspiration/icons/small/basic",
@@ -65,9 +71,15 @@
 		"advanced" : {
 			"description" : "{Advanced Inspiration}\n\nEmpowers your tier 1 units, increasing their damage dealt by 13% and increasing their Speed by 2.",
 			"effects" : {
-				"attack" : { "val" : 13 },
-				"attackrng" : { "val" : 13 },
-				"speed" : { "val" : 2 }
+				"attack" : {
+					"val" : 13
+				},
+				"attackrng" : {
+					"val" : 13
+				},
+				"speed" : {
+					"val" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/inspiration/icons/small/advanced",
@@ -79,9 +91,15 @@
 		"expert" : {
 			"description" : "{Expert Inspiration}\n\nEmpowers your tier 1 units, increasing their damage dealt by 20% and increasing their Speed by 3.",
 			"effects" : {
-				"attack" : { "val" : 20 },
-				"attackrng" : { "val" : 20 },
-				"speed" : { "val" : 3 }
+				"attack" : {
+					"val" : 20
+				},
+				"attackrng" : {
+					"val" : 20
+				},
+				"speed" : {
+					"val" : 3
+				}
 			},
 			"images" : {
 				"small" : "skills/inspiration/icons/small/expert",

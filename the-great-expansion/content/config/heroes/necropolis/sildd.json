@@ -1,33 +1,30 @@
 {
-	"sildd" :
-	{
+	"sildd" : {
 		"class" : "necromancer",
-		"spellbook": [ "protectWater" ],
+		"spellbook" : [
+			"protectWater"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Sildd",
 			"biography" : "Many heroes tried to defeat Sildd the Witch, but careful dose of curses, jinxes and hexes lets her remain undefeated. Prepared adversaries appear to be lost, discouraged and in general unlucky, while Sildd takes care of their soldiers.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Reduces enemy's Morale and Luck by 1.",
 				"tooltip" : "Unique Bonus: Death's Curse",
 				"name" : "Death's Curse"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/necropolis/sildd/specSmall.png",
 			"specialtyLarge" : "heroes/necropolis/sildd/specLarge.png",
 			"large" : "heroes/necropolis/sildd/large.png",
 			"small" : "heroes/necropolis/sildd/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "skeleton",
 				"max" : 30,
@@ -44,8 +41,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "necromancy"

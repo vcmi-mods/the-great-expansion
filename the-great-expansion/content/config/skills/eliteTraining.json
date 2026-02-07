@@ -44,16 +44,22 @@
 							"minLevel" : 2,
 							"maxlevel" : 5
 						}
-					],
+					]
 				}
 			}
 		},
 		"basic" : {
 			"description" : "{Basic Elite Training}\n\nEmpowers your tier 2-4 units, increasing their damage dealt by 6% and reducing their damage received by 5%.",
 			"effects" : {
-				"attack" : { "val" : 6 },
-				"attackrng" : { "val" : 6 },
-				"defence" : { "val" : 5 }
+				"attack" : {
+					"val" : 6
+				},
+				"attackrng" : {
+					"val" : 6
+				},
+				"defence" : {
+					"val" : 5
+				}
 			},
 			"images" : {
 				"small" : "skills/eliteTraining/icons/small/basic",
@@ -65,9 +71,15 @@
 		"advanced" : {
 			"description" : "{Advanced Elite Training}\n\nEmpowers your tier 2-4 units, increasing their damage dealt by 12% and reducing their damage received by 10%.",
 			"effects" : {
-				"attack" : { "val" : 12 },
-				"attackrng" : { "val" : 12 },
-				"defence" : { "val" : 10 }
+				"attack" : {
+					"val" : 12
+				},
+				"attackrng" : {
+					"val" : 12
+				},
+				"defence" : {
+					"val" : 10
+				}
 			},
 			"images" : {
 				"small" : "skills/eliteTraining/icons/small/advanced",
@@ -79,9 +91,15 @@
 		"expert" : {
 			"description" : "{Expert Elite Training}\n\nEmpowers your tier 2-4 units, increasing their damage dealt by 18% and reducing their damage received by 15%.",
 			"effects" : {
-				"attack" : { "val" : 18 },
-				"attackrng" : { "val" : 18 },
-				"defence" : { "val" : 15 }
+				"attack" : {
+					"val" : 18
+				},
+				"attackrng" : {
+					"val" : 18
+				},
+				"defence" : {
+					"val" : 15
+				}
 			},
 			"images" : {
 				"small" : "skills/eliteTraining/icons/small/expert",

@@ -2,7 +2,7 @@
 	"lightningStorm" : {
 		"type" : "combat",
 		"name" : "Lightning Storm",
-		"targetType": "LOCATION",
+		"targetType" : "LOCATION",
 		"school" : {
 			"air" : true,
 			"earth" : false,
@@ -10,17 +10,16 @@
 			"water" : false
 		},
 		"level" : 5,
-        "defaultGainChance": 5, 
-        "gainChance":
-        {
-            "castle" : 2,
+		"defaultGainChance" : 5,
+		"gainChance" : {
+			"castle" : 2,
 			"rampart" : 2,
 			"tower" : 8,
 			"inferno" : 5,
 			"necropolis" : 3,
 			"dungeon" : 8,
 			"conflux" : 6
-        },
+		},
 		"power" : 25,
 		"flags" : {
 			"damage" : true,
@@ -32,20 +31,30 @@
 			"iconScenarioBonus" : "spells/lightningStorm/scenario",
 			"iconEffect" : "spells/lightningStorm/effect"
 		},
-		"animation":{
-			"affect":[{"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1"]
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "C03SPA0",
+					"verticalPosition" : "bottom"
+				},
+				"C11SPA1"
+			]
 		},
-		"sounds": {
-			"cast": "LIGHTBLT"
+		"sounds" : {
+			"cast" : "LIGHTBLT"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "0-2",
 				"power" : 0,
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":true},
+				"targetModifier" : {
+					"smart" : true
+				},
 				"cost" : 28
 			},
 			"none" : {

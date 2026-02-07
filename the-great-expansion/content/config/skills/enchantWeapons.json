@@ -17,7 +17,9 @@
 		"basic" : {
 			"description" : "{Basic Enchant Weapons}\n\nUnits in the hero's army ignore 7.5% of enemy's Defense.",
 			"effects" : {
-				"main" : { "val" : 7.5 }
+				"main" : {
+					"val" : 7.5
+				}
 			},
 			"images" : {
 				"small" : "skills/enchantWeapons/icons/small/basic",
@@ -29,7 +31,9 @@
 		"advanced" : {
 			"description" : "{Advanced Enchant Weapons}\n\nUnits in the hero's army ignore 15% of enemy's Defense.",
 			"effects" : {
-				"main" : { "val" : 15 }
+				"main" : {
+					"val" : 15
+				}
 			},
 			"images" : {
 				"small" : "skills/enchantWeapons/icons/small/advanced",
@@ -41,7 +45,9 @@
 		"expert" : {
 			"description" : "{Expert Enchant Weapons}\n\nUnits in the hero's army ignore 22.5% of enemy's Defense.",
 			"effects" : {
-				"main" : { "val" : 22.5 }
+				"main" : {
+					"val" : 22.5
+				}
 			},
 			"images" : {
 				"small" : "skills/enchantWeapons/icons/small/expert",

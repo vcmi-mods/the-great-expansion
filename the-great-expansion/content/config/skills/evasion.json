@@ -19,7 +19,9 @@
 		"basic" : {
 			"description" : "{Basic Evasion}\n\nReduces damage received by the hero's army from ranged attacks by 10%.",
 			"effects" : {
-				"main" : { "val" : 10 }
+				"main" : {
+					"val" : 10
+				}
 			},
 			"images" : {
 				"small" : "skills/evasion/icons/small/basic",
@@ -31,7 +33,9 @@
 		"advanced" : {
 			"description" : "{Advanced Evasion}\n\nReduces damage received by the hero's army from ranged attacks by 20%.",
 			"effects" : {
-				"main" : { "val" : 20 }
+				"main" : {
+					"val" : 20
+				}
 			},
 			"images" : {
 				"small" : "skills/evasion/icons/small/advanced",
@@ -43,7 +47,9 @@
 		"expert" : {
 			"description" : "{Expert Evasion}\n\nReduces damage received by the hero's army from ranged attacks by 30%.",
 			"effects" : {
-				"main" : { "val" : 30 }
+				"main" : {
+					"val" : 30
+				}
 			},
 			"images" : {
 				"small" : "skills/evasion/icons/small/expert",

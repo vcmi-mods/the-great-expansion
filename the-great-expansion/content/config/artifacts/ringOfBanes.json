@@ -11,7 +11,7 @@
 				"subtype" : "spell.weakness",
 				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
 			},
-			"disruptingRay": {
+			"disruptingRay" : {
 				"addInfo" : -1,
 				"subtype" : "spell.disruptingRay",
 				"type" : "SPECIAL_ADD_VALUE_ENCHANT"

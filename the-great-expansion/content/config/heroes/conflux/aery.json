@@ -1,32 +1,27 @@
 {
-	"aery" :
-	{
+	"aery" : {
 		"class" : "planeswalker",
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Aery",
 			"biography" : "Quiet like the still wind, Aery is caring and curious, but as they say, beware the silence before the storm.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Air and Storm Elementals in the hero's army gain a bonus of +8 to Max Damage.",
 				"tooltip" : "Creature Bonus: Air Elementals",
 				"name" : "Air Elementals"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/conflux/aery/specSmall.png",
 			"specialtyLarge" : "heroes/conflux/aery/specLarge.png",
 			"large" : "heroes/conflux/aery/large.png",
 			"small" : "heroes/conflux/aery/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "airElemental",
 				"max" : 4,
@@ -43,8 +38,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -62,7 +56,7 @@
 					"subtype" : "creatureDamageMax",
 					"val" : 8,
 					"valueType" : "ADDITIVE_VALUE",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "airElemental",

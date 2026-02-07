@@ -1,32 +1,27 @@
 {
-	"scarla" :
-	{
+	"scarla" : {
 		"class" : "overlord",
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Scarla",
 			"biography" : "Scarla is known for aerial assaults. Not only dragons, but also other winged monstrosities guided by this overlord are hard like rock and strike as hard. She excels at quick fights, leaving her foes overwhelmed and not able to counterattack.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Flying creatures in the hero's army receive a bonus of +0.75% per hero level to damage dealt and -0.75% to damage received per hero level.",
 				"tooltip" : "Unique Bonus: Aerial Champion",
 				"name" : "Aerial Champion"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/dungeon/scarla/specSmall.png",
 			"specialtyLarge" : "heroes/dungeon/scarla/specLarge.png",
 			"large" : "heroes/dungeon/scarla/large.png",
 			"small" : "heroes/dungeon/scarla/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "troglodyte",
 				"max" : 30,
@@ -43,8 +38,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "skyMaster"

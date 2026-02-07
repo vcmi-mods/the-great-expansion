@@ -1,33 +1,30 @@
 {
-	"forbest" :
-	{
+	"forbest" : {
 		"class" : "witch",
-		"spellbook": [ "blind" ],
+		"spellbook" : [
+			"blind"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Forbest",
 			"biography" : "Forbest is a tricky witch, not afraid to get into melee. By rendering her foes vulnerable, she can deliver a deadly blow. Thanks to this, she can take down the strongest enemies with just a small amount of units.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Enemies affected by Blind receive 75% more damage from attacks.",
 				"tooltip" : "Spell Bonus: Blind",
 				"name" : "Blind"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/fortress/forbest/specSmall.png",
 			"specialtyLarge" : "heroes/fortress/forbest/specLarge.png",
 			"large" : "heroes/fortress/forbest/large.png",
 			"small" : "heroes/fortress/forbest/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "gnoll",
 				"max" : 25,
@@ -44,8 +41,7 @@
 				"min" : 3
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "eagleEye"
@@ -71,7 +67,7 @@
 							"bonusSourceType" : "SPELL_EFFECT",
 							"bonusSourceID" : "spell.blind"
 						}
-					],
+					]
 				}
 			}
 		}

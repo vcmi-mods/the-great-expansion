@@ -18,7 +18,9 @@
 		"basic" : {
 			"description" : "{Basic Vitality}\n\nIncreases Max Health of all units under the hero's control by 1.",
 			"effects" : {
-				"main" : { "val" : 1 }
+				"main" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/vitality/icons/small/basic",
@@ -30,7 +32,9 @@
 		"advanced" : {
 			"description" : "{Advanced Vitality}\n\nIncreases Max Health of all units under the hero's control by 2.",
 			"effects" : {
-				"main" : { "val" : 2 }
+				"main" : {
+					"val" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/vitality/icons/small/advanced",
@@ -42,7 +46,9 @@
 		"expert" : {
 			"description" : "{Expert Vitality}\n\nIncreases Max Health of all units under the hero's control by 3.",
 			"effects" : {
-				"main" : { "val" : 3 }
+				"main" : {
+					"val" : 3
+				}
 			},
 			"images" : {
 				"small" : "skills/vitality/icons/small/expert",

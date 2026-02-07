@@ -45,9 +45,15 @@
 		"basic" : {
 			"description" : "{Basic Irresistible Magic}\n\nReduces Incoming Spell Damage Reduction from enemy units by 6% and reduces their Magic Resistance by 6%.\n\nNegative Incoming Spell Damage Reduction causes enemies to receive more damage from spells.",
 			"effects" : {
-				"magicResistance" : { "val" : -6 },
-				"magicArmor" : { "val" : -6 },
-				"magicImmunity" : { "val" : 0 }
+				"magicResistance" : {
+					"val" : -6
+				},
+				"magicArmor" : {
+					"val" : -6
+				},
+				"magicImmunity" : {
+					"val" : 0
+				}
 			},
 			"images" : {
 				"small" : "skills/irresistibleMagic/icons/small/basic",
@@ -59,9 +65,15 @@
 		"advanced" : {
 			"description" : "{Advanced Irresistible Magic}\n\nReduces Incoming Spell Damage Reduction from enemy units by 12% and reduces their Magic Resistance by 12%.\n\nNegative Incoming Spell Damage Reduction causes enemies to receive more damage from spells.",
 			"effects" : {
-				"magicResistance" : { "val" : -12 },
-				"magicArmor" : { "val" : -12 },
-				"magicImmunity" : { "val" : 0 }
+				"magicResistance" : {
+					"val" : -12
+				},
+				"magicArmor" : {
+					"val" : -12
+				},
+				"magicImmunity" : {
+					"val" : 0
+				}
 			},
 			"images" : {
 				"small" : "skills/irresistibleMagic/icons/small/advanced",
@@ -73,9 +85,15 @@
 		"expert" : {
 			"description" : "{Expert Irresistible Magic}\n\nReduces Incoming Spell Damage Reduction from enemy units by 18%, reduces their Magic Resistance by 18% and reduces their Magic Immunity Level Threshold by 1.\n\nNegative Incoming Spell Damage Reduction causes enemies to receive more damage from spells.",
 			"effects" : {
-				"magicResistance" : { "val" : -18 },
-				"magicArmor" : { "val" : -18 },
-				"magicImmunity" : { "val" : -1 }
+				"magicResistance" : {
+					"val" : -18
+				},
+				"magicArmor" : {
+					"val" : -18
+				},
+				"magicImmunity" : {
+					"val" : -1
+				}
 			},
 			"images" : {
 				"small" : "skills/irresistibleMagic/icons/small/expert",

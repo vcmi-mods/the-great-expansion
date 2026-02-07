@@ -11,7 +11,7 @@
 				"subtype" : "spell.bloodlust",
 				"type" : "SPECIAL_ADD_VALUE_ENCHANT"
 			},
-			"haste": {
+			"haste" : {
 				"addInfo" : 1,
 				"subtype" : "spell.haste",
 				"type" : "SPECIAL_ADD_VALUE_ENCHANT"

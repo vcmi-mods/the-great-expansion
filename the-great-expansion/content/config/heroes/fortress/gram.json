@@ -1,32 +1,27 @@
 {
-	"gram" :
-	{
+	"gram" : {
 		"class" : "beastmaster",
 		"female" : false,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Gram",
 			"biography" : "Gram, sometimes called \"The Fist of Tatalia\" knows how to capture towns fast. For this, he specializes in getting the required resources and focuses on the troops that are the most useful during sieges. Truly, no castle is safe if Gram is nearby.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Lizardmen, Serpent Flies, Wyverns and upgrades of those creatures receive a bonus of +1 to speed and damage they receive is reduced by 0.65% per hero level.",
 				"tooltip" : "Unique Bonus: Onslaught",
 				"name" : "Onslaught"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/fortress/gram/specSmall.png",
 			"specialtyLarge" : "heroes/fortress/gram/specLarge.png",
 			"large" : "heroes/fortress/gram/large.png",
 			"small" : "heroes/fortress/gram/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "lizardman",
 				"max" : 6,
@@ -43,8 +38,7 @@
 				"min" : 1
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "armorer"
@@ -61,37 +55,37 @@
 					"type" : "STACKS_SPEED",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "lizardman",
 							"includeUpgrades" : true
 						}
-					],
+					]
 				},
 				"speed2" : {
 					"type" : "STACKS_SPEED",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "serpentFly",
 							"includeUpgrades" : true
 						}
-					],
+					]
 				},
 				"speed3" : {
 					"type" : "STACKS_SPEED",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "wyvern",
 							"includeUpgrades" : true
 						}
-					],
+					]
 				},
 				"defence1" : {
 					"subtype" : "damageTypeAll",
@@ -102,7 +96,7 @@
 						"valPer20" : 13,
 						"stepSize" : 1
 					},
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "lizardman",
@@ -119,7 +113,7 @@
 						"valPer20" : 13,
 						"stepSize" : 1
 					},
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "serpentFly",
@@ -136,7 +130,7 @@
 						"valPer20" : 13,
 						"stepSize" : 1
 					},
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "wyvern",

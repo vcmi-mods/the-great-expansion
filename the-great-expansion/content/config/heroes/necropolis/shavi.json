@@ -1,33 +1,30 @@
 {
-	"shavi" :
-	{
+	"shavi" : {
 		"class" : "deathknight",
-		"spellbook": [ "protectFire" ],
+		"spellbook" : [
+			"protectFire"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Shavi",
 			"biography" : "Even if dead, Shavi kept her body intact, which lets her play a living one, however those that are close to her feel cold and drained, as if she was stealing life essence of those who are nearby.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Max Health of units in the hero's army by 1 per 10 hero levels.",
 				"tooltip" : "Skill Bonus: Vitality",
 				"name" : "Vitality"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/necropolis/shavi/specSmall.png",
 			"specialtyLarge" : "heroes/necropolis/shavi/specLarge.png",
 			"large" : "heroes/necropolis/shavi/large.png",
 			"small" : "heroes/necropolis/shavi/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "skeleton",
 				"max" : 30,
@@ -44,8 +41,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "necromancy"

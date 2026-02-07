@@ -6,12 +6,14 @@
 				"val" : 4,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"disease" :
-			{
+			"disease" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.disease",
 				"val" : 20,
-				"addInfo" : [3,0]
+				"addInfo" : [
+					3,
+					0
+				]
 			}
 		},
 		"type" : [

@@ -22,7 +22,7 @@
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "SHOOTER"
 						}
-					],
+					]
 				},
 				"defence" : {
 					"subtype" : "damageTypeAll",
@@ -38,15 +38,19 @@
 							"type" : "HAS_ANOTHER_BONUS_LIMITER",
 							"bonusType" : "SHOOTER"
 						}
-					],
+					]
 				}
 			}
 		},
 		"basic" : {
 			"description" : "{Basic Infantry Commander}\n\nIncreases damage dealt by non-flying, non-shooting units in your army by 5% and reduces damage they receive by 5%.",
 			"effects" : {
-				"offence" : { "val" : 5 },
-				"defence" : { "val" : 5 }
+				"offence" : {
+					"val" : 5
+				},
+				"defence" : {
+					"val" : 5
+				}
 			},
 			"images" : {
 				"small" : "skills/infantryCommander/icons/small/basic",
@@ -58,8 +62,12 @@
 		"advanced" : {
 			"description" : "{Advanced Infantry Commander}\n\nIncreases damage dealt by non-flying, non-shooting units in your army by 10% and reduces damage they receive by 10%.",
 			"effects" : {
-				"offence" : { "val" : 10 },
-				"defence" : { "val" : 10 }
+				"offence" : {
+					"val" : 10
+				},
+				"defence" : {
+					"val" : 10
+				}
 			},
 			"images" : {
 				"small" : "skills/infantryCommander/icons/small/advanced",
@@ -71,8 +79,12 @@
 		"expert" : {
 			"description" : "{Expert Infantry Commander}\n\nIncreases damage dealt by non-flying, non-shooting units in your army by 15% and reduces damage they receive by 15%.",
 			"effects" : {
-				"offence" : { "val" : 15 },
-				"defence" : { "val" : 15 }
+				"offence" : {
+					"val" : 15
+				},
+				"defence" : {
+					"val" : 15
+				}
 			},
 			"images" : {
 				"small" : "skills/infantryCommander/icons/small/expert",

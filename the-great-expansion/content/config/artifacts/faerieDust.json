@@ -1,18 +1,19 @@
 {
 	"faerieDust" : {
 		"bonuses" : {
-			"dispel_attack" :
-			{
+			"dispel_attack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.dispelHelpful",
 				"val" : 100
 			},
-			"blind_attack" :
-			{
+			"blind_attack" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind",
 				"val" : 20,
-				"addInfo" : [3,0]
+				"addInfo" : [
+					3,
+					0
+				]
 			}
 		},
 		"type" : [

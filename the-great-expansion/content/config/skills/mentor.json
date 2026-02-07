@@ -19,7 +19,9 @@
 		"basic" : {
 			"description" : "{Basic Mentor}\n\nAt the start of combat, summons a small stack of Enchanters, depending on the hero's Spellpower.",
 			"effects" : {
-				"main" : { "addInfo" : 1 }
+				"main" : {
+					"addInfo" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/mentor/icons/small/basic",
@@ -31,7 +33,9 @@
 		"advanced" : {
 			"description" : "{Advanced Mentor}\n\nAt the start of combat, summons a medium stack of Enchanters, depending on the hero's Spellpower.",
 			"effects" : {
-				"main" : { "addInfo" : 2 }
+				"main" : {
+					"addInfo" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/mentor/icons/small/advanced",
@@ -43,7 +47,9 @@
 		"expert" : {
 			"description" : "{Expert Mentor}\n\nAt the start of combat, summons a large stack of Enchanters, depending on the hero's Spellpower.",
 			"effects" : {
-				"main" : { "addInfo" : 3 }
+				"main" : {
+					"addInfo" : 3
+				}
 			},
 			"images" : {
 				"small" : "skills/mentor/icons/small/expert",

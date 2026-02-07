@@ -1,8 +1,7 @@
 {
 	"vampireFang" : {
 		"bonuses" : {
-			"undead" :
-			{
+			"undead" : {
 				"type" : "UNDEAD"
 			},
 			"lifesteal" : {
@@ -11,7 +10,7 @@
 			},
 			"speed" : {
 				"type" : "STACKS_SPEED",
-				"val" : 2,
+				"val" : 2
 			}
 		},
 		"type" : [
