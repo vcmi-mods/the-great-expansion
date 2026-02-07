@@ -1,33 +1,30 @@
 {
-	"silis" :
-	{
+	"silis" : {
 		"class" : "elementalist",
-		"spellbook": [ "haste" ],
+		"spellbook" : [
+			"haste"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Silis",
 			"biography" : "What Silis couldn't find in the forests of AvLee, she found behind the gates of Conflux. the playful sprites she loves to spend time with. If not for the war, she would stay with them until the end of her days.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Pixies and Sprites in the hero's army receive a bonus of +1 to Damage and Speed. Pixies also gain the No Retaliation ability.",
 				"tooltip" : "Creature Bonus: Pixies",
 				"name" : "Pixies"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/conflux/silis/specSmall.png",
 			"specialtyLarge" : "heroes/conflux/silis/specLarge.png",
 			"large" : "heroes/conflux/silis/large.png",
 			"small" : "heroes/conflux/silis/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "pixie",
 				"max" : 25,
@@ -44,8 +41,7 @@
 				"min" : 15
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "airMagic"
@@ -62,7 +58,7 @@
 					"type" : "STACKS_SPEED",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "pixie",
@@ -75,7 +71,7 @@
 					"subtype" : "creatureDamageBoth",
 					"val" : 1,
 					"valueType" : "ADDITIVE_VALUE",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "pixie",
@@ -85,7 +81,7 @@
 				},
 				"noRetaliation" : {
 					"type" : "BLOCKS_RETALIATION",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "pixie"

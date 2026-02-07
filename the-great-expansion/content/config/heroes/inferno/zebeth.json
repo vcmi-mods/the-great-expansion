@@ -1,33 +1,30 @@
 {
-	"zebeth" :
-	{
+	"zebeth" : {
 		"class" : "heretic",
-		"spellbook": [ "scuttleBoat" ],
+		"spellbook" : [
+			"scuttleBoat"
+		],
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Zebeth",
 			"biography" : "A fierce demon, if a little unstable, Zebeth wants to watch the world burn. The passion is shared by her demons, which results in them acquiring new abilities.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Pit Fiends and Pit Lords can now cast Fireball. Increases the amount of casts by 1.",
 				"tooltip" : "Creautre Bonus: Pit Fiends",
 				"name" : "Pit Fiends"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/inferno/zebeth/specSmall.png",
 			"specialtyLarge" : "heroes/inferno/zebeth/specLarge.png",
 			"large" : "heroes/inferno/zebeth/large.png",
 			"small" : "heroes/inferno/zebeth/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "imp",
 				"max" : 30,
@@ -44,8 +41,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "arcana"
@@ -55,15 +51,14 @@
 				"skill" : "mysticism"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
-				"fireballPower" : 
-				{
+				"fireballPower" : {
 					"type" : "SPECIFIC_SPELL_POWER",
 					"subtype" : "spell.fireball",
 					"val" : 15,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "pitFiend",
@@ -71,12 +66,11 @@
 						}
 					]
 				},
-				"fireballCast" :
-				{
+				"fireballCast" : {
 					"type" : "SPELLCASTER",
 					"subtype" : "spell.fireball",
 					"val" : 0,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "pitFiend",
@@ -84,11 +78,10 @@
 						}
 					]
 				},
-				"castsAmount" :
-				{
+				"castsAmount" : {
 					"type" : "CASTS",
 					"val" : 1,
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "pitFiend",

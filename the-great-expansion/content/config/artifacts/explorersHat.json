@@ -14,8 +14,7 @@
 		"class" : "MAJOR",
 		"slot" : "HEAD",
 		"value" : 7750,
-		"components": 
-		[
+		"components" : [
 			"centaurAxe",
 			"shieldOfTheDwarvenLords",
 			"helmOfTheAlabasterUnicorn",

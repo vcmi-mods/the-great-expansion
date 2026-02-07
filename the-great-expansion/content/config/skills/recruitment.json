@@ -11,19 +11,19 @@
 				"main" : {
 					"type" : "CREATURE_GROWTH",
 					"subtype" : "creatureLevel1",
-					"propagator": "PLAYER",
+					"propagator" : "PLAYER",
 					"val" : 2
 				},
 				"lv2" : {
 					"type" : "CREATURE_GROWTH",
 					"subtype" : "creatureLevel2",
-					"propagator": "PLAYER",
+					"propagator" : "PLAYER",
 					"val" : 1
 				},
 				"lv3" : {
 					"type" : "CREATURE_GROWTH",
 					"subtype" : "creatureLevel3",
-					"propagator": "PLAYER",
+					"propagator" : "PLAYER",
 					"val" : 1
 				}
 			}
@@ -31,9 +31,15 @@
 		"basic" : {
 			"description" : "{Basic Recruitment}\n\nIncreases weekly growth of tier 1 creatures in all owned towns by 2.",
 			"effects" : {
-				"main" : { "val" : 2 },
-				"lv2" : { "val" : 0 },
-				"lv3" : { "val" : 0 }
+				"main" : {
+					"val" : 2
+				},
+				"lv2" : {
+					"val" : 0
+				},
+				"lv3" : {
+					"val" : 0
+				}
 			},
 			"images" : {
 				"small" : "skills/recruitment/icons/small/basic",
@@ -45,9 +51,15 @@
 		"advanced" : {
 			"description" : "{Advanced Recruitment}\n\nIncreases weekly growth of tier 1 and 2 creatures in all owned towns by 2 and 1 respectively.",
 			"effects" : {
-				"main" : { "val" : 2 },
-				"lv2" : { "val" : 1 },
-				"lv3" : { "val" : 0 }
+				"main" : {
+					"val" : 2
+				},
+				"lv2" : {
+					"val" : 1
+				},
+				"lv3" : {
+					"val" : 0
+				}
 			},
 			"images" : {
 				"small" : "skills/recruitment/icons/small/advanced",
@@ -59,9 +71,15 @@
 		"expert" : {
 			"description" : "{Expert Recruitment}\n\nIncreases weekly growth of tier 1,2 and 3 creatures in all owned towns by 2, 1 and 1 respectively.",
 			"effects" : {
-				"main" : { "val" : 2 },
-				"lv2" : { "val" : 1 },
-				"lv3" : { "val" : 1 }
+				"main" : {
+					"val" : 2
+				},
+				"lv2" : {
+					"val" : 1
+				},
+				"lv3" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/recruitment/icons/small/expert",

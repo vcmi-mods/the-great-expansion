@@ -27,7 +27,9 @@
 		"basic" : {
 			"description" : "{Basic Stormwind}\n\nReduces Speed of enemy flying units in the hero's army by 1.",
 			"effects" : {
-				"speed" : { "val" : -1 }
+				"speed" : {
+					"val" : -1
+				}
 			},
 			"images" : {
 				"small" : "skills/stormwind/icons/small/basic",
@@ -39,7 +41,9 @@
 		"advanced" : {
 			"description" : "{Advanced Stormwind}\n\nReduces Speed of enemy flying units in the hero's army by 2.",
 			"effects" : {
-				"speed" : { "val" : -2 }
+				"speed" : {
+					"val" : -2
+				}
 			},
 			"images" : {
 				"small" : "skills/stormwind/icons/small/advanced",
@@ -51,7 +55,9 @@
 		"expert" : {
 			"description" : "{Expert Stormwind}\n\nReduces Speed of enemy flying units in the hero's army by 3.",
 			"effects" : {
-				"speed" : { "val" : -3 }
+				"speed" : {
+					"val" : -3
+				}
 			},
 			"images" : {
 				"small" : "skills/stormwind/icons/small/expert",

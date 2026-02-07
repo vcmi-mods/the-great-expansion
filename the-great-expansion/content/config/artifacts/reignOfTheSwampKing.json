@@ -1,8 +1,7 @@
 {
 	"reignOfTheSwampKing" : {
 		"bonuses" : {
-			"deathStare" : 
-			{
+			"deathStare" : {
 				"type" : "DEATH_STARE",
 				"subtype" : "deathStareGorgon",
 				"val" : 3
@@ -14,8 +13,7 @@
 		"class" : "RELIC",
 		"slot" : "LEFT_HAND",
 		"value" : 18500,
-		"components": 
-		[
+		"components" : [
 			"greaterGnollsFlail",
 			"bucklerOfTheGnollKing",
 			"helmOfChaos",

@@ -1,10 +1,9 @@
 {
 	"frightTalisman" : {
 		"bonuses" : {
-			"noRetalitation" : 
-			{
+			"noRetalitation" : {
 				"type" : "BLOCKS_RETALIATION"
-			},
+			}
 		},
 		"type" : [
 			"CREATURE"

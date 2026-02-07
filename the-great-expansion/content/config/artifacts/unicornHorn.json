@@ -11,15 +11,16 @@
 				"val" : 1,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"blinds" :
-			{
+			"blinds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind",
 				"val" : 20,
-				"addInfo" : [3,0]
+				"addInfo" : [
+					3,
+					0
+				]
 			},
-			"magicResistance" :
-			{
+			"magicResistance" : {
 				"type" : "MAGIC_RESISTANCE",
 				"val" : 20
 			}

@@ -18,7 +18,7 @@
 					"subtype" : "spell.weakness",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
 				},
-				"disruptingRay": {
+				"disruptingRay" : {
 					"addInfo" : 0,
 					"subtype" : "spell.disruptingRay",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
@@ -44,7 +44,7 @@
 				},
 				"slow" : {
 					"addInfo" : -1
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/occultism/icons/small/basic",
@@ -67,7 +67,7 @@
 				},
 				"slow" : {
 					"addInfo" : -2
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/occultism/icons/small/advanced",
@@ -90,7 +90,7 @@
 				},
 				"slow" : {
 					"addInfo" : -3
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/occultism/icons/small/expert",

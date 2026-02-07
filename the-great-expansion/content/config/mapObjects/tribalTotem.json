@@ -15,19 +15,23 @@
 						"mask" : [
 							"VV",
 							"VA"
-						],
+						]
 					}
 				},
 				"aiValue" : 400,
 				"rmg" : {
-					"value"		: 400,
-					"rarity"	: 12
+					"value" : 400,
+					"rarity" : 12
 				},
-				"removable": false,
+				"removable" : false,
 				"sounds" : {
-					"visit" : ["MORALE"]
+					"visit" : [
+						"MORALE"
+					]
 				},
-				"compatibilityIdentifiers" : [ "object" ],
+				"compatibilityIdentifiers" : [
+					"object"
+				],
 				"description" : "Increases Movement Points and Max Health of units for the next battle.",
 				"visitMode" : "bonus",
 				"selectMode" : "selectFirst",
@@ -35,9 +39,20 @@
 					{
 						"message" : "You channel ancient powers through the nearby totem, bolstering endurance of your troops momentarily.",
 						"movePoints" : 400,
-						"bonuses" : [ 
-							{ "type" : "STACK_HEALTH", "val" : 1, "duration" : "ONE_BATTLE", "description" : "Tribal Totem +1" },
-							{ "type" : "STACK_HEALTH", "val" : 10, "valueType" : "PERCENT_TO_ALL", "duration" : "ONE_BATTLE", "description" : "Tribal Totem +10%" }
+						"bonuses" : [
+							{
+								"type" : "STACK_HEALTH",
+								"val" : 1,
+								"duration" : "ONE_BATTLE",
+								"description" : "Tribal Totem +1"
+							},
+							{
+								"type" : "STACK_HEALTH",
+								"val" : 10,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "ONE_BATTLE",
+								"description" : "Tribal Totem +10%"
+							}
 						]
 					}
 				]

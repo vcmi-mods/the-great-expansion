@@ -23,7 +23,9 @@
 		"basic" : {
 			"description" : "{Basic Gathering}\n\nGenerates 1 Wood per day.",
 			"effects" : {
-				"main" : { "val" : 1 }
+				"main" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/gathering/icons/small/basic",
@@ -35,8 +37,12 @@
 		"advanced" : {
 			"description" : "{Advanced Gathering}\n\nGenerates 1 Wood and Ore per day.",
 			"effects" : {
-				"main" : { "val" : 1 },
-				"ore" : { "val" : 1 }
+				"main" : {
+					"val" : 1
+				},
+				"ore" : {
+					"val" : 1
+				}
 			},
 			"images" : {
 				"small" : "skills/gathering/icons/small/advanced",
@@ -48,8 +54,12 @@
 		"expert" : {
 			"description" : "{Expert Gathering}\n\nGenerates 2 Wood and Ore per day.",
 			"effects" : {
-				"main" : { "val" : 2 },
-				"ore" : { "val" : 2 }
+				"main" : {
+					"val" : 2
+				},
+				"ore" : {
+					"val" : 2
+				}
 			},
 			"images" : {
 				"small" : "skills/gathering/icons/small/expert",

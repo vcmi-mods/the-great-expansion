@@ -12,7 +12,7 @@
 				"type" : "HERO_GRANTS_ATTACKS",
 				"valueType" : "BASE_NUMBER",
 				"val" : 1
-			},
+			}
 		},
 		"type" : [
 			"HERO"

@@ -14,8 +14,7 @@
 		"class" : "RELIC",
 		"slot" : "MISC",
 		"value" : 32000,
-		"components": 
-		[
+		"components" : [
 			"orbOfTheFirmament",
 			"orbOfSilt",
 			"orbOfTempestuousFire",

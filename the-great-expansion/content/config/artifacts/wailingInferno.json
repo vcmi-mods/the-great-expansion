@@ -9,7 +9,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [
 					"OPPOSITE_SIDE"
-				],
+				]
 			}
 		},
 		"type" : [
@@ -18,8 +18,7 @@
 		"class" : "RELIC",
 		"slot" : "LEFT_HAND",
 		"value" : 26500,
-		"components": 
-		[
+		"components" : [
 			"swordOfHellfire",
 			"shieldOfTheDamned",
 			"hellstormHelmet",

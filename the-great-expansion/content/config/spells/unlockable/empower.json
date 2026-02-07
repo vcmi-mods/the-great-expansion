@@ -1,21 +1,19 @@
 {
-    "empower":
-    {   
-        "type": "combat",
-        "targetType":"CREATURE",
-        "name": "Empower",
+	"empower" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Empower",
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : true,
 			"water" : false
 		},
-        "level": 2,
-        "power": 10,
-        "defaultGainChance": 5, 
-        "gainChance":
-        {
-            "castle" : 6,
+		"level" : 2,
+		"power" : 10,
+		"defaultGainChance" : 5,
+		"gainChance" : {
+			"castle" : 6,
 			"rampart" : 5,
 			"tower" : 4,
 			"inferno" : 5,
@@ -24,7 +22,7 @@
 			"stronghold" : 5,
 			"fortress" : 5,
 			"conflux" : 4
-        },
+		},
 
 		"targetCondition" : {
 			"allOf" : {},
@@ -32,7 +30,7 @@
 			"noneOf" : {}
 		},
 		"flags" : {
-			"positive": true
+			"positive" : true
 		},
 
 		"graphics" : {
@@ -51,12 +49,14 @@
 		"sounds" : {
 			"cast" : "spells/empower/sfx.wav"
 		},
-		
+
 		"levels" : {
-			"base":{
+			"base" : {
 				"range" : "0",
-				"power": 10, //power value was missing in original files, it's placeholder
-				"targetModifier":{"smart":true},
+				"power" : 10, //power value was missing in original files, it's placeholder
+				"targetModifier" : {
+					"smart" : true
+				},
 				"effects" : {
 					"bonusMax" : {
 						"type" : "CREATURE_DAMAGE",
@@ -84,7 +84,7 @@
 
 				"cost" : 9
 			},
-			"advanced":{
+			"advanced" : {
 				"description" : "{Advanced Empower}\n\nIncreases Max Damage of the target stack.\n\nThe bonus is twice as high as the bonus from the Basic Empower.",
 
 				"cost" : 9,
@@ -94,8 +94,7 @@
 					}
 				}
 			},
-			"expert":{
-				
+			"expert" : {
 				"description" : "{Expert Empower}\n\nIncreases Max Damage of all friendly stacks.\n\nThe bonus is twice as high as the bonus from the Basic Empower.",
 				"cost" : 9,
 				"range" : "X",
@@ -106,6 +105,5 @@
 				}
 			}
 		}
-    }
-
+	}
 }

@@ -18,7 +18,7 @@
 					"subtype" : "spell.bloodlust",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
 				},
-				"haste": {
+				"haste" : {
 					"addInfo" : 0,
 					"subtype" : "spell.haste",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
@@ -44,7 +44,7 @@
 				},
 				"stoneSkin" : {
 					"addInfo" : 1
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/benevolence/icons/small/basic",
@@ -67,7 +67,7 @@
 				},
 				"stoneSkin" : {
 					"addInfo" : 2
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/benevolence/icons/small/advanced",
@@ -90,7 +90,7 @@
 				},
 				"stoneSkin" : {
 					"addInfo" : 3
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/benevolence/icons/small/expert",

@@ -40,15 +40,30 @@
 				"rewards" : [
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
 						"guards" : [
-							{ "amount" : 56, "type" : "pegasus" },
-							{ "amount" : 20, "type" : "dendroidGuard" },
-							{ "amount" : 14, "type" : "silverPegasus" },
-							{ "amount" : 4, "type" : "dendroidSoldier" }
+							{
+								"amount" : 56,
+								"type" : "pegasus"
+							},
+							{
+								"amount" : 20,
+								"type" : "dendroidGuard"
+							},
+							{
+								"amount" : 14,
+								"type" : "silverPegasus"
+							},
+							{
+								"amount" : 4,
+								"type" : "dendroidSoldier"
+							}
 						],
-						
-						"primary": [
+
+						"primary" : [
 							{
 								"type" : "attack",
 								"amount" : 1
@@ -72,16 +87,35 @@
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : { "min" : 30, "max" : 60 },
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
 						"guards" : [
-							{ "amount" : 56, "type" : "pegasus" },
-							{ "amount" : 25, "type" : "dendroidGuard" },
-							{ "amount" : 21, "type" : "silverPegasus" },
-							{ "amount" : 8, "type" : "dendroidSoldier" }
+							{
+								"amount" : 56,
+								"type" : "pegasus"
+							},
+							{
+								"amount" : 25,
+								"type" : "dendroidGuard"
+							},
+							{
+								"amount" : 21,
+								"type" : "silverPegasus"
+							},
+							{
+								"amount" : 8,
+								"type" : "dendroidSoldier"
+							}
 						],
-						
-						"artifacts": [ { "class" : "MINOR" } ],
-						"primary": [
+
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							}
+						],
+						"primary" : [
 							{
 								"type" : "attack",
 								"amount" : 1
@@ -105,16 +139,35 @@
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : { "min" : 60, "max" : 90 },
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
 						"guards" : [
-							{ "amount" : 56, "type" : "pegasus" },
-							{ "amount" : 25, "type" : "dendroidGuard" },
-							{ "amount" : 28, "type" : "silverPegasus" },
-							{ "amount" : 13, "type" : "dendroidSoldier" }
+							{
+								"amount" : 56,
+								"type" : "pegasus"
+							},
+							{
+								"amount" : 25,
+								"type" : "dendroidGuard"
+							},
+							{
+								"amount" : 28,
+								"type" : "silverPegasus"
+							},
+							{
+								"amount" : 13,
+								"type" : "dendroidSoldier"
+							}
 						],
-						
-						"artifacts": [ { "class" : "MAJOR" } ],
-						"primary": [
+
+						"artifacts" : [
+							{
+								"class" : "MAJOR"
+							}
+						],
+						"primary" : [
 							{
 								"type" : "attack",
 								"amount" : 1
@@ -138,15 +191,30 @@
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : { "min" : 90, "max" : 100 },
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
 						"guards" : [
-							{ "amount" : 56, "type" : "pegasus" },
-							{ "amount" : 30, "type" : "dendroidGuard" },
-							{ "amount" : 42, "type" : "silverPegasus" },
-							{ "amount" : 21, "type" : "dendroidSoldier" }
+							{
+								"amount" : 56,
+								"type" : "pegasus"
+							},
+							{
+								"amount" : 30,
+								"type" : "dendroidGuard"
+							},
+							{
+								"amount" : 42,
+								"type" : "silverPegasus"
+							},
+							{
+								"amount" : 21,
+								"type" : "dendroidSoldier"
+							}
 						],
-						
-						"primary": [
+
+						"primary" : [
 							{
 								"type" : "attack",
 								"amount" : 1
@@ -164,7 +232,14 @@
 								"amount" : 1
 							}
 						],
-						"artifacts": [ { "class" : "MINOR" }, { "class" : "MAJOR" } ],
+						"artifacts" : [
+							{
+								"class" : "MINOR"
+							},
+							{
+								"class" : "MAJOR"
+							}
+						],
 						"resources" : {
 							"gold" : 12500
 						}

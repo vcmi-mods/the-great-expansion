@@ -13,11 +13,10 @@
 				"val" : 5,
 				"valueType" : "BASE_NUMBER"
 			},
-			"reduceDefence" :
-			{
+			"reduceDefence" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 50
-			},
+			}
 		},
 		"type" : [
 			"CREATURE"

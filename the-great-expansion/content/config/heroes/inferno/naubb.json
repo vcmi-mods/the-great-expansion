@@ -1,32 +1,27 @@
 {
-	"naubb" :
-	{
+	"naubb" : {
 		"class" : "demoniac",
 		"female" : false,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Naubb",
 			"biography" : "Once a lesser demon, now one of the greatest ones, Naubb is sure blessed by tremendous amount of luck. Even if by chance, he survived a lot of battles, and now uses this experience to lead the other demons, sharing his blessing with them.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Luck of the hero by 1 per 6 hero levels.",
 				"tooltip" : "Skill Bonus: Luck",
 				"name" : "Luck"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/inferno/naubb/specSmall.png",
 			"specialtyLarge" : "heroes/inferno/naubb/specLarge.png",
 			"large" : "heroes/inferno/naubb/large.png",
 			"small" : "heroes/inferno/naubb/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "imp",
 				"max" : 30,
@@ -43,8 +38,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "luck"
@@ -54,7 +48,7 @@
 				"skill" : "battle-fury"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"luck" : {
@@ -68,6 +62,6 @@
 					}
 				}
 			}
-		},
+		}
 	}
 }

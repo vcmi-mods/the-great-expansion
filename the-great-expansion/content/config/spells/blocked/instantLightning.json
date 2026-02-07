@@ -16,22 +16,32 @@
 			"damage" : true,
 			"negative" : true
 		},
-		"animation":{
-			"affect":[{"defName":"C03SPA0", "verticalPosition":"bottom"}, "C11SPA1"]
+		"animation" : {
+			"affect" : [
+				{
+					"defName" : "C03SPA0",
+					"verticalPosition" : "bottom"
+				},
+				"C11SPA1"
+			]
 		},
-		"sounds": {
-			"cast": "LIGHTBLT"
+		"sounds" : {
+			"cast" : "LIGHTBLT"
 		},
 		"levels" : {
 			"base" : {
 				"range" : "X",
 				"power" : 4,
-				"cost": 0,
+				"cost" : 0,
 				"description" : "",
 				"battleEffects" : {
-					"directDamage" : {"type":"core:damage"}
+					"directDamage" : {
+						"type" : "core:damage"
+					}
 				},
-				"targetModifier":{"smart":true}
+				"targetModifier" : {
+					"smart" : true
+				}
 			},
 			"none" : {
 				"power" : 0

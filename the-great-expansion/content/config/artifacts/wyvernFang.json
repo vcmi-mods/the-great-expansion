@@ -13,12 +13,14 @@
 				"val" : 2,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"poison" :
-			{
+			"poison" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.poison",
 				"val" : 20,
-				"addInfo" : [3,0]
+				"addInfo" : [
+					3,
+					0
+				]
 			}
 		},
 		"type" : [

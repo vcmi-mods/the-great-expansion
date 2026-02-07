@@ -1,33 +1,30 @@
 {
-	"davin" :
-	{
+	"davin" : {
 		"class" : "wizard",
-		"spellbook": [ "precision" ],
+		"spellbook" : [
+			"precision"
+		],
 		"female" : false,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Davin",
 			"biography" : "Davin focuses most of his studies on fighting enemy archers and is a specialist in storm magic. Thanks to it, enemies have trouble shooting, while his archers have no problem while fighting from afar, letting him win any ranged combat he takes part in.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Enemy shooting creatures receive a penalty of -10% to damage dealt and -1 to Speed.",
 				"tooltip" : "Fog Cloud",
 				"name" : "Fog Cloud"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/tower/davin/specSmall.png",
 			"specialtyLarge" : "heroes/tower/davin/specLarge.png",
 			"large" : "heroes/tower/davin/large.png",
 			"small" : "heroes/tower/davin/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "gremlin",
 				"max" : 40,
@@ -44,8 +41,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "intelligence"

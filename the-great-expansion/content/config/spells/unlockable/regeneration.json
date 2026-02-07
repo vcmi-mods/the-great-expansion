@@ -1,21 +1,19 @@
 {
-    "regeneration":
-    {   
-        "type": "combat",
-        "targetType":"CREATURE",
-        "name": "Regeneration",
+	"regeneration" : {
+		"type" : "combat",
+		"targetType" : "CREATURE",
+		"name" : "Regeneration",
 		"school" : {
 			"air" : false,
 			"earth" : false,
 			"fire" : false,
 			"water" : true
 		},
-        "level": 2,
-        "power": 10,
-        "defaultGainChance": 5, 
-        "gainChance":
-        {
-            "castle" : 7,
+		"level" : 2,
+		"power" : 10,
+		"defaultGainChance" : 5,
+		"gainChance" : {
+			"castle" : 7,
 			"rampart" : 6,
 			"tower" : 5,
 			"inferno" : 3,
@@ -24,14 +22,14 @@
 			"stronghold" : 3,
 			"fortress" : 5,
 			"conflux" : 7
-        },
+		},
 
 		"targetCondition" : {
 			"allOf" : {},
 			"anyOf" : {},
 			"noneOf" : {}
 		},
-		
+
 		"flags" : {
 			"positive" : true
 		},
@@ -52,7 +50,7 @@
 		"sounds" : {
 			"cast" : "spells/regeneration/sfx.wav"
 		},
-		
+
 		"levels" : {
 			"base" : {
 				"range" : "0",
@@ -72,19 +70,19 @@
 			"none" : {
 				"description" : "{Regeneration}\n\nThe selected unit will heal 40 Health at the start of each of its turns.",
 
-				"power": 40,
+				"power" : 40,
 				"cost" : 8
 			},
 			"basic" : {
 				"description" : "{Basic Regeneration}\n\nThe selected unit will heal 40 Health at the start of each of its turns.",
 
-				"power": 40,
+				"power" : 40,
 				"cost" : 6
 			},
 			"advanced" : {
 				"description" : "{Advanced Regeneration}\n\nThe selected unit will heal 70 Health at the start of each of its turns.",
 
-				"power": 70,
+				"power" : 70,
 				"cost" : 6,
 				"effects" : {
 					"main" : {
@@ -99,7 +97,7 @@
 			"expert" : {
 				"description" : "{Expert Regeneration}\n\nAll friendly units will heal 100 Health at the start of each of its turns.",
 
-				"power": 100,
+				"power" : 100,
 				"cost" : 6,
 				"range" : "X",
 				"effects" : {
@@ -113,6 +111,5 @@
 				}
 			}
 		}
-    }
-
+	}
 }

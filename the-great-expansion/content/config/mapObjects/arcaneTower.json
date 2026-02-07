@@ -41,78 +41,137 @@
 				"rewards" : [
 					{
 						"message" : "After defeating the guards you free the imprisoned enchanters!",
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
 						"guards" : [
-							{ "amount" : 9, "type" : "mage" },
-							{ "amount" : 8, "type" : "archMage" },
-							{ "amount" : 5, "type" : "monk" },
-							{ "amount" : 4, "type" : "zealot" }
-						],
-						
-						"heroExperience" : 1000, 
-						"creatures" : [
 							{
-								"type" : "enchanter",
-								"upgradeChance" : 0,
-								"amount" : 2,
-							}
-						]
-						
-					},
-					{
-						"message" : "After defeating the guards you free the imprisoned enchanters!",
-						"appearChance" : { "min" : 30, "max" : 60 },
-						"guards" : [
-							{ "amount" : 13, "type" : "mage" },
-							{ "amount" : 11, "type" : "archMage" },
-							{ "amount" : 7, "type" : "monk" },
-							{ "amount" : 5, "type" : "zealot" }
-						],
-						
-						"heroExperience" : 1000, 
-						"creatures" : [
+								"amount" : 9,
+								"type" : "mage"
+							},
 							{
-								"type" : "enchanter",
-								"upgradeChance" : 0,
-								"amount" : 3,
-							}
-						]
-					},
-					{
-						"message" : "After defeating the guards you free the imprisoned enchanters!",
-						"appearChance" : { "min" : 60, "max" : 90 },
-						"guards" : [
-							{ "amount" : 17, "type" : "mage" },
-							{ "amount" : 14, "type" : "archMage" },
-							{ "amount" : 9, "type" : "monk" },
-							{ "amount" : 6, "type" : "zealot" }
-						],
-						
-						"heroExperience" : 1000, 
-						"creatures" : [
+								"amount" : 8,
+								"type" : "archMage"
+							},
 							{
-								"type" : "enchanter",
-								"upgradeChance" : 0,
-								"amount" : 4,
-							}
-						]
-					},
-					{
-						"message" : "After defeating the guards you free the imprisoned enchanters!",
-						"appearChance" : { "min" : 90, "max" : 100 },
-						"guards" : [
-							{ "amount" : 21, "type" : "mage" },
-							{ "amount" : 17, "type" : "archMage" },
-							{ "amount" : 11, "type" : "monk" },
-							{ "amount" : 7, "type" : "zealot" }
-						],
-						
-						"heroExperience" : 1000, 
-						"creatures" : [
-							{
-								"type" : "enchanter",
-								"upgradeChance" : 0,
 								"amount" : 5,
+								"type" : "monk"
+							},
+							{
+								"amount" : 4,
+								"type" : "zealot"
+							}
+						],
+
+						"heroExperience" : 1000,
+						"creatures" : [
+							{
+								"type" : "enchanter",
+								"upgradeChance" : 0,
+								"amount" : 2
+							}
+						]
+					},
+					{
+						"message" : "After defeating the guards you free the imprisoned enchanters!",
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
+						"guards" : [
+							{
+								"amount" : 13,
+								"type" : "mage"
+							},
+							{
+								"amount" : 11,
+								"type" : "archMage"
+							},
+							{
+								"amount" : 7,
+								"type" : "monk"
+							},
+							{
+								"amount" : 5,
+								"type" : "zealot"
+							}
+						],
+
+						"heroExperience" : 1000,
+						"creatures" : [
+							{
+								"type" : "enchanter",
+								"upgradeChance" : 0,
+								"amount" : 3
+							}
+						]
+					},
+					{
+						"message" : "After defeating the guards you free the imprisoned enchanters!",
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
+						"guards" : [
+							{
+								"amount" : 17,
+								"type" : "mage"
+							},
+							{
+								"amount" : 14,
+								"type" : "archMage"
+							},
+							{
+								"amount" : 9,
+								"type" : "monk"
+							},
+							{
+								"amount" : 6,
+								"type" : "zealot"
+							}
+						],
+
+						"heroExperience" : 1000,
+						"creatures" : [
+							{
+								"type" : "enchanter",
+								"upgradeChance" : 0,
+								"amount" : 4
+							}
+						]
+					},
+					{
+						"message" : "After defeating the guards you free the imprisoned enchanters!",
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
+						"guards" : [
+							{
+								"amount" : 21,
+								"type" : "mage"
+							},
+							{
+								"amount" : 17,
+								"type" : "archMage"
+							},
+							{
+								"amount" : 11,
+								"type" : "monk"
+							},
+							{
+								"amount" : 7,
+								"type" : "zealot"
+							}
+						],
+
+						"heroExperience" : 1000,
+						"creatures" : [
+							{
+								"type" : "enchanter",
+								"upgradeChance" : 0,
+								"amount" : 5
 							}
 						]
 					}

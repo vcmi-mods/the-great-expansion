@@ -18,7 +18,7 @@
 					"type" : "SPECIFIC_SPELL_DAMAGE",
 					"val" : 10
 				},
-				"mirth": {
+				"mirth" : {
 					"addInfo" : 0,
 					"subtype" : "spell.mirth",
 					"type" : "SPECIAL_ADD_VALUE_ENCHANT"
@@ -44,7 +44,7 @@
 				},
 				"sorrow" : {
 					"addInfo" : 0
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/mindMagic/icons/small/basic",
@@ -67,7 +67,7 @@
 				},
 				"sorrow" : {
 					"addInfo" : 0
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/mindMagic/icons/small/advanced",
@@ -90,7 +90,7 @@
 				},
 				"sorrow" : {
 					"addInfo" : -1
-				},
+				}
 			},
 			"images" : {
 				"small" : "skills/mindMagic/icons/small/expert",

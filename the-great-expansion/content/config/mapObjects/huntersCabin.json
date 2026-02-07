@@ -39,14 +39,29 @@
 				"rewards" : [
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : { "min" : 0, "max" : 30 },
+						"appearChance" : {
+							"min" : 0,
+							"max" : 30
+						},
 						"guards" : [
-							{ "amount" : 24, "type" : "archer" },
-							{ "amount" : 20, "type" : "marksman" },
-							{ "amount" : 11, "type" : "woodElf" },
-							{ "amount" : 9, "type" : "grandElf" }
+							{
+								"amount" : 24,
+								"type" : "archer"
+							},
+							{
+								"amount" : 20,
+								"type" : "marksman"
+							},
+							{
+								"amount" : 11,
+								"type" : "woodElf"
+							},
+							{
+								"amount" : 9,
+								"type" : "grandElf"
+							}
 						],
-						
+
 						"creatures" : [
 							{
 								"type" : "sharpshooter",
@@ -57,14 +72,29 @@
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : { "min" : 30, "max" : 60 },
+						"appearChance" : {
+							"min" : 30,
+							"max" : 60
+						},
 						"guards" : [
-							{ "amount" : 31, "type" : "archer" },
-							{ "amount" : 24, "type" : "marksman" },
-							{ "amount" : 14, "type" : "woodElf" },
-							{ "amount" : 11, "type" : "grandElf" }
+							{
+								"amount" : 31,
+								"type" : "archer"
+							},
+							{
+								"amount" : 24,
+								"type" : "marksman"
+							},
+							{
+								"amount" : 14,
+								"type" : "woodElf"
+							},
+							{
+								"amount" : 11,
+								"type" : "grandElf"
+							}
 						],
-						
+
 						"creatures" : [
 							{
 								"type" : "sharpshooter",
@@ -75,14 +105,29 @@
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : { "min" : 60, "max" : 90 },
+						"appearChance" : {
+							"min" : 60,
+							"max" : 90
+						},
 						"guards" : [
-							{ "amount" : 38, "type" : "archer" },
-							{ "amount" : 28, "type" : "marksman" },
-							{ "amount" : 17, "type" : "woodElf" },
-							{ "amount" : 13, "type" : "grandElf" }
+							{
+								"amount" : 38,
+								"type" : "archer"
+							},
+							{
+								"amount" : 28,
+								"type" : "marksman"
+							},
+							{
+								"amount" : 17,
+								"type" : "woodElf"
+							},
+							{
+								"amount" : 13,
+								"type" : "grandElf"
+							}
 						],
-						
+
 						"creatures" : [
 							{
 								"type" : "sharpshooter",
@@ -93,14 +138,29 @@
 					},
 					{
 						"message" : "After defeating the guards you search the place and find something useful!",
-						"appearChance" : { "min" : 90, "max" : 100 },
+						"appearChance" : {
+							"min" : 90,
+							"max" : 100
+						},
 						"guards" : [
-							{ "amount" : 45, "type" : "archer" },
-							{ "amount" : 32, "type" : "marksman" },
-							{ "amount" : 20, "type" : "woodElf" },
-							{ "amount" : 15, "type" : "grandElf" }
+							{
+								"amount" : 45,
+								"type" : "archer"
+							},
+							{
+								"amount" : 32,
+								"type" : "marksman"
+							},
+							{
+								"amount" : 20,
+								"type" : "woodElf"
+							},
+							{
+								"amount" : 15,
+								"type" : "grandElf"
+							}
 						],
-						
+
 						"creatures" : [
 							{
 								"type" : "sharpshooter",

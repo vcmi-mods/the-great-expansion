@@ -1,32 +1,27 @@
 {
-	"koruga" :
-	{
+	"koruga" : {
 		"class" : "barbarian",
 		"female" : true,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Koruga",
 			"biography" : "Koruga has lost one important battle versus a wizard, and dedicated her own life to never make the same mistake. Now her army has increased resistance, and the slowest units move faster so they won't be barraged by enemy spells.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Units in the hero's army are immune to level 1 spells. Ogres and Ogre Shamans gain a bonus of +1 to Speed.",
 				"tooltip" : "Unique Bonus: Barbarian's Resolve",
 				"name" : "Barbarian's Resolve"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/stronghold/koruga/specSmall.png",
 			"specialtyLarge" : "heroes/stronghold/koruga/specLarge.png",
 			"large" : "heroes/stronghold/koruga/large.png",
 			"small" : "heroes/stronghold/koruga/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "goblin",
 				"max" : 30,
@@ -43,8 +38,7 @@
 				"min" : 2
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "suppression"
@@ -61,7 +55,7 @@
 					"type" : "STACKS_SPEED",
 					"val" : 1,
 					"valueType" : "BASE_NUMBER",
-					"limiters": [
+					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
 							"creature" : "ogre",
@@ -69,8 +63,7 @@
 						}
 					]
 				},
-				"spellImmunity" :
-				{
+				"spellImmunity" : {
 					"type" : "LEVEL_SPELL_IMMUNITY",
 					"val" : 1
 				}

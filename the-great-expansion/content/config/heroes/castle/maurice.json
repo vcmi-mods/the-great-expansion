@@ -1,33 +1,30 @@
 {
-	"maurice" :
-	{
+	"maurice" : {
 		"class" : "cleric",
-		"spellbook": [ "haste" ],
+		"spellbook" : [
+			"haste"
+		],
 		"female" : false,
 		"special" : false,
 		"onlyOnWaterMap" : false,
 		"onlyOnMapWithoutWater" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Maurice",
 			"biography" : "Maurice usually works with the young clerics and teaches them the ways. Good at heart, but impatient, the professor forces students to act quickly and believe in their initial instincts rather than overthink what they have to do.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Casts Haste with effect increased by 3 for level 1–4 creatures, by 2 for level 5–6 creatures, and by 1 for level 7 creatures.",
 				"tooltip" : "Spell Bonus: Haste",
 				"name" : "Haste"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "heroes/castle/maurice/specSmall.png",
 			"specialtyLarge" : "heroes/castle/maurice/specLarge.png",
 			"large" : "heroes/castle/maurice/large.png",
 			"small" : "heroes/castle/maurice/small.png"
 		},
-		"army" :
-		[
+		"army" : [
 			{
 				"creature" : "pikeman",
 				"max" : 20,
@@ -44,8 +41,7 @@
 				"min" : 4
 			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -55,7 +51,7 @@
 				"skill" : "benevolence"
 			}
 		],
-		
+
 		"specialty" : {
 			"bonuses" : {
 				"haste" : {

@@ -9,7 +9,7 @@
 			},
 			"health" : {
 				"type" : "STACK_HEALTH",
-				"val" : 3,
+				"val" : 3
 			}
 		},
 		"type" : [
