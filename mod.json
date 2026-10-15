@@ -100,29 +100,21 @@
 		"name" : "大扩展包（测试版）",
 		"description" : "这个模组添加：\n\n• 135个新宝物\n\n• 36位新英雄\n\n• 43种新辅助技能\n\n• 14个新地图物体\n\n• 39种新法术\n\n\n\n这个模组同时改变了一些游戏设置：\n\n• 生物可以装备生物宝物。\n\n更多信息请查阅：THE GREAT EXPANSION.pdf.",
 		"translations" : [
-			"translation/chinese/chinese.json"
+			"translation/chinese.json"
 		]
 	},
 	"polish" : {
 		"name" : "Wspaniałe rozszerzenie",
 		"description" : "Ten mod dodaje:\n\n• 146 nowych artefaktów\n\n• 36 nowych bohaterów\n\n• 49 nowe umiejętności drugorzędne\n\n• 49 obiektów mapy przygody\n\n• 51 zaklęć\n\n\n\nPonadto ten mod zmienia pewne ustawienia gry:\n\n• Jednostki mogą używać artefaktów.",
 		"translations" : [
-			"translation/polish/artifacts.json",
-			"translation/polish/heroes.json",
-			"translation/polish/mapObjects.json",
-			"translation/polish/secondarySkills.json",
-			"translation/polish/spells.json"
+			"translation/polish.json"
 		]
 	},
 	"russian" : {
 		"name" : "Великое Дополнение",
 		"description" : "Этот мод добавляет:\n\n146 новых артефактов\n\n36 новых героев\n\n49 новых вторичных навыков\n\n49 новых объектов карты\n\n51 новых заклинаний\n\n\n\nМод также изменяет некоторые игровые механики:\n\nСущества могут использовать артефакты\n\nДля получения дополнительной информации прочитайте файл THE GREAT EXPANSION.pdf.",
 		"translations" : [
-			"translation/russian/artifacts.json",
-			"translation/russian/heroes.json",
-			"translation/russian/mapObjects.json",
-			"translation/russian/secondarySkills.json",
-			"translation/russian/spells.json"
+			"translation/russian.json"
 		]
 	},
 	"artifacts" : [
