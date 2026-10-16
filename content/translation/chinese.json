@@ -404,7 +404,6 @@
 	"artifact.the-great-expansion.wyvernFang.description" : "{飞龙獠牙}\r\n\r\n装备此宝物的生物伤害提高1-2点，且攻击时有20%的几率使目标中毒。",
 	"artifact.the-great-expansion.wyvernFang.event" : "与一头飞龙激战后，你拔下它的獠牙作为战利品。",
 	"artifact.the-great-expansion.wyvernFang.name" : "飞龙獠牙",
-
 	"hero.the-great-expansion.adhara.biography" : "据传阿德哈拉统御的军队最为奇特。这并不令人意外，因为她曾是一名奴隶，与来自不同势力的奴隶并肩作战，并最终崛起为一方领主。",
 	"hero.the-great-expansion.adhara.name" : "阿德哈拉",
 	"hero.the-great-expansion.adhara.specialty.description" : "英雄每6级士气提高1点。",
@@ -585,7 +584,6 @@
 	"hero.the-great-expansion.zebeth.specialty.description" : "邪神和邪神王现获得施放连珠火球能力，并额外增加1次施法次数。",
 	"hero.the-great-expansion.zebeth.specialty.name" : "邪神",
 	"hero.the-great-expansion.zebeth.specialty.tooltip" : "生物强化：邪神",
-
 	"mapObject.the-great-expansion.beastmastersHut.beastmastersHut.description" : "(永久减少来访英雄部队中单位受到的伤害)",
 	"mapObject.the-great-expansion.beastmastersHut.beastmastersHut.name" : "驯兽师小屋",
 	"mapObject.the-great-expansion.beastmastersHut.beastmastersHut.onVisited" : "{驯兽师小屋}\r\n\r\n年迈的驯兽师得意地说道：“现在它们更强壮了，不是吗？”",
@@ -673,7 +671,6 @@
 	"mapObject.the-great-expansion.treasureChest.treasurePile.name" : "财宝堆",
 	"mapObject.the-great-expansion.treasureChest.treasurePile2.name" : "财宝堆",
 	"object.the-great-expansion.beastmastersHut.name" : "驯兽师小屋",
-
 	"skill.the-great-expansion.absoluteDefense.description.advanced" : "{中级绝对防御}\n\n英雄麾下的单位在战斗第一回合受到的物理伤害降低30%。",
 	"skill.the-great-expansion.absoluteDefense.description.basic" : "{初级绝对防御}\n\n英雄麾下的单位在战斗第一回合受到的物理伤害降低20%。",
 	"skill.the-great-expansion.absoluteDefense.description.expert" : "{高级绝对防御}\n\n英雄麾下的单位在战斗第一回合受到的物理伤害降低40%。",
@@ -846,7 +843,6 @@
 	"skill.the-great-expansion.vitality.description.basic" : "{初级生机勃发}\n\n英雄麾下所有单位的生命值提高1点。",
 	"skill.the-great-expansion.vitality.description.expert" : "{高级生机勃发}\n\n英雄麾下所有单位的生命值提高3点。",
 	"skill.the-great-expansion.vitality.name" : "生机勃发",
-
 	"spell.the-great-expansion.absoluteDefense.description.advanced" : "降低部队受到的物理伤害。",
 	"spell.the-great-expansion.absoluteDefense.description.basic" : "降低部队受到的物理伤害。",
 	"spell.the-great-expansion.absoluteDefense.description.expert" : "降低部队受到的物理伤害。",
