@@ -4,8 +4,11 @@
 	"modType" : "Expansion",
 	"author" : "Nathill; Assets are from: Heroes of Might and Magic II, Heroes of Might and Magic IV, Heroes of Might and Magic V, Epic War IV, Towers Tactics: Aphelion, Warcraft III, League of Legends, Tibia, Sonny 2",
 	"contact" : "",
-	"version" : "0.5.0",
+	"version" : "0.5.1",
 	"changelog" : {
+		"0.5.1" : [
+			"Updated to VCMI 1.8 format"
+		],
 		"0.5.0" : [
 			"New artifacts: Alchemist's Boots, Ancient Book, Aven Charm, Brass Bell, Burning Heart, Circlet of Nobility, Frozen Star, Imbuing Crystal, Primordial Star, Sapphire Pendant, Siren's Conch",
 			"New map objects: Aerie Shrine, Ancient Teacher, Bear Idol, Demon Tower, Divination Tower, Dwarven Warren, Elemental Stockpile, Faerie Tree, Fire Dome, Forlorn Hall, Fountain of Speed, Goblin Tower, Grandmaster's Hall, Great Academy of Magic, Great Academy of War, Heroic Shrine, Lost Wagon, Medusa Temple, Ogre Stronghold, Renegade Tower, Ruined Settlement, Ruined Tower, Sculptor's Monument, Siege Workshop, Smuggler's Cart, Spell Stones, Spymaster's Den, Statue of the Goddess, Temple of Random, Temple of the Tides, Totem of Life, Treant Thicket, Unholy Citadel, Veteran's Hall, Warlock's Library",
