@@ -14,7 +14,8 @@
 				"valueType" : "BASE_NUMBER"
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 20
 			}
 		},

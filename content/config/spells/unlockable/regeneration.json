@@ -54,13 +54,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"main" : {
-						"type" : "HP_REGENERATION",
-						"val" : 40,
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"type" : "HP_REGENERATION",
+								"val" : 40,
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -81,13 +86,18 @@
 
 				"power" : 70,
 				"cost" : 6,
-				"effects" : {
-					"main" : {
-						"type" : "HP_REGENERATION",
-						"val" : 70,
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"type" : "HP_REGENERATION",
+								"val" : 70,
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -97,13 +107,18 @@
 				"power" : 100,
 				"cost" : 6,
 				"range" : "X",
-				"effects" : {
-					"main" : {
-						"type" : "HP_REGENERATION",
-						"val" : 100,
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"type" : "HP_REGENERATION",
+								"val" : 100,
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			}

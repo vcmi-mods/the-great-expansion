@@ -52,13 +52,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"main" : {
-						"type" : "DEFENSIVE_STANCE",
-						"val" : 10,
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"type" : "DEFENSIVE_STANCE",
+								"val" : 10,
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -79,13 +84,18 @@
 
 				"power" : 20,
 				"cost" : 7,
-				"effects" : {
-					"main" : {
-						"type" : "DEFENSIVE_STANCE",
-						"val" : 20,
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"type" : "DEFENSIVE_STANCE",
+								"val" : 20,
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -95,13 +105,18 @@
 				"power" : 20,
 				"cost" : 7,
 				"range" : "X",
-				"effects" : {
-					"main" : {
-						"type" : "DEFENSIVE_STANCE",
-						"val" : 20,
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"type" : "DEFENSIVE_STANCE",
+								"val" : 20,
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			}

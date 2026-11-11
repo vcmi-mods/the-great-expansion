@@ -58,40 +58,45 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "freeze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"generalAttackReduction" : {
-						"type" : "GENERAL_ATTACK_REDUCTION",
-						"val" : 50,
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"generalDefenseReduction" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : -17,
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"magicArmor" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.any",
-						"val" : -17,
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
+								"subtype" : "freeze",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							},
+							"generalAttackReduction" : {
+								"type" : "GENERAL_ATTACK_REDUCTION",
+								"val" : 50,
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							},
+							"generalDefenseReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"val" : -17,
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							},
+							"magicArmor" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "spellSchool.any",
+								"val" : -17,
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -109,38 +114,48 @@
 				"description" : "{Advanced Freeze}\n\nFreezes the selected enemy unit so that it cannot act until attacked, dispelled or effect wears off. Deactivating attack is retaliated at 25% of base attack rating and the triggering attack deals an additional 25% damage.",
 
 				"cost" : 8,
-				"effects" : {
-					"generalAttackReduction" : {
-						"val" : 75
-					},
-					"generalDefenseReduction" : {
-						"val" : -25
-					},
-					"magicArmor" : {
-						"val" : -25
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalAttackReduction" : {
+								"val" : 75
+							},
+							"generalDefenseReduction" : {
+								"val" : -25
+							},
+							"magicArmor" : {
+								"val" : -25
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Freeze}\n\nFreezes the selected enemy unit so that it cannot act until attacked, dispelled or effect wears off. Deactivating attack ignores enemy retaliation and the triggering attack deals an additional 33% damage.",
 				"cost" : 8,
-				"effects" : {
-					"generalAttackReduction" : {
-						"val" : 100
-					},
-					"generalDefenseReduction" : {
-						"val" : -33
-					},
-					"magicArmor" : {
-						"val" : -33
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalAttackReduction" : {
+								"val" : 100
+							},
+							"generalDefenseReduction" : {
+								"val" : -33
+							},
+							"magicArmor" : {
+								"val" : -33
+							},
+							"noRetaliation" : {
+								"val" : 0,
+								"type" : "NO_RETALIATION",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			}

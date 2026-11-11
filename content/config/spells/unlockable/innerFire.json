@@ -55,31 +55,36 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 3,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					},
-					"speed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 3,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					},
-					"morale" : {
-						"type" : "MORALE",
-						"valueType" : "BASE_NUMBER",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"luck" : {
-						"type" : "LUCK",
-						"valueType" : "BASE_NUMBER",
-						"val" : 3,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : 3,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "N_TURNS"
+							},
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 3,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "N_TURNS"
+							},
+							"morale" : {
+								"type" : "MORALE",
+								"valueType" : "BASE_NUMBER",
+								"val" : 3,
+								"duration" : "N_TURNS"
+							},
+							"luck" : {
+								"type" : "LUCK",
+								"valueType" : "BASE_NUMBER",
+								"val" : 3,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -97,18 +102,23 @@
 				"description" : "{Advanced Inner Fire}\n\nIncreases Attack, Speed, Morale and Luck of a single unit.\n\nThe bonus is twice as big as from Basic Inner Fire.",
 
 				"cost" : 19,
-				"effects" : {
-					"attack" : {
-						"val" : 6
-					},
-					"speed" : {
-						"val" : 6
-					},
-					"morale" : {
-						"val" : 6
-					},
-					"luck" : {
-						"val" : 6
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"val" : 6
+							},
+							"speed" : {
+								"val" : 6
+							},
+							"morale" : {
+								"val" : 6
+							},
+							"luck" : {
+								"val" : 6
+							}
+						}
 					}
 				}
 			},
@@ -116,18 +126,23 @@
 				"description" : "{Expert Inner Fire}\n\nIncreases Attack, Speed, Morale and Luck of all friendly stacks.\n\nThe bonus is twice as big as from Basic Inner Fire.",
 				"cost" : 19,
 				"range" : "X",
-				"effects" : {
-					"attack" : {
-						"val" : 6
-					},
-					"speed" : {
-						"val" : 6
-					},
-					"morale" : {
-						"val" : 6
-					},
-					"luck" : {
-						"val" : 6
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"val" : 6
+							},
+							"speed" : {
+								"val" : 6
+							},
+							"morale" : {
+								"val" : 6
+							},
+							"luck" : {
+								"val" : 6
+							}
+						}
 					}
 				}
 			}

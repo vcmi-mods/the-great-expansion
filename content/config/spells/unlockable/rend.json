@@ -57,13 +57,18 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"primarySkill" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : -3,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -3,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -81,9 +86,14 @@
 				"description" : "{Advanced Rend}\n\nReduces the target's Defense for the duration of the spell.\n\nThe reduction is twice as effective as from Basic Rend.",
 
 				"cost" : 6,
-				"effects" : {
-					"primarySkill" : {
-						"val" : -6
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"val" : -6
+							}
+						}
 					}
 				}
 			},
@@ -91,9 +101,14 @@
 				"description" : "{Expert Rend}\n\nReduces all enemy units' Defense for the duration of the spell.\n\nThe reduction is twice as effective as from Basic Rend.",
 				"cost" : 6,
 				"range" : "X",
-				"effects" : {
-					"primarySkill" : {
-						"val" : -6
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"val" : -6
+							}
+						}
 					}
 				}
 			}

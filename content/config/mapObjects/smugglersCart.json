@@ -103,7 +103,7 @@
 				"onEmptyMessage" : "{Smugglers' Cart}\r\n\r\n'I do have something that could pique your interest, but I don't think you can afford it.",
 				"visitMode" : "once",
 				"resetParameters" : {
-					"period" : 5,
+					"days" : 5,
 					"visitors" : true,
 					"rewards" : true
 				},

@@ -53,20 +53,25 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"bonusMax" : {
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageMax",
-						"val" : 1,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					},
-					"dmgMax" : {
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageMax",
-						"val" : 25,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"bonusMax" : {
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageMax",
+								"val" : 1,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "N_TURNS"
+							},
+							"dmgMax" : {
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageMax",
+								"val" : 25,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -84,9 +89,14 @@
 				"description" : "{Advanced Empower}\n\nIncreases Max Damage of the target stack.\n\nThe bonus is twice as high as the bonus from the Basic Empower.",
 
 				"cost" : 9,
-				"effects" : {
-					"dmgMax" : {
-						"val" : 50
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"dmgMax" : {
+								"val" : 50
+							}
+						}
 					}
 				}
 			},
@@ -94,9 +104,14 @@
 				"description" : "{Expert Empower}\n\nIncreases Max Damage of all friendly stacks.\n\nThe bonus is twice as high as the bonus from the Basic Empower.",
 				"cost" : 9,
 				"range" : "X",
-				"effects" : {
-					"dmgMax" : {
-						"val" : 50
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"dmgMax" : {
+								"val" : 50
+							}
+						}
 					}
 				}
 			}

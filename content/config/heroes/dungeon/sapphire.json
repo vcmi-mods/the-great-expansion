@@ -53,14 +53,8 @@
 		],
 
 		"specialty" : {
-			"bonuses" : {
-				"smiteBonus" : {
-					"subtype" : "smite",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 7
-				}
-			}
+			"spellScalingPercentage" : "smite",
+			"spellScalingVal" : 7
 		}
 	}
 }

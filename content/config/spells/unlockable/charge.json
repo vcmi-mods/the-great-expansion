@@ -57,17 +57,22 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"main" : {
-						"type" : "JOUSTING",
-						"val" : 5,
-						"duration" : "UNTIL_ATTACK"
-					},
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 5,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "UNTIL_ATTACK"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"type" : "JOUSTING",
+								"val" : 5,
+								"duration" : "UNTIL_ATTACK"
+							},
+							"stacksSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 5,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "UNTIL_ATTACK"
+							}
+						}
 					}
 				}
 			},
@@ -87,12 +92,17 @@
 				"power" : 10,
 
 				"cost" : 9,
-				"effects" : {
-					"main" : {
-						"val" : 6
-					},
-					"stacksSpeed" : {
-						"val" : 6
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"val" : 6
+							},
+							"stacksSpeed" : {
+								"val" : 6
+							}
+						}
 					}
 				}
 			},
@@ -101,12 +111,17 @@
 				"power" : 10,
 
 				"cost" : 9,
-				"effects" : {
-					"main" : {
-						"val" : 7
-					},
-					"stacksSpeed" : {
-						"val" : 7
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"val" : 7
+							},
+							"stacksSpeed" : {
+								"val" : 7
+							}
+						}
 					}
 				}
 			}

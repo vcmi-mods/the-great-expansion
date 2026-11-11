@@ -57,15 +57,20 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"damageAmp" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeRanged",
-						"valueType" : "BASE_NUMBER",
-						"val" : -17,
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageAmp" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeRanged",
+								"valueType" : "BASE_NUMBER",
+								"val" : -17,
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -83,9 +88,14 @@
 				"description" : "{Advanced Hunter's Mark}\n\nIncreases ranged damage received by the target.\n\nThe damage amplification is twice as effective as from Basic Hunter's Mark.",
 
 				"cost" : 4,
-				"effects" : {
-					"damageAmp" : {
-						"val" : -33
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageAmp" : {
+								"val" : -33
+							}
+						}
 					}
 				}
 			},
@@ -93,9 +103,14 @@
 				"description" : "{Expert Hunter's Mark}\n\nIncreases ranged damage received by all enemy targets.\n\nThe reduction to Defense is twice as effective as from Basic Hunter's Mark.",
 				"cost" : 4,
 				"range" : "X",
-				"effects" : {
-					"damageAmp" : {
-						"val" : -33
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageAmp" : {
+								"val" : -33
+							}
+						}
 					}
 				}
 			}

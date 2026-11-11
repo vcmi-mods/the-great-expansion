@@ -46,18 +46,23 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"health" : {
-						"type" : "STACK_HEALTH",
-						"val" : -7,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"healthFlat" : {
-						"type" : "STACK_HEALTH",
-						"val" : -1,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"health" : {
+								"type" : "STACK_HEALTH",
+								"val" : -7,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							},
+							"healthFlat" : {
+								"type" : "STACK_HEALTH",
+								"val" : -1,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -71,9 +76,14 @@
 			"advanced" : {
 				"description" : "{Advanced Venom}\n\nEnvenoms the target, reducing its Max Health.\n\nHealth reduction is twice as effective as from Basic Venom.",
 				"cost" : 6,
-				"effects" : {
-					"health" : {
-						"val" : -15
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"health" : {
+								"val" : -15
+							}
+						}
 					}
 				}
 			},
@@ -81,9 +91,14 @@
 				"description" : "{Expert Venom}\n\nEnvenoms all enemy units, reducing their Max Health.\n\nHealth reduction is twice as effective as from Basic Venom.",
 				"cost" : 6,
 				"range" : "X",
-				"effects" : {
-					"health" : {
-						"val" : -15
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"health" : {
+								"val" : -15
+							}
+						}
 					}
 				}
 			}

@@ -8,10 +8,10 @@
 				"val" : 1
 			},
 			"ballista" : {
-				"subtype" : "creature.ballista",
-				"type" : "HERO_GRANTS_ATTACKS",
+				"type" : "ADDITIONAL_ATTACK",
 				"valueType" : "BASE_NUMBER",
-				"val" : 1
+				"val" : 1,
+				"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "ballista" } ]
 			}
 		},
 		"type" : [

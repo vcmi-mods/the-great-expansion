@@ -38,7 +38,7 @@
 			},
 			"forgetful" : {
 				"type" : "FORGETFULL",
-				"val" : 2,
+				"val" : 100,
 				"limiters" : [
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",

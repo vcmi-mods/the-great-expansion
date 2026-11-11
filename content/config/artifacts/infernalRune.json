@@ -12,7 +12,8 @@
 				"valueType" : "PERCENT_TO_ALL"
 			},
 			"fireShield" : {
-				"type" : "FIRE_SHIELD",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "fireShield",
 				"val" : 20
 			}
 		},
