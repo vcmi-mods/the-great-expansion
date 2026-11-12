@@ -52,24 +52,29 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -2,
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : -2,
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : -20,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : -2,
+								"duration" : "N_TURNS"
+							},
+							"defence" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -2,
+								"duration" : "N_TURNS"
+							},
+							"stacksSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : -20,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -87,15 +92,20 @@
 				"description" : "{Advanced Wither}\n\nReduces Attack, Defense and Speed of the chosen stack. The reduction to Attack and Defense is twice as effective as from Basic Wither, while Speed reduction is 75% more effective than Basic Wither.",
 
 				"cost" : 12,
-				"effects" : {
-					"attack" : {
-						"val" : -4
-					},
-					"defence" : {
-						"val" : -4
-					},
-					"stacksSpeed" : {
-						"val" : -35
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"val" : -4
+							},
+							"defence" : {
+								"val" : -4
+							},
+							"stacksSpeed" : {
+								"val" : -35
+							}
+						}
 					}
 				}
 			},
@@ -103,15 +113,20 @@
 				"description" : "{Expert Wither}\n\nReduces Attack, Defense and Speed of all enemy units. The reduction to Attack and Defense is twice as effective as from Basic Wither, while Speed reduction is 75% more effective than Basic Wither.",
 				"cost" : 12,
 				"range" : "X",
-				"effects" : {
-					"attack" : {
-						"val" : -4
-					},
-					"defence" : {
-						"val" : -4
-					},
-					"stacksSpeed" : {
-						"val" : -35
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"val" : -4
+							},
+							"defence" : {
+								"val" : -4
+							},
+							"stacksSpeed" : {
+								"val" : -35
+							}
+						}
 					}
 				}
 			}

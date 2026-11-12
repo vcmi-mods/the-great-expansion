@@ -53,14 +53,8 @@
 		],
 
 		"specialty" : {
-			"bonuses" : {
-				"volt" : {
-					"subtype" : "volt",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5
-				}
-			}
+			"spellScalingPercentage" : "volt",
+			"spellScalingVal" : 5
 		}
 	}
 }

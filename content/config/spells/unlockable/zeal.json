@@ -57,17 +57,22 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"ferocity" : {
-						"type" : "FEROCITY",
-						"val" : 1,
-						"addInfo" : 110,
-						"valueType" : "BASE_NUMBER",
-						"duration" : "N_TURNS"
-					},
-					"mindImmunity" : {
-						"type" : "MIND_IMMUNITY",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"ferocity" : {
+								"type" : "FEROCITY",
+								"val" : 1,
+								"addInfo" : 110,
+								"valueType" : "BASE_NUMBER",
+								"duration" : "N_TURNS"
+							},
+							"mindImmunity" : {
+								"type" : "MIND_IMMUNITY",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -85,9 +90,14 @@
 				"description" : "{Advanced Zeal}\n\nGrants the target Mind Immunity and an additional attack if the main attack kills at least 45 units.",
 
 				"cost" : 11,
-				"effects" : {
-					"ferocity" : {
-						"addInfo" : 45
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"ferocity" : {
+								"addInfo" : 45
+							}
+						}
 					}
 				}
 			},
@@ -95,9 +105,14 @@
 				"description" : "{Expert Zeal}\n\nGrants all friendly units Mind Immunity and an additional attack if the main attack kills at least 45 units.",
 				"cost" : 11,
 				"range" : "X",
-				"effects" : {
-					"ferocity" : {
-						"addInfo" : 45
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"ferocity" : {
+								"addInfo" : 45
+							}
+						}
 					}
 				}
 			}

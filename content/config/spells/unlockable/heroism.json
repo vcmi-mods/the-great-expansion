@@ -54,39 +54,44 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 15,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"defence" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : 15,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"damage" : {
-						"type" : "CREATURE_DAMAGE",
-						"subtype" : "creatureDamageBoth",
-						"val" : 15,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"health" : {
-						"type" : "STACK_HEALTH",
-						"val" : 15,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 15,
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							},
+							"defence" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							},
+							"damage" : {
+								"type" : "CREATURE_DAMAGE",
+								"subtype" : "creatureDamageBoth",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							},
+							"health" : {
+								"type" : "STACK_HEALTH",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							},
+							"stacksSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 15,
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -104,42 +109,52 @@
 				"description" : "{Advanced Heroism}\n\nIncreases Attack, Defense, Damage, Health and Speed of a single unit. The bonus is 66% more effective than Basic Heroism.",
 
 				"cost" : 25,
-				"effects" : {
-					"attack" : {
-						"val" : 25
-					},
-					"defence" : {
-						"val" : 25
-					},
-					"damage" : {
-						"val" : 25
-					},
-					"health" : {
-						"val" : 25
-					},
-					"stacksSpeed" : {
-						"val" : 25
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"val" : 25
+							},
+							"defence" : {
+								"val" : 25
+							},
+							"damage" : {
+								"val" : 25
+							},
+							"health" : {
+								"val" : 25
+							},
+							"stacksSpeed" : {
+								"val" : 25
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Heroism}\n\nIncreases Attack, Defense, Damage, Health and Speed of a single unit. The bonus is 133% more effective than Basic Heroism.",
 				"cost" : 25,
-				"effects" : {
-					"attack" : {
-						"val" : 35
-					},
-					"defence" : {
-						"val" : 35
-					},
-					"damage" : {
-						"val" : 35
-					},
-					"health" : {
-						"val" : 35
-					},
-					"stacksSpeed" : {
-						"val" : 35
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"val" : 35
+							},
+							"defence" : {
+								"val" : 35
+							},
+							"damage" : {
+								"val" : 35
+							},
+							"health" : {
+								"val" : 35
+							},
+							"stacksSpeed" : {
+								"val" : 35
+							}
+						}
 					}
 				}
 			}

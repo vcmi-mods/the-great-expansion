@@ -57,15 +57,20 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"damageAmp" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeMelee",
-						"valueType" : "BASE_NUMBER",
-						"val" : -15,
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageAmp" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeMelee",
+								"valueType" : "BASE_NUMBER",
+								"val" : -15,
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -83,9 +88,14 @@
 				"description" : "{Advanced Shatter}\n\nIncreases melee damage received by the target.\n\nThe damage amplification is twice as effective as from Basic Shatter.",
 
 				"cost" : 4,
-				"effects" : {
-					"damageAmp" : {
-						"val" : -30
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageAmp" : {
+								"val" : -30
+							}
+						}
 					}
 				}
 			},
@@ -93,9 +103,14 @@
 				"description" : "{Expert Shatter}\n\nIncreases melee damage received by all enemy units.\n\nThe damage amplification is twice as effective as from Basic Shatter.",
 				"cost" : 4,
 				"range" : "X",
-				"effects" : {
-					"damageAmp" : {
-						"val" : -30
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageAmp" : {
+								"val" : -30
+							}
+						}
 					}
 				}
 			}

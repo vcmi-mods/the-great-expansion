@@ -55,25 +55,30 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"bindEffect" : {
-						"val" : -100,
-						"type" : "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"primarySkill" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : -3,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"bindEffect" : {
+								"val" : -100,
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							},
+							"primarySkill" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -3,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -91,18 +96,28 @@
 				"description" : "{Advanced Anchor}\n\nReduces the target's Defense and renders it unable to move. The effect is removed when the unit receives damage.\n\nThe reduction to Defense is twice as effective as from Basic Anchor.",
 
 				"cost" : 8,
-				"effects" : {
-					"primarySkill" : {
-						"val" : -6
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"val" : -6
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Anchor}\n\nReduces the target's Defense and renders it unable to move. The effect is removed when the unit receives damage.\n\nThe reduction to Defense is thrice as effective as from Basic Anchor.",
 				"cost" : 8,
-				"effects" : {
-					"primarySkill" : {
-						"val" : -9
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"val" : -9
+							}
+						}
 					}
 				}
 			}

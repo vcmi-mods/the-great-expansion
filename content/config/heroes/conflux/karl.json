@@ -57,122 +57,122 @@
 				"upgradeAir1" : {
 					"addInfo" : "creature.waterElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.airElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.airElemental" } ]
 				},
 				"upgradeAir2" : {
 					"addInfo" : "creature.fireElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.airElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.airElemental" } ]
 				},
 				"upgradeAir3" : {
 					"addInfo" : "creature.earthElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.airElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.airElemental" } ]
 				},
 				"upgradeWater1" : {
 					"addInfo" : "creature.airElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.waterElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.waterElemental" } ]
 				},
 				"upgradeWater2" : {
 					"addInfo" : "creature.fireElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.waterElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.waterElemental" } ]
 				},
 				"upgradeWater3" : {
 					"addInfo" : "creature.earthElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.waterElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.waterElemental" } ]
 				},
 				"upgradeFire1" : {
 					"addInfo" : "creature.airElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.fireElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.fireElemental" } ]
 				},
 				"upgradeFire2" : {
 					"addInfo" : "creature.waterElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.fireElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.fireElemental" } ]
 				},
 				"upgradeFire3" : {
 					"addInfo" : "creature.earthElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.fireElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.fireElemental" } ]
 				},
 				"upgradeEarth1" : {
 					"addInfo" : "creature.airElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.earthElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.earthElemental" } ]
 				},
 				"upgradeEarth2" : {
 					"addInfo" : "creature.waterElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.earthElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.earthElemental" } ]
 				},
 				"upgradeEarth3" : {
 					"addInfo" : "creature.fireElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.earthElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.earthElemental" } ]
 				},
 				"upgradeStorm1" : {
 					"addInfo" : "creature.iceElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.stormElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.stormElemental" } ]
 				},
 				"upgradeStorm2" : {
 					"addInfo" : "creature.energyElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.stormElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.stormElemental" } ]
 				},
 				"upgradeStorm3" : {
 					"addInfo" : "creature.magmaElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.stormElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.stormElemental" } ]
 				},
 				"upgradeIce1" : {
 					"addInfo" : "creature.stormElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.iceElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.iceElemental" } ]
 				},
 				"upgradeIce2" : {
 					"addInfo" : "creature.energyElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.iceElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.iceElemental" } ]
 				},
 				"upgradeIce3" : {
 					"addInfo" : "creature.magmaElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.iceElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.iceElemental" } ]
 				},
 				"upgradeEnergy1" : {
 					"addInfo" : "creature.stormElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.energyElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.energyElemental" } ]
 				},
 				"upgradeEnergy2" : {
 					"addInfo" : "creature.iceElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.energyElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.energyElemental" } ]
 				},
 				"upgradeEnergy3" : {
 					"addInfo" : "creature.magmaElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.energyElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.energyElemental" } ]
 				},
 				"upgradeMagma1" : {
 					"addInfo" : "creature.stormElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.magmaElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.magmaElemental" } ]
 				},
 				"upgradeMagma2" : {
 					"addInfo" : "creature.iceElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.magmaElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.magmaElemental" } ]
 				},
 				"upgradeMagma3" : {
 					"addInfo" : "creature.energyElemental",
 					"type" : "SPECIAL_UPGRADE",
-					"subtype" : "creature.magmaElemental"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.magmaElemental" } ]
 				},
 				"speed" : {
 					"type" : "STACKS_SPEED",

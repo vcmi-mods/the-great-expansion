@@ -35,7 +35,7 @@
 				"description" : "Increases Movement Points and grants a random bonus to the visiting hero: resources, units, permanent upgrades or temporal bonuses. Can be visited once per week.",
 				"onVisitedMessage" : "{Temple of Random}\n\nYou pray at the temple. After you finish, you see a piece of paper flowing in your directions. It reads \"Try again next week\". The gods sure are demanding these days.",
 				"resetParameters" : {
-					"period" : 7,
+					"weeks" : 1,
 					"visitors" : true,
 					"rewards" : true
 				},
@@ -579,7 +579,8 @@
 						"movePoints" : 500,
 						"bonuses" : [
 							{
-								"type" : "LIFE_DRAIN",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "lifeDrain",
 								"val" : 10,
 								"valueType" : "BASE_NUMBER",
 								"duration" : "ONE_BATTLE",
@@ -613,7 +614,8 @@
 						"movePoints" : 500,
 						"bonuses" : [
 							{
-								"type" : "FIRE_SHIELD",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "fireShield",
 								"val" : 20,
 								"valueType" : "BASE_NUMBER",
 								"duration" : "ONE_BATTLE",

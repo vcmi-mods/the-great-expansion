@@ -53,12 +53,17 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"main" : {
-						"type" : "RETURN_AFTER_STRIKE",
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"main" : {
+								"type" : "RETURN_AFTER_STRIKE",
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -79,12 +84,17 @@
 
 				"power" : 20,
 				"cost" : 20,
-				"effects" : {
-					"add" : {
-						"type" : "BLOCKS_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"add" : {
+								"type" : "BLOCKS_RETALIATION",
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -94,12 +104,17 @@
 				"range" : "X",
 				"power" : 20,
 				"cost" : 20,
-				"effects" : {
-					"add" : {
-						"type" : "BLOCKS_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"add" : {
+								"type" : "BLOCKS_RETALIATION",
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			}

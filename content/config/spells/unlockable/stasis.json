@@ -54,38 +54,43 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "stasis",
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"damageReduction" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeAll",
-						"valueType" : "BASE_NUMBER",
-						"val" : 80,
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"magicResistance" : {
-						"type" : "SPELL_DAMAGE_REDUCTION",
-						"subtype" : "spellSchool.any",
-						"valueType" : "BASE_NUMBER",
-						"val" : 80,
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"noRetal" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
+								"subtype" : "stasis",
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"damageReduction" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeAll",
+								"valueType" : "BASE_NUMBER",
+								"val" : 80,
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"magicResistance" : {
+								"type" : "SPELL_DAMAGE_REDUCTION",
+								"subtype" : "spellSchool.any",
+								"valueType" : "BASE_NUMBER",
+								"val" : 80,
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"noRetal" : {
+								"type" : "NO_RETALIATION",
+								"duration" : [
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -103,24 +108,34 @@
 				"description" : "{Advanced Stasis}\n\nRenders the target unable to act, but also greatly reduces damage received by it.\n\nThe target receives 50% more damage than if affected by Basic Stasis.",
 
 				"cost" : 25,
-				"effects" : {
-					"damageReduction" : {
-						"val" : 70
-					},
-					"magicResistance" : {
-						"val" : 70
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageReduction" : {
+								"val" : 70
+							},
+							"magicResistance" : {
+								"val" : 70
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Stasis}\n\nRenders the target unable to act, but also greatly reduces damage received by it.\n\nThe target receives 100% more damage than if affected by Basic Stasis.",
 				"cost" : 25,
-				"effects" : {
-					"damageReduction" : {
-						"val" : 60
-					},
-					"magicResistance" : {
-						"val" : 60
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"damageReduction" : {
+								"val" : 60
+							},
+							"magicResistance" : {
+								"val" : 60
+							}
+						}
 					}
 				}
 			}

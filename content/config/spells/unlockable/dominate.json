@@ -59,10 +59,15 @@
 			"base" : {
 				"range" : "0",
 				"power" : 0,
-				"effects" : {
-					"hypnotized" : {
-						"type" : "HYPNOTIZED",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"hypnotized" : {
+								"type" : "HYPNOTIZED",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				},
 				"targetModifier" : {

@@ -54,7 +54,7 @@
 				"onEmptyMessage" : "{Spymaster's Den}\r\n\r\nHello there! If you want, I could go on a mission to scout a huge area for you. I just need some resources you seem to not have. (2 of each resource, 1500 gold)",
 				"visitMode" : "once",
 				"resetParameters" : {
-					"period" : 3,
+					"days" : 3,
 					"visitors" : true,
 					"rewards" : true
 				},

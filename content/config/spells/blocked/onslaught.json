@@ -25,17 +25,22 @@
 				"power" : 4,
 				"cost" : 0,
 				"description" : "Increases Attack and Speed of the stack.",
-				"effects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 3,
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 1,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : 3,
+								"duration" : "N_TURNS"
+							},
+							"stacksSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 1,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				},
 				"targetModifier" : {
@@ -50,33 +55,43 @@
 			},
 			"advanced" : {
 				"power" : 1,
-				"effects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 6,
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 2,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : 6,
+								"duration" : "N_TURNS"
+							},
+							"stacksSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 2,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"power" : 1,
-				"effects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : 9,
-						"duration" : "N_TURNS"
-					},
-					"stacksSpeed" : {
-						"type" : "STACKS_SPEED",
-						"val" : 3,
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : 9,
+								"duration" : "N_TURNS"
+							},
+							"stacksSpeed" : {
+								"type" : "STACKS_SPEED",
+								"val" : 3,
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

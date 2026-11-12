@@ -55,26 +55,32 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"cumulativeEffects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -3,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
-					},
-					"defense" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : -3,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
-					},
-					"health" : {
-						"type" : "STACK_HEALTH",
-						"val" : -3,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"cumulative" : true,
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : -3,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							},
+							"defense" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -3,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							},
+							"health" : {
+								"type" : "STACK_HEALTH",
+								"val" : -3,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							}
+						}
 					}
 				}
 			},
@@ -92,52 +98,64 @@
 				"description" : "{Advanced Destiny}\n\nReduces Attack, Defense and Health of all enemy units. This effect stacks and lasts until end of battle.\n\nThe reduction is 1 point greater than from Basic Destiny.",
 
 				"cost" : 28,
-				"cumulativeEffects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -4,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
-					},
-					"defense" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : -4,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
-					},
-					"health" : {
-						"type" : "STACK_HEALTH",
-						"val" : -4,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"cumulative" : true,
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : -4,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							},
+							"defense" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -4,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							},
+							"health" : {
+								"type" : "STACK_HEALTH",
+								"val" : -4,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Destiny}\n\nReduces Attack, Defense and Health of all enemy units. This effect stacks and lasts until end of battle.\n\nThe reduction is 2 points greater than from Basic Destiny.",
 				"cost" : 28,
-				"cumulativeEffects" : {
-					"attack" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.attack",
-						"val" : -5,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
-					},
-					"defense" : {
-						"type" : "PRIMARY_SKILL",
-						"subtype" : "primarySkill.defence",
-						"val" : -5,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
-					},
-					"health" : {
-						"type" : "STACK_HEALTH",
-						"val" : -5,
-						"valueType" : "ADDITIVE_VALUE",
-						"duration" : "PERMANENT"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"cumulative" : true,
+						"bonus" : {
+							"attack" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.attack",
+								"val" : -5,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							},
+							"defense" : {
+								"type" : "PRIMARY_SKILL",
+								"subtype" : "primarySkill.defence",
+								"val" : -5,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							},
+							"health" : {
+								"type" : "STACK_HEALTH",
+								"val" : -5,
+								"valueType" : "ADDITIVE_VALUE",
+								"duration" : "PERMANENT"
+							}
+						}
 					}
 				}
 			}

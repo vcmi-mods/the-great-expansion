@@ -25,12 +25,17 @@
 				"power" : 4,
 				"cost" : 0,
 				"description" : "Reduces physical damage received by the stack.",
-				"effects" : {
-					"defense" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeAll",
-						"valueType" : "BASE_NUMBER",
-						"val" : 20
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"defense" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeAll",
+								"valueType" : "BASE_NUMBER",
+								"val" : 20
+							}
+						}
 					}
 				},
 				"targetModifier" : {
@@ -45,23 +50,33 @@
 			},
 			"advanced" : {
 				"power" : 1,
-				"effects" : {
-					"defense" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeAll",
-						"valueType" : "BASE_NUMBER",
-						"val" : 30
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"defense" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeAll",
+								"valueType" : "BASE_NUMBER",
+								"val" : 30
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"power" : 1,
-				"effects" : {
-					"defense" : {
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"subtype" : "damageTypeAll",
-						"valueType" : "BASE_NUMBER",
-						"val" : 40
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"defense" : {
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"subtype" : "damageTypeAll",
+								"valueType" : "BASE_NUMBER",
+								"val" : 40
+							}
+						}
 					}
 				}
 			}

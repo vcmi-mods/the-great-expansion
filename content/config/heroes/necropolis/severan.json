@@ -77,9 +77,22 @@
 					]
 				},
 				"acidBreath" : {
-					"type" : "ACID_BREATH",
+					"type" : "SPELL_AFTER_ATTACK",
+					"subtype" : "acidBreathDamage",
+					"val" : 25,
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "walkingDead",
+							"includeUpgrades" : true
+						}
+					]
+				},
+				// damage of the cast above, multiplied by the number of creatures in the stack
+				"acidBreathDamage" : {
+					"type" : "SPECIFIC_SPELL_POWER",
+					"subtype" : "acidBreathDamage",
 					"val" : 3,
-					"addInfo" : 25,
 					"limiters" : [
 						{
 							"type" : "CREATURE_TYPE_LIMITER",
